@@ -1,0 +1,51 @@
+2021-12-30 17:05:43:529 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-30 17:05:43:534 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-30 17:05:43:535 - info: connect sub redis : ["server_message"]
+2021-12-30 17:05:43:537 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-30 17:05:43:540 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-30 17:05:43:540 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-30 17:05:43:540 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-30 17:05:43:555 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-30 17:05:43:574 - info: load achievement reference table success !!
+2021-12-30 17:05:43:580 - info: load character reference table success !!
+2021-12-30 17:05:43:592 - info: load collection reference table success !!
+2021-12-30 17:05:43:598 - info: load daily attendance reference table success !!
+2021-12-30 17:05:43:644 - info: load item reference table success !!
+2021-12-30 17:05:43:653 - info: load open world reference table success !!
+2021-12-30 17:05:43:660 - info: load payment reference table success !!
+2021-12-30 17:05:43:666 - info: load play world reference table success !!
+2021-12-30 17:05:43:672 - info: load ranking reward reference table success !!
+2021-12-30 17:05:43:690 - info: load reward reference table success !!
+2021-12-30 17:05:43:697 - info: load reward_fishing reference table success !!
+2021-12-30 17:05:43:983 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-30 17:05:43:983 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-30 17:05:43:983 - info: packet status : packet status not recorded yet.
+2021-12-30 17:05:44:012 - error: {"cmd":103,"login_id":"woongda","uuid":"woongda","version":"0.9.1","os_type":1,"login_type":0}
+2021-12-30 17:05:44:013 - error: {"data":{"server_info":{"version":"0.9.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":" ","help_page":" ","time":1640851544,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2021-12-30 17:05:44:013 - error: -1023
+2021-12-30 17:12:51:809 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-30 17:12:51:814 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-30 17:12:51:815 - info: connect sub redis : ["server_message"]
+2021-12-30 17:12:51:818 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-30 17:12:51:820 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-30 17:12:51:820 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-30 17:12:51:820 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-30 17:12:51:838 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-30 17:12:51:860 - info: load achievement reference table success !!
+2021-12-30 17:12:51:867 - info: load character reference table success !!
+2021-12-30 17:12:51:880 - info: load collection reference table success !!
+2021-12-30 17:12:51:888 - info: load daily attendance reference table success !!
+2021-12-30 17:12:51:933 - info: load item reference table success !!
+2021-12-30 17:12:51:943 - info: load open world reference table success !!
+2021-12-30 17:12:51:950 - info: load payment reference table success !!
+2021-12-30 17:12:51:957 - info: load play world reference table success !!
+2021-12-30 17:12:51:964 - info: load ranking reward reference table success !!
+2021-12-30 17:12:51:985 - info: load reward reference table success !!
+2021-12-30 17:12:51:993 - info: load reward_fishing reference table success !!
+2021-12-30 17:12:52:277 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-30 17:12:52:278 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-30 17:12:52:278 - info: packet status : packet status not recorded yet.
+2021-12-30 17:12:52:373 - error: db_query error : {"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry '140-139' for key 'PRIMARY'","sqlState":"23000","index":0,"sql":"insert into dat_following values(140, 139, now());"}
+2021-12-30 17:12:52:374 - error: {"cmd":605,"aidx":140,"session":"29137259","target_aidx":139,"relation_type":1}
+2021-12-30 17:12:52:374 - error: {"data":{},"cmd":606,"status":-1037}
+2021-12-30 17:12:52:374 - error: -1037

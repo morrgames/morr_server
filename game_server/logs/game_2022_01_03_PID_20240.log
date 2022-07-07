@@ -1,0 +1,24 @@
+2022-01-03 11:30:12:763 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-03 11:30:12:769 - info: connect sub redis : ["server_message"]
+2022-01-03 11:30:12:770 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-03 11:30:12:773 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-03 11:30:12:776 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-03 11:30:12:776 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-03 11:30:12:776 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-03 11:30:12:790 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-03 11:30:12:809 - info: load achievement reference table success !!
+2022-01-03 11:30:12:815 - info: load character reference table success !!
+2022-01-03 11:30:12:826 - info: load collection reference table success !!
+2022-01-03 11:30:12:832 - info: load daily attendance reference table success !!
+2022-01-03 11:30:12:877 - info: load item reference table success !!
+2022-01-03 11:30:12:885 - info: load open world reference table success !!
+2022-01-03 11:30:12:891 - info: load payment reference table success !!
+2022-01-03 11:30:12:897 - info: load play world reference table success !!
+2022-01-03 11:30:12:903 - info: load ranking reward reference table success !!
+2022-01-03 11:30:12:928 - info: load reward reference table success !!
+2022-01-03 11:30:12:936 - info: load reward_fishing reference table success !!
+2022-01-03 11:30:12:942 - info: load system shop reference table success !!
+2022-01-03 11:30:13:194 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-03 11:30:13:194 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-03 11:30:13:195 - info: packet status : packet status not recorded yet.
+2022-01-03 11:30:15:216 - error: db_query error : {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlMessage":"Column 'midx' cannot be null","sqlState":"23000","index":0,"sql":"insert into log_mail_reward values (null, 615, 139, NULL, 1, 279000, '2022-01-03 11:30:13')"}

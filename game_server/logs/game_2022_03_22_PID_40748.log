@@ -1,0 +1,30 @@
+2022-03-22 17:21:46:512 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-22 17:21:46:522 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-22 17:21:46:527 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-22 17:21:46:527 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-22 17:21:46:527 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-22 17:21:46:543 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-22 17:21:46:566 - info: load achievement reference table success !!
+2022-03-22 17:21:46:574 - info: load character reference table success !!
+2022-03-22 17:21:46:605 - info: load collection reference table success !!
+2022-03-22 17:21:46:614 - info: load daily attendance reference table success !!
+2022-03-22 17:21:46:681 - info: load item reference table success !!
+2022-03-22 17:21:46:691 - info: load open world reference table success !!
+2022-03-22 17:21:46:698 - info: load payment reference table success !!
+2022-03-22 17:21:46:705 - info: load play rank group reference table success !!
+2022-03-22 17:21:46:713 - info: load play world reference table success !!
+2022-03-22 17:21:46:734 - info: load ranking reward reference table success !!
+2022-03-22 17:21:46:758 - info: load reward reference table success !!
+2022-03-22 17:21:46:765 - info: load reward_fishing reference table success !!
+2022-03-22 17:21:46:772 - info: load system shop reference table success !!
+2022-03-22 17:21:47:237 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-22 17:21:47:237 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-22 17:21:47:237 - info: packet status : packet status not recorded yet.
+2022-03-22 17:21:46:517 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-22 17:21:46:518 - info: connect sub redis : ["server_message"]
+2022-03-22 17:23:57:183 - error: {"aidx":108,"session":"72693560","world_idx":187,"cmd":435}
+2022-03-22 17:23:57:183 - error: {"data":{},"cmd":436,"status":-1112}
+2022-03-22 17:23:57:183 - error: -1112
+2022-03-22 17:24:00:929 - error: {"aidx":108,"session":"72693560","world_idx":187,"cmd":435}
+2022-03-22 17:24:00:929 - error: {"data":{},"cmd":436,"status":-1112}
+2022-03-22 17:24:00:929 - error: -1112

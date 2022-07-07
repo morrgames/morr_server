@@ -1,0 +1,29 @@
+2022-06-28 15:21:30:087 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-28 15:21:30:096 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-06-28 15:21:30:101 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-06-28 15:21:30:101 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-06-28 15:21:30:101 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-06-28 15:21:30:119 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-06-28 15:21:30:142 - info: load achievement reference table success !!
+2022-06-28 15:21:30:150 - info: load character reference table success !!
+2022-06-28 15:21:30:177 - info: load collection reference table success !!
+2022-06-28 15:21:30:185 - info: load daily attendance reference table success !!
+2022-06-28 15:21:30:195 - info: load system shop reference table success !!
+2022-06-28 15:21:30:266 - info: load item reference table success !!
+2022-06-28 15:21:30:275 - info: load open world reference table success !!
+2022-06-28 15:21:30:284 - info: load payment reference table success !!
+2022-06-28 15:21:30:302 - info: load play rank group reference table success !!
+2022-06-28 15:21:30:312 - info: load play world reference table success !!
+2022-06-28 15:21:30:319 - info: load ranking reward reference table success !!
+2022-06-28 15:21:30:345 - info: load reward reference table success !!
+2022-06-28 15:21:30:353 - info: load reward_fishing reference table success !!
+2022-06-28 15:21:30:361 - info: load system shop reference table success !!
+2022-06-28 15:21:30:417 - info: coin_exchange success~~
+2022-06-28 15:21:30:438 - info: delete expire exchange item schedule success~~
+2022-06-28 15:21:30:450 - info: delete mail cnt = 0
+2022-06-28 15:21:30:450 - info: delete expire mail schedule success~~
+2022-06-28 15:21:30:481 - info: delete expire mail schedule success~~
+2022-06-28 15:21:30:493 - info: iocp junk room clear schedule success~~
+2022-06-28 15:21:30:523 - info: nft item cnt = 18
+2022-06-28 15:21:30:524 - info: nft item sync schedule success~~
+2022-06-28 15:21:30:542 - error: error : rank update , {}

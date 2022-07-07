@@ -1,0 +1,29 @@
+2022-01-25 13:18:29:006 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-25 13:18:29:012 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-25 13:18:29:013 - info: connect sub redis : ["server_message"]
+2022-01-25 13:18:29:016 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-25 13:18:29:021 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-25 13:18:29:021 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-25 13:18:29:021 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-25 13:18:29:036 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-25 13:18:29:057 - info: load achievement reference table success !!
+2022-01-25 13:18:29:064 - info: load character reference table success !!
+2022-01-25 13:18:29:089 - info: load collection reference table success !!
+2022-01-25 13:18:29:096 - info: load daily attendance reference table success !!
+2022-01-25 13:18:29:152 - info: load item reference table success !!
+2022-01-25 13:18:29:163 - info: load open world reference table success !!
+2022-01-25 13:18:29:171 - info: load payment reference table success !!
+2022-01-25 13:18:29:178 - info: load play world reference table success !!
+2022-01-25 13:18:29:185 - info: load ranking reward reference table success !!
+2022-01-25 13:18:29:208 - info: load reward reference table success !!
+2022-01-25 13:18:29:216 - info: load reward_fishing reference table success !!
+2022-01-25 13:18:29:222 - info: load system shop reference table success !!
+2022-01-25 13:18:29:754 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-25 13:18:29:754 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-25 13:18:29:755 - info: packet status : packet status not recorded yet.
+2022-01-25 13:19:13:578 - error: error cmd : 709 , err: ReferenceError: aidx is not defined
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\collection_update.js:41:62)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-01-25 13:19:13:578 - error: {"aidx":2,"session":"32147027","collection_code":101002,"seq":4,"cmd":709}
+2022-01-25 13:19:13:578 - error: {"data":{},"cmd":710,"status":-103}
+2022-01-25 13:19:13:579 - error: -103

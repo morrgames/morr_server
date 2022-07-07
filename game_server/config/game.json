@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 8080,
+    "domain": "127.0.0.1"
+  },
+  "login_secret": "Ga9lsf6bxShLilPAhwTG9LCcXC1ipX0lfju9ua7y",
+  "jwt": {
+    "secret": "0bb768c29e72b00e508e8c1117c2aa1a93a5b95d844a228d8104a65b2a101fb0661c643323a9a9478cbb2a3f040387b9db2b30633563f710b63cc239a026f153",
+    "access_token_expire": 86400000
+  },
+  "log": {
+    "path": "./logs",
+    "filename": "game_",
+    "level": {
+      "console": "debug",
+      "file": "info"
+    }
+  }
+}

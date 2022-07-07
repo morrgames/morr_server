@@ -1,0 +1,107 @@
+2022-01-13 17:01:29:087 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-13 17:01:29:092 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-13 17:01:29:094 - info: connect sub redis : ["server_message"]
+2022-01-13 17:01:29:096 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-13 17:01:29:101 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-13 17:01:29:101 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-13 17:01:29:101 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-13 17:01:29:116 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-13 17:01:29:137 - info: load achievement reference table success !!
+2022-01-13 17:01:29:144 - info: load character reference table success !!
+2022-01-13 17:01:29:165 - info: load collection reference table success !!
+2022-01-13 17:01:29:172 - info: load daily attendance reference table success !!
+2022-01-13 17:01:29:215 - info: load item reference table success !!
+2022-01-13 17:01:29:224 - info: load open world reference table success !!
+2022-01-13 17:01:29:231 - info: load payment reference table success !!
+2022-01-13 17:01:29:237 - info: load play world reference table success !!
+2022-01-13 17:01:29:244 - info: load ranking reward reference table success !!
+2022-01-13 17:01:29:266 - info: load reward reference table success !!
+2022-01-13 17:01:29:273 - info: load reward_fishing reference table success !!
+2022-01-13 17:01:29:280 - info: load system shop reference table success !!
+2022-01-13 17:01:29:759 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-13 17:01:29:760 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-13 17:01:29:760 - info: packet status : packet status not recorded yet.
+2022-01-13 17:01:29:806 - error: {"cmd":103,"login_id":"1642060889_0_4312_23200567","uuid":"1642060889_0_4312_23200567","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:29:806 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060889,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:29:806 - error: -1023
+2022-01-13 17:01:37:943 - error: {"cmd":103,"login_id":"1642060897_1_4312_632773600","uuid":"1642060897_1_4312_632773600","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:37:944 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060897,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:37:944 - error: -1023
+2022-01-13 17:01:38:179 - error: {"cmd":103,"login_id":"1642060898_2_4312_133712690","uuid":"1642060898_2_4312_133712690","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:38:179 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060898,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:38:179 - error: -1023
+2022-01-13 17:01:38:407 - error: {"cmd":103,"login_id":"1642060898_3_4312_261650099","uuid":"1642060898_3_4312_261650099","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:38:407 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060898,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:38:408 - error: -1023
+2022-01-13 17:01:38:637 - error: {"cmd":103,"login_id":"1642060898_4_4312_583223838","uuid":"1642060898_4_4312_583223838","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:38:637 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060898,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:38:637 - error: -1023
+2022-01-13 17:01:38:863 - error: {"cmd":103,"login_id":"1642060898_5_4312_662093638","uuid":"1642060898_5_4312_662093638","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:38:863 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060898,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:38:863 - error: -1023
+2022-01-13 17:01:39:092 - error: {"cmd":103,"login_id":"1642060899_6_4312_352720386","uuid":"1642060899_6_4312_352720386","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:39:092 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060899,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:39:093 - error: -1023
+2022-01-13 17:01:39:323 - error: {"cmd":103,"login_id":"1642060899_7_4312_625915374","uuid":"1642060899_7_4312_625915374","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:39:323 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060899,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:39:324 - error: -1023
+2022-01-13 17:01:39:547 - error: {"cmd":103,"login_id":"1642060899_8_4312_619623709","uuid":"1642060899_8_4312_619623709","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:39:547 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060899,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:39:547 - error: -1023
+2022-01-13 17:01:39:785 - error: {"cmd":103,"login_id":"1642060899_9_4312_401189915","uuid":"1642060899_9_4312_401189915","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:39:785 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060899,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:39:785 - error: -1023
+2022-01-13 17:01:40:012 - error: {"cmd":103,"login_id":"1642060900_10_4312_768832232","uuid":"1642060900_10_4312_768832232","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:40:012 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060900,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:40:012 - error: -1023
+2022-01-13 17:01:40:237 - error: {"cmd":103,"login_id":"1642060900_11_4312_636261037","uuid":"1642060900_11_4312_636261037","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:40:237 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060900,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:40:237 - error: -1023
+2022-01-13 17:01:40:462 - error: {"cmd":103,"login_id":"1642060900_12_4312_519714395","uuid":"1642060900_12_4312_519714395","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:40:463 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060900,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:40:463 - error: -1023
+2022-01-13 17:01:40:691 - error: {"cmd":103,"login_id":"1642060900_13_4312_196991628","uuid":"1642060900_13_4312_196991628","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:40:691 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060900,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:40:692 - error: -1023
+2022-01-13 17:01:40:925 - error: {"cmd":103,"login_id":"1642060900_14_4312_619464658","uuid":"1642060900_14_4312_619464658","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:40:925 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060900,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:40:926 - error: -1023
+2022-01-13 17:01:41:156 - error: {"cmd":103,"login_id":"1642060901_15_4312_222190581","uuid":"1642060901_15_4312_222190581","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:41:156 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060901,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:41:156 - error: -1023
+2022-01-13 17:01:41:403 - error: {"cmd":103,"login_id":"1642060901_16_4312_360941696","uuid":"1642060901_16_4312_360941696","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:41:403 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060901,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:41:403 - error: -1023
+2022-01-13 17:01:41:635 - error: {"cmd":103,"login_id":"1642060901_17_4312_103602279","uuid":"1642060901_17_4312_103602279","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:41:636 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060901,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:41:636 - error: -1023
+2022-01-13 17:01:41:869 - error: {"cmd":103,"login_id":"1642060901_18_4312_950811104","uuid":"1642060901_18_4312_950811104","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:41:870 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060901,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:41:870 - error: -1023
+2022-01-13 17:01:42:092 - error: {"cmd":103,"login_id":"1642060902_19_4312_557546371","uuid":"1642060902_19_4312_557546371","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:42:092 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060902,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:42:093 - error: -1023
+2022-01-13 17:01:42:314 - error: {"cmd":103,"login_id":"1642060902_20_4312_506873125","uuid":"1642060902_20_4312_506873125","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:42:314 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060902,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:42:314 - error: -1023
+2022-01-13 17:01:42:527 - error: {"cmd":103,"login_id":"1642060902_21_4312_772659401","uuid":"1642060902_21_4312_772659401","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:42:527 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060902,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:42:538 - error: -1023
+2022-01-13 17:01:42:766 - error: {"cmd":103,"login_id":"1642060902_22_4312_589089131","uuid":"1642060902_22_4312_589089131","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:42:766 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060902,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:42:766 - error: -1023
+2022-01-13 17:01:42:986 - error: {"cmd":103,"login_id":"1642060902_23_4312_607087652","uuid":"1642060902_23_4312_607087652","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:42:986 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060902,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:42:986 - error: -1023
+2022-01-13 17:01:43:207 - error: {"cmd":103,"login_id":"1642060903_24_4312_265540806","uuid":"1642060903_24_4312_265540806","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:43:207 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060903,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:43:207 - error: -1023
+2022-01-13 17:01:43:428 - error: {"cmd":103,"login_id":"1642060903_25_4312_307813677","uuid":"1642060903_25_4312_307813677","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:43:428 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060903,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:43:428 - error: -1023
+2022-01-13 17:01:43:649 - error: {"cmd":103,"login_id":"1642060903_26_4312_717442671","uuid":"1642060903_26_4312_717442671","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:43:649 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060903,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:43:649 - error: -1023
+2022-01-13 17:01:43:875 - error: {"cmd":103,"login_id":"1642060903_27_4312_674579693","uuid":"1642060903_27_4312_674579693","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:01:43:875 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060903,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:01:43:876 - error: -1023

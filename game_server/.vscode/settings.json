@@ -1,0 +1,40 @@
+{
+  "search.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/logs": true,
+    "**/.svn": true,
+    "**/bin": true,
+    "**/protocol": true,
+    "**/test_logic": true,
+    "test_main.js": true,
+    "jsconfig.json": true,
+    "package-lock.json": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/node_modules": true,
+    "**/logs": true,
+    "**/.svn": true,
+    "**/bin": true,
+    "**/protocol": true,
+    "**/test_logic": true,
+    "test_main.js": true,
+    "jsconfig.json": true,
+    "package-lock.json": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
+  "javascript.suggestionActions.enabled": false
+}

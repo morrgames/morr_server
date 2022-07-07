@@ -1,0 +1,9 @@
+{
+  "apps": [
+    {
+      "name": "freemeta_game",
+      "script": "game.js",
+      "cwd": "./"
+    }
+  ]
+}

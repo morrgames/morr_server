@@ -1,0 +1,45 @@
+2021-12-31 14:49:03:793 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-31 14:49:03:798 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-31 14:49:03:799 - info: connect sub redis : ["server_message"]
+2021-12-31 14:49:03:802 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-31 14:49:03:805 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-31 14:49:03:805 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-31 14:49:03:805 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-31 14:49:03:820 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-31 14:49:03:842 - info: load achievement reference table success !!
+2021-12-31 14:49:03:849 - info: load character reference table success !!
+2021-12-31 14:49:03:861 - info: load collection reference table success !!
+2021-12-31 14:49:03:868 - info: load daily attendance reference table success !!
+2021-12-31 14:49:03:913 - info: load item reference table success !!
+2021-12-31 14:49:03:924 - info: load open world reference table success !!
+2021-12-31 14:49:03:931 - info: load payment reference table success !!
+2021-12-31 14:49:03:937 - info: load play world reference table success !!
+2021-12-31 14:49:03:944 - info: load ranking reward reference table success !!
+2021-12-31 14:49:03:963 - info: load reward reference table success !!
+2021-12-31 14:49:03:970 - info: load reward_fishing reference table success !!
+2021-12-31 14:49:03:977 - info: load system shop reference table success !!
+2021-12-31 14:49:04:318 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-31 14:49:04:318 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-31 14:49:04:318 - info: packet status : packet status not recorded yet.
+2021-12-31 14:57:17:038 - error: logdb_connect error : {"code":"PROTOCOL_SEQUENCE_TIMEOUT","fatal":true,"timeout":10000}
+2021-12-31 14:57:17:039 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2021-12-31 14:57:17:039 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2021-12-31 14:57:17:039 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 14:57:17:039 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 0
+2021-12-31 14:57:17:039 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2021-12-31 14:57:17:040 - info: server_message : ref_table_reload
+2021-12-31 14:57:17:050 - info: load achievement reference table success !!
+2021-12-31 14:57:17:056 - info: load character reference table success !!
+2021-12-31 14:57:17:066 - info: load collection reference table success !!
+2021-12-31 14:57:17:072 - info: load daily attendance reference table success !!
+2021-12-31 14:57:17:123 - info: load item reference table success !!
+2021-12-31 14:57:17:132 - info: load open world reference table success !!
+2021-12-31 14:57:17:139 - info: load payment reference table success !!
+2021-12-31 14:57:17:145 - info: load play world reference table success !!
+2021-12-31 14:57:17:151 - info: load ranking reward reference table success !!
+2021-12-31 14:57:17:169 - info: load reward reference table success !!
+2021-12-31 14:57:17:174 - info: load reward_fishing reference table success !!
+2021-12-31 14:57:17:179 - info: load system shop reference table success !!
+2021-12-31 14:57:17:179 - info: ref table reload success
+2021-12-31 14:59:03:803 - info: main: redis pong
+2021-12-31 14:59:03:804 - info: sub: redis pong

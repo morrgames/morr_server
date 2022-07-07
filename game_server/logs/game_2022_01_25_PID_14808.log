@@ -1,0 +1,29 @@
+2022-01-25 11:34:49:558 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-25 11:34:49:567 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-25 11:34:49:572 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-25 11:34:49:572 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-25 11:34:49:572 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-25 11:34:49:588 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-25 11:34:49:609 - info: load achievement reference table success !!
+2022-01-25 11:34:49:616 - info: load character reference table success !!
+2022-01-25 11:34:49:648 - info: load collection reference table success !!
+2022-01-25 11:34:49:656 - info: load daily attendance reference table success !!
+2022-01-25 11:34:49:711 - info: load item reference table success !!
+2022-01-25 11:34:49:722 - info: load open world reference table success !!
+2022-01-25 11:34:49:729 - info: load payment reference table success !!
+2022-01-25 11:34:49:736 - info: load play world reference table success !!
+2022-01-25 11:34:49:743 - info: load ranking reward reference table success !!
+2022-01-25 11:34:49:769 - info: load reward reference table success !!
+2022-01-25 11:34:49:776 - info: load reward_fishing reference table success !!
+2022-01-25 11:34:49:783 - info: load system shop reference table success !!
+2022-01-25 11:34:50:278 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-25 11:34:50:278 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-25 11:34:50:278 - info: packet status : packet status not recorded yet.
+2022-01-25 11:34:59:917 - error: {"aidx":2,"session":"55613023","collection_code":1,"seq":2,"cmd":709}
+2022-01-25 11:34:59:917 - error: {"data":{},"cmd":710,"status":-1078}
+2022-01-25 11:34:59:917 - error: -1078
+2022-01-25 11:34:49:564 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-25 11:34:49:565 - info: connect sub redis : ["server_message"]
+2022-01-25 11:35:05:621 - error: {"aidx":2,"session":"55613023","collection_code":1,"seq":2,"cmd":709}
+2022-01-25 11:35:05:621 - error: {"data":{},"cmd":710,"status":-1078}
+2022-01-25 11:35:05:622 - error: -1078

@@ -1,0 +1,35 @@
+2022-01-26 17:22:44:141 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-26 17:22:44:150 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-26 17:22:44:155 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-26 17:22:44:155 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-26 17:22:44:155 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-26 17:22:44:174 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-26 17:22:48:604 - info: load achievement reference table success !!
+2022-01-26 17:22:48:999 - info: load character reference table success !!
+2022-01-26 17:22:49:285 - info: load collection reference table success !!
+2022-01-26 17:22:49:803 - info: load daily attendance reference table success !!
+2022-01-26 17:22:50:314 - info: load item reference table success !!
+2022-01-26 17:22:50:772 - info: load open world reference table success !!
+2022-01-26 17:22:59:881 - info: load payment reference table success !!
+2022-01-26 17:22:59:889 - info: load play world reference table success !!
+2022-01-26 17:22:59:896 - info: load ranking reward reference table success !!
+2022-01-26 17:22:59:934 - info: load reward reference table success !!
+2022-01-26 17:22:59:942 - info: load reward_fishing reference table success !!
+2022-01-26 17:22:59:950 - info: load system shop reference table success !!
+2022-01-26 17:22:44:147 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-26 17:22:44:148 - info: connect sub redis : ["server_message"]
+2022-01-26 17:23:00:454 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-26 17:23:00:454 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-26 17:23:00:454 - info: packet status : packet status not recorded yet.
+2022-01-26 17:23:02:441 - error: error cmd : 633 , err: error
+2022-01-26 17:23:02:441 - error: {"aidx":2,"session":"49700997","option":"123444","cmd":633}
+2022-01-26 17:23:02:441 - error: {"data":{},"cmd":634,"status":-103}
+2022-01-26 17:23:37:715 - error: -103
+2022-01-26 17:23:49:178 - error: error cmd : 633 , err: error
+2022-01-26 17:23:49:179 - error: {"aidx":2,"session":"49700997","option":"123","cmd":633}
+2022-01-26 17:23:49:179 - error: {"data":{},"cmd":634,"status":-103}
+2022-01-26 17:23:49:179 - error: -103
+2022-01-26 17:23:56:518 - error: error cmd : 633 , err: error
+2022-01-26 17:23:56:518 - error: {"aidx":2,"session":"49700997","option":"123","cmd":633}
+2022-01-26 17:23:56:518 - error: {"data":{},"cmd":634,"status":-103}
+2022-01-26 17:23:56:519 - error: -103

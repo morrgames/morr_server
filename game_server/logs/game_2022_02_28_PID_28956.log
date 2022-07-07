@@ -1,0 +1,283 @@
+2022-02-28 11:44:10:091 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-02-28 11:44:10:098 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-02-28 11:44:10:098 - info: connect sub redis : ["server_message"]
+2022-02-28 11:44:10:101 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-02-28 11:44:10:107 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-02-28 11:44:10:107 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-02-28 11:44:10:107 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-02-28 11:44:10:123 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-02-28 11:44:10:146 - info: load achievement reference table success !!
+2022-02-28 11:44:10:155 - info: load character reference table success !!
+2022-02-28 11:44:10:181 - info: load collection reference table success !!
+2022-02-28 11:44:10:189 - info: load daily attendance reference table success !!
+2022-02-28 11:44:10:253 - info: load item reference table success !!
+2022-02-28 11:44:10:263 - info: load open world reference table success !!
+2022-02-28 11:44:10:272 - info: load payment reference table success !!
+2022-02-28 11:44:10:280 - info: load play world reference table success !!
+2022-02-28 11:44:10:287 - info: load ranking reward reference table success !!
+2022-02-28 11:44:10:311 - info: load reward reference table success !!
+2022-02-28 11:44:10:322 - info: load reward_fishing reference table success !!
+2022-02-28 11:44:10:329 - info: load system shop reference table success !!
+2022-02-28 11:44:10:734 - info: 서버가 시작되었습니다. [port:8080]
+2022-02-28 11:44:10:734 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-02-28 11:44:10:734 - info: packet status : packet status not recorded yet.
+2022-02-28 11:49:10:127 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 11:49:10:128 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 11:49:10:128 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 11:49:10:128 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 11:49:10:733 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 11:54:10:094 - info: main: redis pong
+2022-02-28 11:54:10:097 - info: sub: redis pong
+2022-02-28 11:54:10:108 - info: msg: redis pong
+2022-02-28 11:54:10:137 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 11:54:10:137 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 11:54:10:137 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 11:54:10:137 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 11:54:10:738 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 11:59:10:130 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 11:59:10:130 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 11:59:10:130 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 11:59:10:130 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 11:59:10:745 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:04:10:088 - info: main: redis pong
+2022-02-28 12:04:10:088 - info: sub: redis pong
+2022-02-28 12:04:10:103 - info: msg: redis pong
+2022-02-28 12:04:10:130 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:04:10:130 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:04:10:130 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:04:10:130 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:04:10:746 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:09:10:143 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:09:10:143 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:09:10:143 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:09:10:143 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:09:10:748 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:14:10:088 - info: sub: redis pong
+2022-02-28 12:14:10:088 - info: main: redis pong
+2022-02-28 12:14:10:103 - info: msg: redis pong
+2022-02-28 12:14:10:146 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:14:10:146 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:14:10:146 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:14:10:146 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:14:10:753 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:19:10:151 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:19:10:151 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:19:10:151 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:19:10:151 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:19:10:751 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:24:10:083 - info: main: redis pong
+2022-02-28 12:24:10:084 - info: sub: redis pong
+2022-02-28 12:24:10:098 - info: msg: redis pong
+2022-02-28 12:24:10:157 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:24:10:157 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:24:10:157 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:24:10:158 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:24:10:765 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:29:10:156 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:29:10:156 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:29:10:156 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:29:10:156 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:29:10:773 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:34:10:086 - info: main: redis pong
+2022-02-28 12:34:10:086 - info: sub: redis pong
+2022-02-28 12:34:10:089 - info: msg: redis pong
+2022-02-28 12:34:10:158 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:34:10:158 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:34:10:158 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:34:10:158 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:34:10:774 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:39:10:161 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:39:10:161 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:39:10:161 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:39:10:161 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:39:10:780 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:44:10:090 - info: main: redis pong
+2022-02-28 12:44:10:090 - info: sub: redis pong
+2022-02-28 12:44:10:090 - info: msg: redis pong
+2022-02-28 12:44:10:162 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:44:10:162 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:44:10:162 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:44:10:162 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:44:10:782 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:49:10:158 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:49:10:158 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:49:10:158 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:49:10:158 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:49:10:777 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:54:10:085 - info: main: redis pong
+2022-02-28 12:54:10:086 - info: sub: redis pong
+2022-02-28 12:54:10:086 - info: msg: redis pong
+2022-02-28 12:54:10:158 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:54:10:158 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:54:10:158 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:54:10:158 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:54:10:776 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 12:59:10:159 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 12:59:10:159 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:59:10:159 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 12:59:10:159 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 12:59:10:780 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:04:10:092 - info: main: redis pong
+2022-02-28 13:04:10:092 - info: sub: redis pong
+2022-02-28 13:04:10:093 - info: msg: redis pong
+2022-02-28 13:04:10:165 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:04:10:165 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:04:10:165 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:04:10:165 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:04:10:784 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:09:10:166 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:09:10:166 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:09:10:166 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:09:10:166 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:09:10:785 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:14:10:086 - info: main: redis pong
+2022-02-28 13:14:10:086 - info: sub: redis pong
+2022-02-28 13:14:10:086 - info: msg: redis pong
+2022-02-28 13:14:10:174 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:14:10:174 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:14:10:174 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:14:10:174 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:14:10:793 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:19:10:182 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:19:10:182 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:19:10:182 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:19:10:182 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:19:10:802 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:24:10:086 - info: main: redis pong
+2022-02-28 13:24:10:086 - info: sub: redis pong
+2022-02-28 13:24:10:086 - info: msg: redis pong
+2022-02-28 13:24:10:189 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:24:10:189 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:24:10:189 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:24:10:189 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:24:10:810 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:29:10:192 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:29:10:192 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:29:10:193 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:29:10:193 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:29:10:811 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:34:10:096 - info: main: redis pong
+2022-02-28 13:34:10:097 - info: sub: redis pong
+2022-02-28 13:34:10:097 - info: msg: redis pong
+2022-02-28 13:34:10:200 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:34:10:200 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:34:10:200 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:34:10:200 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:34:10:820 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:39:10:209 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:39:10:209 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:39:10:209 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:39:10:209 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:39:10:829 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:44:10:099 - info: main: redis pong
+2022-02-28 13:44:10:100 - info: sub: redis pong
+2022-02-28 13:44:10:100 - info: msg: redis pong
+2022-02-28 13:44:10:217 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:44:10:217 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:44:10:217 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:44:10:217 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:44:10:836 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:49:10:213 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:49:10:213 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:49:10:213 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:49:10:213 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:49:10:843 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:54:10:100 - info: main: redis pong
+2022-02-28 13:54:10:100 - info: sub: redis pong
+2022-02-28 13:54:10:100 - info: msg: redis pong
+2022-02-28 13:54:10:219 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:54:10:219 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:54:10:219 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:54:10:219 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:54:10:853 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 13:59:10:224 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 13:59:10:224 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:59:10:224 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 13:59:10:224 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 13:59:10:860 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:04:10:101 - info: main: redis pong
+2022-02-28 14:04:10:101 - info: sub: redis pong
+2022-02-28 14:04:10:101 - info: msg: redis pong
+2022-02-28 14:04:10:234 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:04:10:236 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:04:10:236 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:04:10:236 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:04:10:869 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:09:10:246 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:09:10:246 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:09:10:246 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:09:10:246 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:09:10:878 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:14:10:102 - info: sub: redis pong
+2022-02-28 14:14:10:102 - info: main: redis pong
+2022-02-28 14:14:10:102 - info: msg: redis pong
+2022-02-28 14:14:10:249 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:14:10:249 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:14:10:249 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:14:10:249 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:14:10:885 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:19:10:251 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:19:10:251 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:19:10:251 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:19:10:251 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:19:10:886 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:24:10:095 - info: main: redis pong
+2022-02-28 14:24:10:095 - info: sub: redis pong
+2022-02-28 14:24:10:096 - info: msg: redis pong
+2022-02-28 14:24:10:257 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:24:10:257 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:24:10:257 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:24:10:258 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:24:10:888 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:29:10:259 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:29:10:259 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:29:10:259 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:29:10:259 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:29:10:895 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:34:10:104 - info: main: redis pong
+2022-02-28 14:34:10:104 - info: sub: redis pong
+2022-02-28 14:34:10:104 - info: msg: redis pong
+2022-02-28 14:34:10:268 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:34:10:268 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:34:10:268 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:34:10:268 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:34:10:901 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:39:10:267 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:39:10:267 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:39:10:267 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:39:10:267 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:39:10:904 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:44:10:106 - info: main: redis pong
+2022-02-28 14:44:10:107 - info: sub: redis pong
+2022-02-28 14:44:10:107 - info: msg: redis pong
+2022-02-28 14:44:10:269 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:44:10:269 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:44:10:269 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:44:10:269 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:44:10:914 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:49:10:276 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:49:10:276 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:49:10:276 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:49:10:276 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:49:10:921 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:54:10:107 - info: main: redis pong
+2022-02-28 14:54:10:107 - info: sub: redis pong
+2022-02-28 14:54:10:107 - info: msg: redis pong
+2022-02-28 14:54:10:284 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:54:10:284 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:54:10:284 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:54:10:284 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:54:10:931 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 14:59:10:292 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 14:59:10:292 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:59:10:292 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 14:59:10:292 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 14:59:10:943 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-02-28 15:04:10:110 - info: sub: redis pong
+2022-02-28 15:04:10:110 - info: main: redis pong
+2022-02-28 15:04:10:110 - info: msg: redis pong
+2022-02-28 15:04:10:303 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-28 15:04:10:303 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 15:04:10:303 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-28 15:04:10:303 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-28 15:04:10:953 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}

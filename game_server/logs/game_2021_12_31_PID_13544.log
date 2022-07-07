@@ -1,0 +1,24 @@
+2021-12-31 13:38:38:463 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-31 13:38:38:469 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-31 13:38:38:472 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-31 13:38:38:476 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-31 13:38:38:476 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-31 13:38:38:477 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-31 13:38:38:493 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-31 13:38:38:516 - info: load achievement reference table success !!
+2021-12-31 13:38:38:523 - info: load character reference table success !!
+2021-12-31 13:38:38:536 - info: load collection reference table success !!
+2021-12-31 13:38:38:544 - info: load daily attendance reference table success !!
+2021-12-31 13:38:38:590 - info: load item reference table success !!
+2021-12-31 13:38:38:601 - info: load open world reference table success !!
+2021-12-31 13:38:38:608 - info: load payment reference table success !!
+2021-12-31 13:38:38:616 - info: load play world reference table success !!
+2021-12-31 13:38:38:623 - info: load ranking reward reference table success !!
+2021-12-31 13:38:38:647 - info: load reward reference table success !!
+2021-12-31 13:38:38:655 - info: load reward_fishing reference table success !!
+2021-12-31 13:38:38:662 - info: load system shop reference table success !!
+2021-12-31 13:38:39:054 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-31 13:38:39:054 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-31 13:38:39:054 - info: packet status : packet status not recorded yet.
+2021-12-31 13:38:38:468 - info: connect sub redis : ["server_message"]
+2021-12-31 13:42:21:034 - error: >>>>>>>>>>>>>>> fail to start freemeta game server(port = 30051, err = Error: Client network socket disconnected before secure TLS connection was established)

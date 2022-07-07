@@ -1,0 +1,41 @@
+2022-01-06 13:41:13:041 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-06 13:41:13:047 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-06 13:41:13:049 - info: connect sub redis : ["server_message"]
+2022-01-06 13:41:13:052 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-06 13:41:13:057 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-06 13:41:13:058 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-06 13:41:13:058 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-06 13:41:13:073 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-06 13:41:13:095 - info: load achievement reference table success !!
+2022-01-06 13:41:13:102 - info: load character reference table success !!
+2022-01-06 13:41:13:114 - info: load collection reference table success !!
+2022-01-06 13:41:13:122 - info: load daily attendance reference table success !!
+2022-01-06 13:41:13:172 - info: load item reference table success !!
+2022-01-06 13:41:13:181 - info: load open world reference table success !!
+2022-01-06 13:41:13:188 - info: load payment reference table success !!
+2022-01-06 13:41:13:194 - info: load play world reference table success !!
+2022-01-06 13:41:13:201 - info: load ranking reward reference table success !!
+2022-01-06 13:41:13:221 - info: load reward reference table success !!
+2022-01-06 13:41:13:229 - info: load reward_fishing reference table success !!
+2022-01-06 13:41:13:235 - info: load system shop reference table success !!
+2022-01-06 13:41:13:660 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-06 13:41:13:660 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-06 13:41:13:660 - info: packet status : packet status not recorded yet.
+2022-01-06 13:46:13:081 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-06 13:46:13:082 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:46:13:082 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:46:13:082 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:46:13:654 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"615":{"cmd":615,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-01-06 13:51:13:032 - info: main: redis pong
+2022-01-06 13:51:13:036 - info: sub: redis pong
+2022-01-06 13:51:13:049 - info: msg: redis pong
+2022-01-06 13:51:13:091 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-06 13:51:13:091 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:51:13:091 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:51:13:091 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:51:13:650 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"615":{"cmd":615,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-01-06 13:56:13:100 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-06 13:56:13:100 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:56:13:100 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:56:13:100 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-06 13:56:13:658 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"615":{"cmd":615,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0}}

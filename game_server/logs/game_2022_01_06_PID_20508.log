@@ -1,0 +1,28 @@
+2022-01-06 11:16:49:501 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-06 11:16:49:506 - info: connect sub redis : ["server_message"]
+2022-01-06 11:16:49:507 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-06 11:16:49:510 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-06 11:16:49:515 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-06 11:16:49:515 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-06 11:16:49:515 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-06 11:16:49:530 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-06 11:16:49:552 - info: load achievement reference table success !!
+2022-01-06 11:16:49:559 - info: load character reference table success !!
+2022-01-06 11:16:49:571 - info: load collection reference table success !!
+2022-01-06 11:16:49:578 - info: load daily attendance reference table success !!
+2022-01-06 11:16:49:624 - info: load item reference table success !!
+2022-01-06 11:16:49:634 - info: load open world reference table success !!
+2022-01-06 11:16:49:641 - info: load payment reference table success !!
+2022-01-06 11:16:49:647 - info: load play world reference table success !!
+2022-01-06 11:16:49:653 - info: load ranking reward reference table success !!
+2022-01-06 11:16:49:674 - info: load reward reference table success !!
+2022-01-06 11:16:49:682 - info: load reward_fishing reference table success !!
+2022-01-06 11:16:49:689 - info: load system shop reference table success !!
+2022-01-06 11:16:50:227 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-06 11:16:50:227 - info: try to start [freemeta game server] : http://127.0.0.1:30051
+2022-01-06 11:16:50:228 - info: packet status : packet status not recorded yet.
+2022-01-06 11:21:49:541 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-06 11:21:49:542 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-06 11:21:49:542 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-06 11:21:49:542 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-06 11:21:50:242 - info: packet status : packet status not recorded yet.

@@ -1,0 +1,28 @@
+2021-12-31 10:54:02:441 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-31 10:54:02:447 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-31 10:54:02:448 - info: connect sub redis : ["server_message"]
+2021-12-31 10:54:02:451 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-31 10:54:02:455 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-31 10:54:02:455 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-31 10:54:02:455 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-31 10:54:02:471 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-31 10:54:02:492 - info: load achievement reference table success !!
+2021-12-31 10:54:02:498 - info: load character reference table success !!
+2021-12-31 10:54:02:510 - info: load collection reference table success !!
+2021-12-31 10:54:02:517 - info: load daily attendance reference table success !!
+2021-12-31 10:54:02:565 - info: load item reference table success !!
+2021-12-31 10:54:02:575 - info: load open world reference table success !!
+2021-12-31 10:54:02:581 - info: load payment reference table success !!
+2021-12-31 10:54:02:588 - info: load play world reference table success !!
+2021-12-31 10:54:02:595 - info: load ranking reward reference table success !!
+2021-12-31 10:54:02:616 - info: load reward reference table success !!
+2021-12-31 10:54:02:621 - info: load reward_fishing reference table success !!
+2021-12-31 10:54:02:964 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-31 10:54:02:964 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-31 10:54:02:964 - info: packet status : packet status not recorded yet.
+2021-12-31 10:55:15:397 - error: >>>>>>>>>>>>>>> fail to start freemeta game server(port = 30051, err = Error: Client network socket disconnected before secure TLS connection was established)
+2021-12-31 10:55:15:404 - error: db_query error : {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column 'NaN' in 'field list'","sqlState":"42S22","index":0,"sql":"update dat_money set gold = NaN, free_cubic = 100000, paid_cubic = 100000, wcoin = 0 where aidx = 139;"}
+2021-12-31 10:55:15:405 - error: error cmd : 615 , err: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column 'NaN' in 'field list'","sqlState":"42S22","index":0,"sql":"update dat_money set gold = NaN, free_cubic = 100000, paid_cubic = 100000, wcoin = 0 where aidx = 139;"}
+2021-12-31 10:55:15:405 - error: {"cmd":615,"aidx":139,"session":"32273688","sell_item_list":[{"code":40901013,"count":1},{"code":40901019,"count":1},{"code":40902064,"count":2}]}
+2021-12-31 10:55:15:405 - error: {"data":{},"cmd":616,"status":-103}
+2021-12-31 10:55:15:405 - error: -103

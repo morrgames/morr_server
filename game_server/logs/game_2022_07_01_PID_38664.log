@@ -1,0 +1,14 @@
+2022-07-01 17:57:24:745 - info: main : redis-connect-database = 0 : 115.85.181.9:6379
+2022-07-01 17:57:24:750 - info: mysql morr_com com db init : 115.85.181.9:3306
+2022-07-01 17:57:24:750 - info: mysql morr_log log db init : 115.85.181.9:3306
+2022-07-01 17:57:24:750 - info: mysql morr_msg msg db init : 115.85.181.9:3306
+2022-07-01 17:57:24:750 - info: mysql morr_user user db init : 115.85.181.9:3306
+2022-07-01 17:57:24:768 - info: load character reference table success !!
+2022-07-01 17:57:24:784 - info: 서버가 시작되었습니다. [port:8080]
+2022-07-01 17:57:24:784 - info: try to start [morr game server] : http://127.0.0.1:8080
+2022-07-01 17:57:24:784 - info: packet status : packet status not recorded yet.
+2022-07-01 17:57:27:120 - error: db_query error : {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column '' in 'field list'","sqlState":"42S22","index":0,"sql":"insert into dat_account (idx, name, login_id, login_type, uuid, login_dt, reg_dt)  values (null, '(G)1656665847111-79952', 'gst_woongda', 0, ``,now(), now());"}
+2022-07-01 17:57:27:120 - error: error cmd : 101 , err: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column '' in 'field list'","sqlState":"42S22","index":0,"sql":"insert into dat_account (idx, name, login_id, login_type, uuid, login_dt, reg_dt)  values (null, '(G)1656665847111-79952', 'gst_woongda', 0, ``,now(), now());"}
+2022-07-01 17:57:27:121 - error: {"login_id":"woongda","uuid":"woongda","login_type":0,"name":"woongda","cmd":101,"version":"1.0.0","user_no":"woongda","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 17:57:27:121 - error: {"data":{},"cmd":102,"status":-103}
+2022-07-01 17:57:27:121 - error: -103

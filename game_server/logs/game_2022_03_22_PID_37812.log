@@ -1,0 +1,75 @@
+2022-03-22 17:31:08:804 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-22 17:31:08:810 - info: connect sub redis : ["server_message"]
+2022-03-22 17:31:08:811 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-22 17:31:08:815 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-22 17:31:08:818 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-22 17:31:08:818 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-22 17:31:08:819 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-22 17:31:08:836 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-22 17:31:08:858 - info: load achievement reference table success !!
+2022-03-22 17:31:08:865 - info: load character reference table success !!
+2022-03-22 17:31:08:892 - info: load collection reference table success !!
+2022-03-22 17:31:08:900 - info: load daily attendance reference table success !!
+2022-03-22 17:31:08:963 - info: load item reference table success !!
+2022-03-22 17:31:08:973 - info: load open world reference table success !!
+2022-03-22 17:31:08:981 - info: load payment reference table success !!
+2022-03-22 17:31:08:988 - info: load play rank group reference table success !!
+2022-03-22 17:31:08:995 - info: load play world reference table success !!
+2022-03-22 17:31:09:004 - info: load ranking reward reference table success !!
+2022-03-22 17:31:09:022 - info: load reward reference table success !!
+2022-03-22 17:31:09:030 - info: load reward_fishing reference table success !!
+2022-03-22 17:31:09:037 - info: load system shop reference table success !!
+2022-03-22 17:31:09:430 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-22 17:31:09:430 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-22 17:31:09:430 - info: packet status : packet status not recorded yet.
+2022-03-22 17:31:47:660 - error: {"aidx":108,"session":"72693560","world_idx":187,"cmd":435}
+2022-03-22 17:31:47:660 - error: {"data":{},"cmd":436,"status":-1137}
+2022-03-22 17:31:47:660 - error: -1137
+2022-03-22 17:36:54:107 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 1
+2022-03-22 17:36:54:108 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-22 17:36:54:108 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-22 17:36:54:108 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 0
+2022-03-22 17:36:54:108 - info: packet status : {"435":{"cmd":435,"key":"play_world_reward","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-03-22 17:37:07:351 - error: {"aidx":108,"session":"72693560","world_idx":187,"cmd":435}
+2022-03-22 17:37:07:351 - error: {"data":{},"cmd":436,"status":-1112}
+2022-03-22 17:37:07:351 - error: -1112
+2022-03-22 17:37:30:562 - error: {"aidx":108,"session":"72693560","world_idx":187,"cmd":435}
+2022-03-22 17:37:30:562 - error: {"data":{},"cmd":436,"status":-1137}
+2022-03-22 17:37:30:563 - error: -1137
+2022-03-22 17:40:31:165 - error: {"aidx":108,"session":"72693560","world_idx":187,"cmd":435}
+2022-03-22 17:40:31:166 - error: {"data":{},"cmd":436,"status":-1113}
+2022-03-22 17:40:31:167 - error: -1113
+2022-03-22 17:41:08:817 - info: sub: redis pong
+2022-03-22 17:41:08:817 - info: main: redis pong
+2022-03-22 17:41:08:817 - info: msg: redis pong
+2022-03-22 17:41:54:117 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-22 17:41:54:117 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:41:54:117 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-22 17:41:54:117 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:41:54:118 - info: packet status : {"435":{"cmd":435,"key":"play_world_reward","call":6,"total":320,"max":213,"min":0,"average":53.333333333333336}}
+2022-03-22 17:46:54:127 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-22 17:46:54:127 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:46:54:127 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-22 17:46:54:127 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:46:54:128 - info: packet status : {"435":{"cmd":435,"key":"play_world_reward","call":6,"total":320,"max":213,"min":0,"average":53.333333333333336}}
+2022-03-22 17:51:08:823 - info: main: redis pong
+2022-03-22 17:51:08:823 - info: msg: redis pong
+2022-03-22 17:51:08:823 - info: sub: redis pong
+2022-03-22 17:51:54:128 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-22 17:51:54:128 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:51:54:128 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-22 17:51:54:128 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:51:54:129 - info: packet status : {"435":{"cmd":435,"key":"play_world_reward","call":6,"total":320,"max":213,"min":0,"average":53.333333333333336}}
+2022-03-22 17:56:54:138 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-22 17:56:54:138 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:56:54:138 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-22 17:56:54:138 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:56:54:139 - info: packet status : {"435":{"cmd":435,"key":"play_world_reward","call":6,"total":320,"max":213,"min":0,"average":53.333333333333336}}
+2022-03-22 18:01:08:832 - info: main: redis pong
+2022-03-22 18:01:08:832 - info: sub: redis pong
+2022-03-22 18:01:08:833 - info: msg: redis pong
+2022-03-22 18:01:54:151 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-22 18:01:54:151 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 18:01:54:151 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-22 18:01:54:151 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 18:01:54:152 - info: packet status : {"435":{"cmd":435,"key":"play_world_reward","call":6,"total":320,"max":213,"min":0,"average":53.333333333333336}}

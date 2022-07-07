@@ -1,0 +1,49 @@
+2022-05-04 10:38:14:356 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-04 10:38:14:370 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-04 10:38:14:375 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-04 10:38:14:375 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-04 10:38:14:375 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-04 10:38:14:396 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-04 10:38:14:418 - info: load achievement reference table success !!
+2022-05-04 10:38:14:426 - info: load character reference table success !!
+2022-05-04 10:38:14:456 - info: load collection reference table success !!
+2022-05-04 10:38:14:471 - info: load daily attendance reference table success !!
+2022-05-04 10:38:14:479 - info: load system shop reference table success !!
+2022-05-04 10:38:14:549 - info: load item reference table success !!
+2022-05-04 10:38:14:557 - info: load open world reference table success !!
+2022-05-04 10:38:14:566 - info: load payment reference table success !!
+2022-05-04 10:38:14:588 - info: load play rank group reference table success !!
+2022-05-04 10:38:14:595 - info: load play world reference table success !!
+2022-05-04 10:38:14:604 - info: load ranking reward reference table success !!
+2022-05-04 10:38:14:634 - info: load reward reference table success !!
+2022-05-04 10:38:14:641 - info: load reward_fishing reference table success !!
+2022-05-04 10:38:14:648 - info: load system shop reference table success !!
+2022-05-04 10:38:15:273 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-04 10:38:15:274 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-04 10:38:15:274 - info: packet status : packet status not recorded yet.
+2022-05-04 10:38:23:264 - error: {"aidx":5,"session":"22835498","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":100202002,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:38:23:264 - error: {"data":{},"cmd":408,"status":-1094}
+2022-05-04 10:38:23:264 - error: -1094
+2022-05-04 10:38:14:366 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-04 10:38:14:367 - info: connect sub redis : ["server_message"]
+2022-05-04 10:39:40:577 - error: {"aidx":5,"session":"22835498","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":100202002,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:39:40:578 - error: {"data":{},"cmd":408,"status":-1094}
+2022-05-04 10:39:40:578 - error: -1094
+2022-05-04 10:39:43:789 - error: {"aidx":5,"session":"22835498","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":100202002,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:39:43:790 - error: {"data":{},"cmd":408,"status":-1094}
+2022-05-04 10:39:43:790 - error: -1094
+2022-05-04 10:39:49:506 - error: {"aidx":5,"session":"22835498","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":100202002,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:39:49:507 - error: {"data":{},"cmd":408,"status":-1094}
+2022-05-04 10:39:49:507 - error: -1094
+2022-05-04 10:40:00:318 - error: {"aidx":5,"session":"32521917","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":100202002,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:40:00:318 - error: {"data":{},"cmd":408,"status":-1046}
+2022-05-04 10:40:00:318 - error: -1046
+2022-05-04 10:40:36:536 - error: {"aidx":5,"session":"32521917","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":100202002,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:40:36:536 - error: {"data":{},"cmd":408,"status":-1046}
+2022-05-04 10:40:36:536 - error: -1046
+2022-05-04 10:40:50:049 - error: {"aidx":5,"session":"32521917","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":100202002,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:40:50:049 - error: {"data":{},"cmd":408,"status":-1046}
+2022-05-04 10:40:50:049 - error: -1046
+2022-05-04 10:41:20:832 - error: {"aidx":5,"session":"32521917","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":100202002,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:41:20:832 - error: {"data":{},"cmd":408,"status":-1046}
+2022-05-04 10:41:20:832 - error: -1046

@@ -1,0 +1,46 @@
+2022-01-20 11:49:52:972 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-20 11:49:52:978 - info: connect sub redis : ["server_message"]
+2022-01-20 11:49:52:979 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-20 11:49:52:982 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-20 11:49:52:985 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-20 11:49:52:986 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-20 11:49:52:986 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-20 11:49:53:001 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-20 11:49:53:024 - info: load achievement reference table success !!
+2022-01-20 11:49:53:030 - info: load character reference table success !!
+2022-01-20 11:49:53:055 - info: load collection reference table success !!
+2022-01-20 11:49:53:063 - info: load daily attendance reference table success !!
+2022-01-20 11:49:53:123 - info: load item reference table success !!
+2022-01-20 11:49:53:133 - info: load open world reference table success !!
+2022-01-20 11:49:53:140 - info: load payment reference table success !!
+2022-01-20 11:49:53:147 - info: load play world reference table success !!
+2022-01-20 11:49:53:154 - info: load ranking reward reference table success !!
+2022-01-20 11:49:53:180 - info: load reward reference table success !!
+2022-01-20 11:49:53:188 - info: load reward_fishing reference table success !!
+2022-01-20 11:49:53:196 - info: load system shop reference table success !!
+2022-01-20 11:49:53:604 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-20 11:49:53:604 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-20 11:49:53:604 - info: packet status : packet status not recorded yet.
+2022-01-20 11:49:58:143 - error: db_query error : {"code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'name' at row 1","sqlState":"22001","index":0,"sql":"insert into dat_account (idx, name, dbno, login_id, login_type, os_type, sel_avt_idx, avt_reg_cnt, world_reg_cnt, preset_reg_cnt, uuid, login_dt, block_dt, reg_dt)  values (null, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9', 0, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9', 1, 1,  0, 1, 0, 5, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9',now(), now(), now());"}
+2022-01-20 11:49:58:143 - error: error cmd : 101 , err: {"code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'name' at row 1","sqlState":"22001","index":0,"sql":"insert into dat_account (idx, name, dbno, login_id, login_type, os_type, sel_avt_idx, avt_reg_cnt, world_reg_cnt, preset_reg_cnt, uuid, login_dt, block_dt, reg_dt)  values (null, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9', 0, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9', 1, 1,  0, 1, 0, 5, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9',now(), now(), now());"}
+2022-01-20 11:49:58:143 - error: {"login_id":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","version":"0.18.1","uuid":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","os_type":1,"login_type":1,"name":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","cmd":101,"aidx":0,"session":""}
+2022-01-20 11:49:58:143 - error: {"data":{},"cmd":102,"status":-103}
+2022-01-20 11:49:58:144 - error: -103
+2022-01-20 11:50:19:332 - error: {"login_id":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","uuid":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","version":"0.18.1","os_type":1,"login_type":1,"cmd":103,"aidx":0,"session":""}
+2022-01-20 11:50:19:333 - error: {"data":{"server_info":{"version":"0.18.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642647018,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-20 11:50:19:333 - error: -1023
+2022-01-20 11:54:15:365 - error: db_query error : {"code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'name' at row 1","sqlState":"22001","index":0,"sql":"insert into dat_account (idx, name, dbno, login_id, login_type, os_type, sel_avt_idx, avt_reg_cnt, world_reg_cnt, preset_reg_cnt, uuid, login_dt, block_dt, reg_dt)  values (null, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9', 0, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9', 1, 1,  0, 1, 0, 5, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9',now(), now(), now());"}
+2022-01-20 11:54:19:472 - error: error cmd : 101 , err: {"code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'name' at row 1","sqlState":"22001","index":0,"sql":"insert into dat_account (idx, name, dbno, login_id, login_type, os_type, sel_avt_idx, avt_reg_cnt, world_reg_cnt, preset_reg_cnt, uuid, login_dt, block_dt, reg_dt)  values (null, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9', 0, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9', 1, 1,  0, 1, 0, 5, 'fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9',now(), now(), now());"}
+2022-01-20 11:54:19:472 - error: {"login_id":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","version":"0.18.1","uuid":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","os_type":1,"login_type":1,"name":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","cmd":101,"aidx":0,"session":""}
+2022-01-20 11:54:19:472 - error: {"data":{},"cmd":102,"status":-103}
+2022-01-20 11:54:19:472 - error: -103
+2022-01-20 11:54:53:013 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-20 11:54:53:013 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-20 11:54:53:013 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-20 11:54:53:013 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-20 11:54:53:614 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":2,"total":236,"max":236,"min":0,"average":118},"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-01-20 11:59:03:498 - error: db_query error : {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlMessage":"Field 'user_no' doesn't have a default value","sqlState":"HY000","index":0,"sql":"insert into dat_account (idx, name, dbno, login_id, login_type, os_type, sel_avt_idx, avt_reg_cnt, world_reg_cnt, preset_reg_cnt, uuid, login_dt, block_dt, reg_dt)  values (null, 'woongda3', 0, '434d6cc6be23225181e300f31c2e32b1cbb0ad2329d54b637a54e54f014dda7c', 1, 1,  0, 1, 0, 5, 'woongda3',now(), now(), now());"}
+2022-01-20 11:59:03:498 - error: error cmd : 101 , err: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlMessage":"Field 'user_no' doesn't have a default value","sqlState":"HY000","index":0,"sql":"insert into dat_account (idx, name, dbno, login_id, login_type, os_type, sel_avt_idx, avt_reg_cnt, world_reg_cnt, preset_reg_cnt, uuid, login_dt, block_dt, reg_dt)  values (null, 'woongda3', 0, '434d6cc6be23225181e300f31c2e32b1cbb0ad2329d54b637a54e54f014dda7c', 1, 1,  0, 1, 0, 5, 'woongda3',now(), now(), now());"}
+2022-01-20 11:59:03:498 - error: {"login_id":"434d6cc6be23225181e300f31c2e32b1cbb0ad2329d54b637a54e54f014dda7c","version":"0.18.1","uuid":"woongda3","os_type":1,"login_type":1,"name":"woongda3","cmd":101,"user_no":"woongda3","aidx":0,"session":""}
+2022-01-20 11:59:03:498 - error: {"data":{},"cmd":102,"status":-103}
+2022-01-20 11:59:03:499 - error: -103

@@ -1,0 +1,31 @@
+2022-06-13 16:01:51:584 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-13 16:01:51:591 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-06-13 16:01:51:592 - info: connect sub redis : ["server_message"]
+2022-06-13 16:01:51:595 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-06-13 16:01:51:599 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-06-13 16:01:51:599 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-06-13 16:01:51:600 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-06-13 16:01:51:616 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-06-13 16:01:51:639 - info: load achievement reference table success !!
+2022-06-13 16:01:51:646 - info: load character reference table success !!
+2022-06-13 16:01:51:672 - info: load collection reference table success !!
+2022-06-13 16:01:51:680 - info: load daily attendance reference table success !!
+2022-06-13 16:01:51:689 - info: load system shop reference table success !!
+2022-06-13 16:01:51:772 - info: load item reference table success !!
+2022-06-13 16:01:51:781 - info: load open world reference table success !!
+2022-06-13 16:01:51:790 - info: load payment reference table success !!
+2022-06-13 16:01:51:807 - info: load play rank group reference table success !!
+2022-06-13 16:01:51:814 - info: load play world reference table success !!
+2022-06-13 16:01:51:821 - info: load ranking reward reference table success !!
+2022-06-13 16:01:51:847 - info: load reward reference table success !!
+2022-06-13 16:01:51:859 - info: load reward_fishing reference table success !!
+2022-06-13 16:01:51:870 - info: load system shop reference table success !!
+2022-06-13 16:01:52:178 - info: 서버가 시작되었습니다. [port:8080]
+2022-06-13 16:01:52:179 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-06-13 16:01:52:179 - info: packet status : packet status not recorded yet.
+2022-06-13 16:02:23:039 - error: error cmd : 361 , err: TypeError: Cannot read property 'add' of undefined
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\schedule\world_join_log_record.js:18:13)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-06-13 16:02:23:040 - error: {"aidx":108,"session":"38810832","_type":1,"param_idx":1,"cmd":361,"client_ip":"127.0.0.1"}
+2022-06-13 16:02:23:040 - error: {"data":{},"cmd":362,"status":-103}
+2022-06-13 16:02:23:040 - error: -103

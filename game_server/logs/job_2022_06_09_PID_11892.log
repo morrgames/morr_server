@@ -1,0 +1,31 @@
+2022-06-09 11:17:18:854 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-09 11:17:18:860 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-06-09 11:17:18:867 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-06-09 11:17:18:874 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-06-09 11:17:18:874 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-06-09 11:17:18:874 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-06-09 11:17:18:892 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-06-09 11:17:18:914 - info: load achievement reference table success !!
+2022-06-09 11:17:18:922 - info: load character reference table success !!
+2022-06-09 11:17:18:949 - info: load collection reference table success !!
+2022-06-09 11:17:18:957 - info: load daily attendance reference table success !!
+2022-06-09 11:17:18:964 - info: load system shop reference table success !!
+2022-06-09 11:17:19:032 - info: load item reference table success !!
+2022-06-09 11:17:19:041 - info: load open world reference table success !!
+2022-06-09 11:17:19:049 - info: load payment reference table success !!
+2022-06-09 11:17:19:067 - info: load play rank group reference table success !!
+2022-06-09 11:17:19:075 - info: load play world reference table success !!
+2022-06-09 11:17:19:083 - info: load ranking reward reference table success !!
+2022-06-09 11:17:19:112 - info: load reward reference table success !!
+2022-06-09 11:17:19:121 - info: load reward_fishing reference table success !!
+2022-06-09 11:17:19:128 - info: load system shop reference table success !!
+2022-06-09 11:17:19:218 - error: db_query error : {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column 'ignore_contry' in 'field list'","sqlState":"42S22","index":0,"sql":"select idx, src_code, dest_code, ratio, tax_ratio, base_tax_item_code, base_tax_item_cnt, ignore_contry, _desc from _ser_coin_exchange;"}
+2022-06-09 11:17:19:219 - error: error : coin_exchange schedule , {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column 'ignore_contry' in 'field list'","sqlState":"42S22","index":0,"sql":"select idx, src_code, dest_code, ratio, tax_ratio, base_tax_item_code, base_tax_item_cnt, ignore_contry, _desc from _ser_coin_exchange;"}
+2022-06-09 11:17:19:241 - info: delete expire exchange item schedule success~~
+2022-06-09 11:17:19:252 - info: delete mail cnt = 0
+2022-06-09 11:17:19:253 - info: delete expire mail schedule success~~
+2022-06-09 11:17:19:285 - info: delete expire mail schedule success~~
+2022-06-09 11:17:19:296 - info: iocp junk room clear schedule success~~
+2022-06-09 11:17:19:327 - info: nft item cnt = 18
+2022-06-09 11:17:19:327 - info: nft item sync schedule success~~
+2022-06-09 11:17:19:685 - info: rank update success~~

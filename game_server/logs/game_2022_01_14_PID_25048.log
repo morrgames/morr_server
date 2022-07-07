@@ -1,0 +1,147 @@
+2022-01-14 11:56:43:157 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-14 11:56:43:163 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-14 11:56:43:164 - info: connect sub redis : ["server_message"]
+2022-01-14 11:56:43:168 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-14 11:56:43:172 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-14 11:56:43:172 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-14 11:56:43:172 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-14 11:56:43:194 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-14 11:56:43:219 - info: load achievement reference table success !!
+2022-01-14 11:56:43:226 - info: load character reference table success !!
+2022-01-14 11:56:43:249 - info: load collection reference table success !!
+2022-01-14 11:56:43:266 - info: load daily attendance reference table success !!
+2022-01-14 11:56:43:311 - info: load item reference table success !!
+2022-01-14 11:56:43:321 - info: load open world reference table success !!
+2022-01-14 11:56:43:328 - info: load payment reference table success !!
+2022-01-14 11:56:43:335 - info: load play world reference table success !!
+2022-01-14 11:56:43:342 - info: load ranking reward reference table success !!
+2022-01-14 11:56:43:368 - info: load reward reference table success !!
+2022-01-14 11:56:43:375 - info: load reward_fishing reference table success !!
+2022-01-14 11:56:43:382 - info: load system shop reference table success !!
+2022-01-14 11:56:43:816 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-14 11:56:43:816 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-14 11:56:43:817 - info: packet status : packet status not recorded yet.
+2022-01-14 11:56:43:863 - error: {"cmd":103,"login_id":"1642129003_0_25048_261390558","uuid":"1642129003_0_25048_261390558","version":"0.16.1","os_type":1,"login_type":1}
+2022-01-14 11:56:43:863 - error: {"data":{"server_info":{"version":"0.16.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642129003,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-14 11:56:43:863 - error: -1023
+2022-01-14 11:56:43:929 - error: null
+2022-01-14 11:56:43:977 - error: null
+2022-01-14 11:56:44:007 - error: null
+2022-01-14 11:56:44:027 - error: null
+2022-01-14 11:56:44:048 - error: null
+2022-01-14 11:56:44:079 - error: null
+2022-01-14 11:56:44:107 - error: null
+2022-01-14 11:56:44:141 - error: null
+2022-01-14 11:56:44:171 - error: null
+2022-01-14 11:56:44:197 - error: null
+2022-01-14 11:56:44:226 - error: {"cmd":317,"aidx":95,"session":"93489112","sell_item_list":[{"code":10101004,"count":1},{"code":11701063,"count":1},{"code":11701063,"count":1},{"code":11701063,"count":1}]}
+2022-01-14 11:56:44:226 - error: {"data":{},"cmd":318,"status":-1061}
+2022-01-14 11:56:44:226 - error: -1061
+2022-01-14 11:56:44:255 - error: {"cmd":319,"aidx":95,"session":"93489112","delete_item_list":[{"code":40901019,"value":10},{"code":100101020,"value":3}]}
+2022-01-14 11:56:44:256 - error: {"data":{},"cmd":320,"status":-1062}
+2022-01-14 11:56:44:256 - error: -1062
+2022-01-14 11:56:44:306 - error: null
+2022-01-14 11:56:44:332 - error: {"cmd":107,"aidx":95,"session":"93489112","avt_idx":28,"equip_list":[{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0}]}
+2022-01-14 11:56:44:332 - error: {"data":{},"cmd":108,"status":-1035}
+2022-01-14 11:56:44:332 - error: -1035
+2022-01-14 11:56:44:379 - error: null
+2022-01-14 11:56:44:414 - error: null
+2022-01-14 11:58:15:645 - error: {"cmd":311,"aidx":95,"session":"93489112","item_code":49900010,"seq":0}
+2022-01-14 11:58:15:646 - error: {"data":{},"cmd":312,"status":-112}
+2022-01-14 11:58:15:646 - error: -112
+2022-01-14 11:58:15:649 - error: logdb_connect error : {"code":"PROTOCOL_SEQUENCE_TIMEOUT","fatal":true,"timeout":10000}
+2022-01-14 11:58:15:657 - info: load achievement reference table success !!
+2022-01-14 11:58:15:663 - info: load character reference table success !!
+2022-01-14 11:58:15:682 - info: load collection reference table success !!
+2022-01-14 11:58:15:683 - error: null
+2022-01-14 11:58:15:687 - info: load daily attendance reference table success !!
+2022-01-14 11:58:15:735 - info: load item reference table success !!
+2022-01-14 11:58:15:743 - info: load open world reference table success !!
+2022-01-14 11:58:15:749 - info: load payment reference table success !!
+2022-01-14 11:58:15:753 - error: null
+2022-01-14 11:58:15:754 - info: load play world reference table success !!
+2022-01-14 11:58:15:762 - info: load ranking reward reference table success !!
+2022-01-14 11:58:15:773 - error: null
+2022-01-14 11:58:15:779 - info: load reward reference table success !!
+2022-01-14 11:58:15:782 - error: null
+2022-01-14 11:58:15:785 - info: load reward_fishing reference table success !!
+2022-01-14 11:58:15:790 - info: load system shop reference table success !!
+2022-01-14 11:58:15:790 - info: ref table reload success
+2022-01-14 11:58:15:794 - error: null
+2022-01-14 11:58:15:828 - error: null
+2022-01-14 11:58:15:843 - error: null
+2022-01-14 11:58:15:859 - error: null
+2022-01-14 11:58:15:874 - error: null
+2022-01-14 11:58:15:890 - error: null
+2022-01-14 11:58:15:905 - error: null
+2022-01-14 11:58:15:921 - error: null
+2022-01-14 11:58:15:936 - error: null
+2022-01-14 11:58:15:952 - error: null
+2022-01-14 11:58:15:967 - error: null
+2022-01-14 11:58:15:982 - error: null
+2022-01-14 11:58:15:998 - error: null
+2022-01-14 11:58:16:015 - error: null
+2022-01-14 11:58:16:031 - error: null
+2022-01-14 11:58:16:047 - error: null
+2022-01-14 11:58:16:063 - error: null
+2022-01-14 11:58:16:078 - error: null
+2022-01-14 11:58:16:094 - error: null
+2022-01-14 11:58:16:109 - error: null
+2022-01-14 11:58:16:125 - error: null
+2022-01-14 11:58:16:141 - error: null
+2022-01-14 11:58:16:156 - error: null
+2022-01-14 11:58:16:171 - error: null
+2022-01-14 11:58:16:187 - error: null
+2022-01-14 11:58:16:197 - error: null
+2022-01-14 11:58:16:214 - error: null
+2022-01-14 11:58:16:230 - error: null
+2022-01-14 11:58:16:245 - error: null
+2022-01-14 11:58:16:261 - error: null
+2022-01-14 11:58:16:265 - error: {"cmd":709,"aidx":95,"session":"93489112","collection_code":101010,"seq":6}
+2022-01-14 11:58:16:265 - error: {"data":{},"cmd":710,"status":-1078}
+2022-01-14 11:58:16:265 - error: -1078
+2022-01-14 11:58:16:296 - error: null
+2022-01-14 11:58:16:307 - error: null
+2022-01-14 11:58:16:323 - error: null
+2022-01-14 11:58:16:338 - error: null
+2022-01-14 11:58:16:356 - error: null
+2022-01-14 11:58:16:372 - error: null
+2022-01-14 11:58:16:376 - error: {"cmd":709,"aidx":95,"session":"93489112","collection_code":101004,"seq":6}
+2022-01-14 11:58:16:377 - error: {"data":{},"cmd":710,"status":-1078}
+2022-01-14 11:58:16:377 - error: -1078
+2022-01-14 11:58:16:399 - error: null
+2022-01-14 11:58:16:409 - error: null
+2022-01-14 11:58:16:425 - error: null
+2022-01-14 11:58:16:442 - error: null
+2022-01-14 11:58:16:458 - error: null
+2022-01-14 11:58:16:473 - error: null
+2022-01-14 11:58:16:478 - error: {"cmd":709,"aidx":95,"session":"93489112","collection_code":101003,"seq":6}
+2022-01-14 11:58:16:478 - error: {"data":{},"cmd":710,"status":-1078}
+2022-01-14 11:58:16:478 - error: -1078
+2022-01-14 11:58:16:500 - error: null
+2022-01-14 11:58:16:510 - error: null
+2022-01-14 11:58:16:526 - error: null
+2022-01-14 11:58:16:541 - error: null
+2022-01-14 11:58:16:557 - error: null
+2022-01-14 11:58:16:572 - error: null
+2022-01-14 11:58:16:576 - error: {"cmd":709,"aidx":95,"session":"93489112","collection_code":101013,"seq":6}
+2022-01-14 11:58:16:576 - error: {"data":{},"cmd":710,"status":-1078}
+2022-01-14 11:58:16:576 - error: -1078
+2022-01-14 11:58:16:599 - error: null
+2022-01-14 11:58:16:609 - error: null
+2022-01-14 11:58:16:625 - error: null
+2022-01-14 11:58:16:640 - error: null
+2022-01-14 11:58:16:655 - error: null
+2022-01-14 11:58:16:671 - error: null
+2022-01-14 11:58:16:676 - error: {"cmd":709,"aidx":95,"session":"93489112","collection_code":101007,"seq":6}
+2022-01-14 11:58:16:676 - error: {"data":{},"cmd":710,"status":-1078}
+2022-01-14 11:58:16:676 - error: -1078
+2022-01-14 11:58:16:704 - error: null
+2022-01-14 11:58:16:714 - error: null
+2022-01-14 11:58:16:729 - error: null
+2022-01-14 11:58:16:745 - error: null
+2022-01-14 11:58:16:761 - error: null
+2022-01-14 11:58:16:776 - error: null
+2022-01-14 11:58:16:780 - error: {"cmd":709,"aidx":95,"session":"93489112","collection_code":101016,"seq":6}
+2022-01-14 11:58:16:781 - error: {"data":{},"cmd":710,"status":-1078}
+2022-01-14 11:58:16:781 - error: -1078

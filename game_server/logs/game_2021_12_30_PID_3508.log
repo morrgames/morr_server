@@ -1,0 +1,25 @@
+2021-12-30 17:08:09:166 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-30 17:08:09:172 - info: connect sub redis : ["server_message"]
+2021-12-30 17:08:09:172 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-30 17:08:09:175 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-30 17:08:09:178 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-30 17:08:09:178 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-30 17:08:09:178 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-30 17:08:09:193 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-30 17:08:09:212 - info: load achievement reference table success !!
+2021-12-30 17:08:09:218 - info: load character reference table success !!
+2021-12-30 17:08:09:229 - info: load collection reference table success !!
+2021-12-30 17:08:09:235 - info: load daily attendance reference table success !!
+2021-12-30 17:08:09:278 - info: load item reference table success !!
+2021-12-30 17:08:09:288 - info: load open world reference table success !!
+2021-12-30 17:08:09:294 - info: load payment reference table success !!
+2021-12-30 17:08:09:300 - info: load play world reference table success !!
+2021-12-30 17:08:09:306 - info: load ranking reward reference table success !!
+2021-12-30 17:08:09:324 - info: load reward reference table success !!
+2021-12-30 17:08:09:330 - info: load reward_fishing reference table success !!
+2021-12-30 17:08:09:615 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-30 17:08:09:615 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-30 17:08:09:615 - info: packet status : packet status not recorded yet.
+2021-12-30 17:08:09:644 - error: {"cmd":103,"login_id":"woongda2","uuid":"woongda2","version":"0.9.1","os_type":1,"login_type":0}
+2021-12-30 17:08:09:644 - error: {"data":{"server_info":{"version":"0.9.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":" ","help_page":" ","time":1640851689,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2021-12-30 17:08:09:644 - error: -1023

@@ -1,0 +1,72 @@
+2022-04-28 13:36:06:271 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-04-28 13:36:06:280 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-04-28 13:36:06:284 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-04-28 13:36:06:284 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-04-28 13:36:06:284 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-04-28 13:36:06:301 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-04-28 13:36:06:324 - info: load achievement reference table success !!
+2022-04-28 13:36:06:331 - info: load character reference table success !!
+2022-04-28 13:36:06:358 - info: load collection reference table success !!
+2022-04-28 13:36:06:366 - info: load daily attendance reference table success !!
+2022-04-28 13:36:06:431 - info: load item reference table success !!
+2022-04-28 13:36:06:438 - info: load open world reference table success !!
+2022-04-28 13:36:06:446 - info: load payment reference table success !!
+2022-04-28 13:36:06:469 - info: load play rank group reference table success !!
+2022-04-28 13:36:06:476 - info: load play world reference table success !!
+2022-04-28 13:36:06:484 - info: load ranking reward reference table success !!
+2022-04-28 13:36:06:508 - info: load reward reference table success !!
+2022-04-28 13:36:06:516 - info: load reward_fishing reference table success !!
+2022-04-28 13:36:06:523 - info: load system shop reference table success !!
+2022-04-28 13:36:06:992 - info: 서버가 시작되었습니다. [port:8080]
+2022-04-28 13:36:06:993 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-04-28 13:36:06:993 - info: packet status : packet status not recorded yet.
+2022-04-28 13:36:26:812 - error: {"login_id":"4c99a567bee0d3283edf54c8adc612dedb3d8f3db5bc431cc70d9e745dc654a8","uuid":"bcabccc50464bbb78988d6d9809ad255bf75dd7ebf6c6fc7f85b25330af7a544","version":"1.1.0","os_type":1,"login_type":1,"cmd":103,"aidx":93,"session":"66090616","client_ip":"127.0.0.1"}
+2022-04-28 13:36:26:812 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://m.afreecatv.com/report/user/a/view/nBno/130404/szModel/web","help_page":"","time":1651120586,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:36:26:812 - error: -1023
+2022-04-28 13:36:27:599 - error: {"login_id":"4c99a567bee0d3283edf54c8adc612dedb3d8f3db5bc431cc70d9e745dc654a8","uuid":"bcabccc50464bbb78988d6d9809ad255bf75dd7ebf6c6fc7f85b25330af7a544","version":"1.1.0","os_type":1,"login_type":1,"cmd":103,"aidx":93,"session":"66090616","client_ip":"127.0.0.1"}
+2022-04-28 13:36:27:599 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://m.afreecatv.com/report/user/a/view/nBno/130404/szModel/web","help_page":"","time":1651120587,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:36:27:599 - error: -1023
+2022-04-28 13:36:06:277 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-04-28 13:36:06:278 - info: connect sub redis : ["server_message"]
+2022-04-28 13:37:18:560 - error: {"login_id":"4c99a567bee0d3283edf54c8adc612dedb3d8f3db5bc431cc70d9e745dc654a8","uuid":"bcabccc50464bbb78988d6d9809ad255bf75dd7ebf6c6fc7f85b25330af7a544","version":"1.1.0","os_type":1,"login_type":1,"cmd":103,"aidx":93,"session":"66090616","client_ip":"127.0.0.1"}
+2022-04-28 13:37:18:561 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://m.afreecatv.com/report/user/a/view/nBno/130404/szModel/web","help_page":"","time":1651120636,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:37:18:561 - error: -1023
+2022-04-28 13:38:34:187 - error: {"login_id":"4c99a567bee0d3283edf54c8adc612dedb3d8f3db5bc431cc70d9e745dc654a8","uuid":"bcabccc50464bbb78988d6d9809ad255bf75dd7ebf6c6fc7f85b25330af7a544","version":"1.1.0","os_type":1,"login_type":1,"cmd":103,"aidx":93,"session":"66090616","client_ip":"127.0.0.1"}
+2022-04-28 13:38:34:188 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://m.afreecatv.com/report/user/a/view/nBno/130404/szModel/web","help_page":"","time":1651120643,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:38:34:188 - error: -1023
+2022-04-28 13:38:34:863 - error: {"login_id":"4c99a567bee0d3283edf54c8adc612dedb3d8f3db5bc431cc70d9e745dc654a8","uuid":"bcabccc50464bbb78988d6d9809ad255bf75dd7ebf6c6fc7f85b25330af7a544","version":"1.1.0","os_type":3,"login_type":1,"cmd":103,"aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-04-28 13:38:34:864 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":" https://naver.com/","inspect_page":" https://afreecatv.com/","help_page":" ","time":1651120714,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:38:34:864 - error: -1023
+2022-04-28 13:40:38:761 - error: {"login_id":"f75bb59d441be08083db401633b46aa4786810b6691be3ed6be90d36a25af1af","uuid":"kw4ja","version":"1.1.0","os_type":3,"login_type":1,"cmd":103,"aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-04-28 13:40:38:761 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":" https://naver.com/","inspect_page":" https://afreecatv.com/","help_page":" ","time":1651120837,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:40:38:761 - error: -1023
+2022-04-28 13:40:48:361 - error: {"login_id":"f75bb59d441be08083db401633b46aa4786810b6691be3ed6be90d36a25af1af","uuid":"kw4ja","version":"1.1.0","os_type":3,"login_type":1,"cmd":103,"aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-04-28 13:40:48:361 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":" https://naver.com/","inspect_page":" https://afreecatv.com/","help_page":" ","time":1651120842,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:40:48:361 - error: -1023
+2022-04-28 13:41:06:642 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 1
+2022-04-28 13:41:06:643 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 13:41:06:643 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 13:41:06:643 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 13:41:06:647 - error: {"login_id":"a71502df3caf88c09e69d4e9e0302c8d26b031a907458a7f3939cc3fbe4c5dea","uuid":"lgu4821","version":"1.1.0","os_type":3,"login_type":1,"cmd":103,"aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-04-28 13:41:06:647 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":" https://naver.com/","inspect_page":" https://afreecatv.com/","help_page":" ","time":1651120863,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:41:06:648 - error: -1023
+2022-04-28 13:41:07:005 - info: packet status : {"103":{"cmd":103,"key":"login","call":8,"total":83,"max":71,"min":0,"average":10.375}}
+2022-04-28 13:41:26:864 - error: {"login_id":"a71502df3caf88c09e69d4e9e0302c8d26b031a907458a7f3939cc3fbe4c5dea","uuid":"lgu4821","version":"1.1.0","os_type":1,"login_type":1,"cmd":103,"aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-04-28 13:41:26:864 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://m.afreecatv.com/report/user/a/view/nBno/130404/szModel/web","help_page":"","time":1651120884,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-04-28 13:41:26:864 - error: -1023
+2022-04-28 13:45:18:666 - error: {"aidx":77,"session":"83659836","world_type":2,"target_obj":{"widx":491,"world_code":0},"add_item_list":[],"use_item_list":[{"code":170102016,"cnt":1}],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-04-28 13:45:18:667 - error: {"data":{},"cmd":408,"status":-1050}
+2022-04-28 13:45:18:667 - error: -1050
+2022-04-28 13:46:06:278 - info: sub: redis pong
+2022-04-28 13:46:06:279 - info: main: redis pong
+2022-04-28 13:46:06:281 - info: msg: redis pong
+2022-04-28 13:46:06:653 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-28 13:46:06:653 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-28 13:46:06:653 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 13:46:06:653 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-28 13:46:07:014 - info: packet status : {"103":{"cmd":103,"key":"login","call":10,"total":86,"max":71,"min":0,"average":8.6},"407":{"cmd":407,"key":"world_data_update","call":1,"total":110,"max":110,"min":0,"average":110}}
+2022-04-28 13:51:06:657 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-28 13:51:06:657 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-28 13:51:06:657 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 13:51:06:657 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-28 13:51:07:021 - info: packet status : {"103":{"cmd":103,"key":"login","call":10,"total":86,"max":71,"min":0,"average":8.6},"407":{"cmd":407,"key":"world_data_update","call":1,"total":110,"max":110,"min":0,"average":110}}

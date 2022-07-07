@@ -1,0 +1,24 @@
+2022-01-11 11:38:50:091 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-11 11:38:50:097 - info: connect sub redis : ["server_message"]
+2022-01-11 11:38:50:098 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-11 11:38:50:102 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-11 11:38:50:105 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-11 11:38:50:105 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-11 11:38:50:106 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-11 11:38:50:122 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-11 11:38:50:143 - info: load achievement reference table success !!
+2022-01-11 11:38:50:150 - info: load character reference table success !!
+2022-01-11 11:38:50:170 - info: load collection reference table success !!
+2022-01-11 11:38:50:178 - info: load daily attendance reference table success !!
+2022-01-11 11:38:50:234 - info: load item reference table success !!
+2022-01-11 11:38:50:246 - info: load open world reference table success !!
+2022-01-11 11:38:50:457 - info: load payment reference table success !!
+2022-01-11 11:38:50:465 - info: load play world reference table success !!
+2022-01-11 11:38:50:471 - info: load ranking reward reference table success !!
+2022-01-11 11:38:50:492 - info: load reward reference table success !!
+2022-01-11 11:38:50:499 - info: load reward_fishing reference table success !!
+2022-01-11 11:38:50:506 - info: load system shop reference table success !!
+2022-01-11 11:38:50:897 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-11 11:38:50:897 - info: try to start [freemeta game server] : http://127.0.0.1:30051
+2022-01-11 11:38:50:898 - info: packet status : packet status not recorded yet.
+2022-01-11 11:39:36:293 - error: db_query error : {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlMessage":"Column 'pgcode' cannot be null","sqlState":"23000","index":0,"sql":"insert into log_payment_aos values (null, 327, 189, 101005, 'freemeta04', 'freemeta04', '239108', '프리블록스', '메타벅스 1,000개', 'tpay_test-202201119386281', '9386280', 55200, '테스트카드', NULL, 'N', '', '00', '2022-01-11 11:08:31.000', '2022-01-11 11:39:34')"}

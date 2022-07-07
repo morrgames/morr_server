@@ -1,0 +1,10 @@
+2022-06-30 15:41:24:463 - info: main : redis-connect-database = 0 : 115.85.181.9:6379
+2022-06-30 15:41:24:467 - info: mysql morr_com com db init : 115.85.181.9:3306
+2022-06-30 15:41:24:467 - info: mysql morr_log log db init : 115.85.181.9:3306
+2022-06-30 15:41:24:467 - info: mysql morr_msg msg db init : 115.85.181.9:3306
+2022-06-30 15:41:24:468 - info: mysql morr_user user db init : 115.85.181.9:3306
+2022-06-30 15:41:24:486 - info: load character reference table success !!
+2022-06-30 15:41:24:502 - info: 서버가 시작되었습니다. [port:8080]
+2022-06-30 15:41:24:502 - info: try to start [morr game server] : http://127.0.0.1:8080
+2022-06-30 15:41:24:502 - info: packet status : packet status not recorded yet.
+2022-06-30 15:41:25:701 - error: parameter error : {"login_id":"woongda","uuid":"woongda","version":"1.0.0","os_type":1,"login_type":0,"cmd":103,"aidx":0,"session":"","client_ip":"127.0.0.1"}

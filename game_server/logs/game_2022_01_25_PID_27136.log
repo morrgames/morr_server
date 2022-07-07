@@ -1,0 +1,27 @@
+2022-01-25 11:20:27:234 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-25 11:20:27:244 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-25 11:20:27:249 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-25 11:20:27:249 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-25 11:20:27:249 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-25 11:20:27:264 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-25 11:20:27:286 - info: load achievement reference table success !!
+2022-01-25 11:20:27:293 - info: load character reference table success !!
+2022-01-25 11:20:27:318 - info: load collection reference table success !!
+2022-01-25 11:20:27:325 - info: load daily attendance reference table success !!
+2022-01-25 11:20:27:382 - info: load item reference table success !!
+2022-01-25 11:20:27:392 - info: load open world reference table success !!
+2022-01-25 11:20:27:399 - info: load payment reference table success !!
+2022-01-25 11:20:27:406 - info: load play world reference table success !!
+2022-01-25 11:20:27:413 - info: load ranking reward reference table success !!
+2022-01-25 11:20:27:432 - info: load reward reference table success !!
+2022-01-25 11:20:27:440 - info: load reward_fishing reference table success !!
+2022-01-25 11:20:27:447 - info: load system shop reference table success !!
+2022-01-25 11:20:27:945 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-25 11:20:27:945 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-25 11:20:27:946 - info: packet status : packet status not recorded yet.
+2022-01-25 11:20:31:023 - error: error cmd : 709 , err: ReplyError: ERR wrong number of arguments for 'hget' command
+    at parseError (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\redis-parser\lib\parser.js:179:12)
+    at parseType (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\redis-parser\lib\parser.js:302:14)
+2022-01-25 11:20:31:023 - error: {"aidx":2,"session":"73694503","collection_code":101001,"seq":2,"cmd":709}
+2022-01-25 11:20:31:024 - error: {"data":{},"cmd":710,"status":-103}
+2022-01-25 11:20:31:024 - error: -103

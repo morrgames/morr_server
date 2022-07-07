@@ -1,0 +1,68 @@
+{
+  // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+  // 기존 특성에 대한 설명을 보려면 가리킵니다.
+  // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "game",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/game.js",
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "match",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/match.js",
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "job",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/job.js",
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std"
+    },
+    {
+      "type": "pwa-node",
+      "request": "attach",
+      "name": "ATTACH DEV",
+      "address": "49.50.172.145",
+      "port": 11009,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/data/server/game_server"
+    },
+    {
+      "type": "pwa-node",
+      "request": "attach",
+      "name": "ATTACH QA",
+      "address": "115.85.182.180",
+      "port": 11009,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/data/server/game_server"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "patch",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${file}",
+      "cwd": "${workspaceFolder}",
+      "outputCapture": "std"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "all",
+      "configurations": ["game", "match"]
+    }
+  ]
+}

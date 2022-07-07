@@ -1,0 +1,69 @@
+2022-04-28 16:52:31:784 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-04-28 16:52:31:791 - info: connect sub redis : ["server_message"]
+2022-04-28 16:52:31:794 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-04-28 16:52:31:799 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-04-28 16:52:31:799 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-04-28 16:52:31:799 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-04-28 16:52:31:815 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-04-28 16:52:31:840 - info: load achievement reference table success !!
+2022-04-28 16:52:31:847 - info: load character reference table success !!
+2022-04-28 16:52:31:873 - info: load collection reference table success !!
+2022-04-28 16:52:31:880 - info: load daily attendance reference table success !!
+2022-04-28 16:52:31:945 - info: load item reference table success !!
+2022-04-28 16:52:31:952 - info: load open world reference table success !!
+2022-04-28 16:52:31:963 - info: load payment reference table success !!
+2022-04-28 16:52:31:981 - info: load play rank group reference table success !!
+2022-04-28 16:52:31:989 - info: load play world reference table success !!
+2022-04-28 16:52:31:996 - info: load ranking reward reference table success !!
+2022-04-28 16:52:32:025 - info: load reward reference table success !!
+2022-04-28 16:52:32:033 - info: load reward_fishing reference table success !!
+2022-04-28 16:52:32:041 - info: load system shop reference table success !!
+2022-04-28 16:52:32:649 - info: 서버가 시작되었습니다. [port:8080]
+2022-04-28 16:52:32:650 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-04-28 16:52:32:650 - info: packet status : packet status not recorded yet.
+2022-04-28 16:52:46:337 - error: {"aidx":5,"session":"30860504","sale_item_code":0,"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":13,"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:52:46:337 - error: {"data":{},"cmd":334,"status":-1104}
+2022-04-28 16:52:46:337 - error: -1104
+2022-04-28 16:52:31:790 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-04-28 16:53:45:852 - error: {"aidx":5,"session":"30860504","sale_item_code":0,"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":[13],"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:53:45:852 - error: {"data":{},"cmd":334,"status":-1069}
+2022-04-28 16:53:45:852 - error: -1069
+2022-04-28 16:53:47:196 - error: {"aidx":5,"session":"30860504","sale_item_code":[0],"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":[13],"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:53:47:196 - error: {"data":{},"cmd":334,"status":-1102}
+2022-04-28 16:53:47:196 - error: -1102
+2022-04-28 16:53:47:835 - error: {"aidx":5,"session":"30860504","sale_item_code":[0],"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":[13],"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:53:47:836 - error: {"data":{},"cmd":334,"status":-1102}
+2022-04-28 16:53:47:836 - error: -1102
+2022-04-28 16:53:48:826 - error: {"aidx":5,"session":"30860504","sale_item_code":[0],"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":[13],"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:53:48:826 - error: {"data":{},"cmd":334,"status":-1102}
+2022-04-28 16:53:48:826 - error: -1102
+2022-04-28 16:54:47:946 - error: {"aidx":5,"session":"30860504","sale_item_code":0,"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":13,"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:54:47:947 - error: {"data":{},"cmd":334,"status":-1104}
+2022-04-28 16:54:47:947 - error: -1104
+2022-04-28 16:55:00:975 - error: {"aidx":5,"session":"30860504","sale_item_code":0,"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":14,"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:55:00:975 - error: {"data":{},"cmd":334,"status":-1104}
+2022-04-28 16:55:00:975 - error: -1104
+2022-04-28 16:55:27:965 - error: {"aidx":5,"session":"30860504","sale_item_code":0,"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":11,"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:55:27:965 - error: {"data":{},"cmd":334,"status":-1021}
+2022-04-28 16:55:27:966 - error: -1021
+2022-04-28 16:56:53:276 - error: {"aidx":5,"session":"30860504","sale_item_code":0,"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":11,"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:56:53:277 - error: {"data":{},"cmd":334,"status":-1021}
+2022-04-28 16:56:53:277 - error: -1021
+2022-04-28 16:57:31:816 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-28 16:57:31:816 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 16:57:31:816 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-28 16:57:31:816 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 16:57:32:660 - info: packet status : {"333":{"cmd":333,"key":"exchange_insert","call":9,"total":155,"max":58,"min":0,"average":17.22222222222222}}
+2022-04-28 17:02:31:792 - info: sub: redis pong
+2022-04-28 17:02:31:792 - info: main: redis pong
+2022-04-28 17:02:31:792 - info: msg: redis pong
+2022-04-28 17:02:31:819 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-28 17:02:31:819 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 17:02:31:819 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-28 17:02:31:819 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 17:02:32:664 - info: packet status : {"333":{"cmd":333,"key":"exchange_insert","call":9,"total":155,"max":58,"min":0,"average":17.22222222222222}}
+2022-04-28 17:07:31:821 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-28 17:07:31:821 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 17:07:31:821 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-28 17:07:31:822 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-28 17:07:32:666 - info: packet status : {"333":{"cmd":333,"key":"exchange_insert","call":9,"total":155,"max":58,"min":0,"average":17.22222222222222}}

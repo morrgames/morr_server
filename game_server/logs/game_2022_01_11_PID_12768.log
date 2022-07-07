@@ -1,0 +1,36 @@
+2022-01-11 11:29:13:666 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-11 11:29:13:672 - info: connect sub redis : ["server_message"]
+2022-01-11 11:29:14:678 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-11 11:29:14:682 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-11 11:29:14:685 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-11 11:29:14:685 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-11 11:29:14:685 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-11 11:29:14:700 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-11 11:29:14:722 - info: load achievement reference table success !!
+2022-01-11 11:29:14:728 - info: load character reference table success !!
+2022-01-11 11:29:14:748 - info: load collection reference table success !!
+2022-01-11 11:29:14:756 - info: load daily attendance reference table success !!
+2022-01-11 11:29:14:799 - info: load item reference table success !!
+2022-01-11 11:29:14:807 - info: load open world reference table success !!
+2022-01-11 11:29:14:814 - info: load payment reference table success !!
+2022-01-11 11:29:14:821 - info: load play world reference table success !!
+2022-01-11 11:29:14:829 - info: load ranking reward reference table success !!
+2022-01-11 11:29:14:845 - info: load reward reference table success !!
+2022-01-11 11:29:14:853 - info: load reward_fishing reference table success !!
+2022-01-11 11:29:14:859 - info: load system shop reference table success !!
+2022-01-11 11:29:15:189 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-11 11:29:15:189 - info: try to start [freemeta game server] : http://127.0.0.1:30051
+2022-01-11 11:29:15:189 - info: packet status : packet status not recorded yet.
+2022-01-11 11:29:19:053 - error: {"login_id":"44541569","uuid":"44541569","version":"0.10.1","os_type":1,"login_type":1,"cmd":103,"aidx":0,"session":""}
+2022-01-11 11:29:19:053 - error: {"data":{"server_info":{"version":"0.11.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1641868159,"timezone_offset":-32400}},"cmd":104,"status":-201}
+2022-01-11 11:29:19:054 - error: -201
+2022-01-11 11:29:20:486 - error: {"login_id":"44541569","uuid":"44541569","version":"0.10.1","os_type":1,"login_type":1,"cmd":103,"aidx":0,"session":""}
+2022-01-11 11:29:20:487 - error: {"data":{"server_info":{"version":"0.11.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1641868160,"timezone_offset":-32400}},"cmd":104,"status":-201}
+2022-01-11 11:29:20:487 - error: -201
+2022-01-11 11:30:27:487 - error: db_query error : {"code":"ER_WRONG_VALUE_COUNT_ON_ROW","errno":1136,"sqlMessage":"Column count doesn't match value count at row 1","sqlState":"21S01","index":0,"sql":"insert into log_payment_aos values (null, 327, 189, 101005, 'freemeta04', 'freemeta04', '239108', '프리블록스', '메타벅스 1,000개', 'tpay_test-202201119386281', '9386280', 55200, '테스트카드', NULL, 'N', '', '00', '2022-01-11 11:08:31.000', '2022-01-11 11:30:26')"}
+2022-01-11 11:34:14:696 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-11 11:34:14:696 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-11 11:34:14:696 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-11 11:34:14:696 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-11 11:34:15:193 - info: packet status : {"103":{"cmd":103,"key":"login","call":4,"total":1,"max":1,"min":0,"average":0.25},"327":{"cmd":327,"key":"payment_reward","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-01-11 11:37:15:170 - error: db_query error : {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlMessage":"Column 'pgcode' cannot be null","sqlState":"23000","index":0,"sql":"insert into log_payment_aos values (null, 327, 189, 101005, 'freemeta04', 'freemeta04', '239108', '프리블록스', '메타벅스 1,000개', 'tpay_test-202201119386281', '9386280', 55200, '테스트카드', NULL, 'N', '', '00', '2022-01-11 11:08:31.000', '2022-01-11 11:37:13')"}

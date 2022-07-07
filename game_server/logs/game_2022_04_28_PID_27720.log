@@ -1,0 +1,27 @@
+2022-04-28 16:48:48:204 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-04-28 16:48:48:211 - info: connect sub redis : ["server_message"]
+2022-04-28 16:48:48:214 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-04-28 16:48:48:219 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-04-28 16:48:48:219 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-04-28 16:48:48:219 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-04-28 16:48:48:237 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-04-28 16:48:48:261 - info: load achievement reference table success !!
+2022-04-28 16:48:48:269 - info: load character reference table success !!
+2022-04-28 16:48:48:299 - info: load collection reference table success !!
+2022-04-28 16:48:48:309 - info: load daily attendance reference table success !!
+2022-04-28 16:48:48:374 - info: load item reference table success !!
+2022-04-28 16:48:48:382 - info: load open world reference table success !!
+2022-04-28 16:48:48:390 - info: load payment reference table success !!
+2022-04-28 16:48:48:407 - info: load play rank group reference table success !!
+2022-04-28 16:48:48:415 - info: load play world reference table success !!
+2022-04-28 16:48:48:424 - info: load ranking reward reference table success !!
+2022-04-28 16:48:48:454 - info: load reward reference table success !!
+2022-04-28 16:48:48:463 - info: load reward_fishing reference table success !!
+2022-04-28 16:48:48:471 - info: load system shop reference table success !!
+2022-04-28 16:48:49:106 - info: 서버가 시작되었습니다. [port:8080]
+2022-04-28 16:48:49:108 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-04-28 16:48:49:109 - info: packet status : packet status not recorded yet.
+2022-04-28 16:48:48:210 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-04-28 16:50:41:968 - error: {"aidx":5,"session":"30860504","sale_item_code":0,"sale_item_cnt":0,"sale_item_name":"바디02","sale_item_iidx":[13],"sale_price":11000,"search_h_type":1,"search_l_type":3,"expire_type":2,"money_code":2,"cmd":333,"client_ip":"127.0.0.1"}
+2022-04-28 16:50:41:968 - error: {"data":{},"cmd":334,"status":-1104}
+2022-04-28 16:50:41:969 - error: -1104

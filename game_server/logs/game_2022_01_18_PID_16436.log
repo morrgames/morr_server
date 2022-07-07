@@ -1,0 +1,175 @@
+2022-01-18 13:38:01:355 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-18 13:38:01:360 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-18 13:38:01:361 - info: connect sub redis : ["server_message"]
+2022-01-18 13:38:01:364 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-18 13:38:01:370 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-18 13:38:01:370 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-18 13:38:01:370 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-18 13:38:01:386 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-18 13:38:01:410 - info: load achievement reference table success !!
+2022-01-18 13:38:01:417 - info: load character reference table success !!
+2022-01-18 13:38:01:440 - info: load collection reference table success !!
+2022-01-18 13:38:01:447 - info: load daily attendance reference table success !!
+2022-01-18 13:38:01:499 - info: load item reference table success !!
+2022-01-18 13:38:01:508 - info: load open world reference table success !!
+2022-01-18 13:38:01:515 - info: load payment reference table success !!
+2022-01-18 13:38:01:521 - info: load play world reference table success !!
+2022-01-18 13:38:01:527 - info: load ranking reward reference table success !!
+2022-01-18 13:38:01:550 - info: load reward reference table success !!
+2022-01-18 13:38:01:558 - info: load reward_fishing reference table success !!
+2022-01-18 13:38:01:564 - info: load system shop reference table success !!
+2022-01-18 13:38:02:136 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-18 13:38:02:137 - info: try to start [freemeta game server] : http://127.0.0.1:30051
+2022-01-18 13:38:02:137 - info: packet status : packet status not recorded yet.
+2022-01-18 13:38:21:042 - error: {"login_id":"woongda","version":"0.17.1","uuid":"woongda","os_type":1,"login_type":1,"name":"woongda","cmd":101,"aidx":0,"session":""}
+2022-01-18 13:38:21:042 - error: {"data":{"server_info":{"version":"0.17.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642480701,"timezone_offset":-32400}},"cmd":102,"status":-1024}
+2022-01-18 13:38:21:042 - error: -1024
+2022-01-18 13:43:00:993 - error: {"aidx":5,"session":"28426113","avt_code":10000,"equip_list":[10101002,0,0,0,0,0,0,0,10201002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"cmd":105}
+2022-01-18 13:43:00:993 - error: {"data":{},"cmd":106,"status":-110}
+2022-01-18 13:43:00:993 - error: -110
+2022-01-18 13:43:01:393 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 13:43:01:394 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:43:01:394 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:43:01:394 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:43:02:147 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-01-18 13:43:18:000 - error: {"aidx":5,"session":"19547043","avt_code":10000,"equip_list":[10101002,0,0,0,0,0,0,0,10201002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"cmd":105}
+2022-01-18 13:43:18:000 - error: {"data":{},"cmd":106,"status":-1035}
+2022-01-18 13:43:18:000 - error: -1035
+2022-01-18 13:48:01:363 - info: main: redis pong
+2022-01-18 13:48:01:363 - info: sub: redis pong
+2022-01-18 13:48:01:366 - info: msg: redis pong
+2022-01-18 13:48:01:405 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 13:48:01:405 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:48:01:405 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:48:01:405 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:48:02:156 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}
+2022-01-18 13:49:15:116 - info: load achievement reference table success !!
+2022-01-18 13:49:15:131 - info: load character reference table success !!
+2022-01-18 13:49:15:145 - info: load collection reference table success !!
+2022-01-18 13:49:15:152 - info: load daily attendance reference table success !!
+2022-01-18 13:49:15:213 - info: load item reference table success !!
+2022-01-18 13:49:15:223 - info: load open world reference table success !!
+2022-01-18 13:49:15:229 - info: load payment reference table success !!
+2022-01-18 13:49:15:234 - info: load play world reference table success !!
+2022-01-18 13:49:15:239 - info: load ranking reward reference table success !!
+2022-01-18 13:49:15:259 - info: load reward reference table success !!
+2022-01-18 13:49:15:267 - info: load reward_fishing reference table success !!
+2022-01-18 13:49:15:274 - info: load system shop reference table success !!
+2022-01-18 13:49:15:274 - info: ref table reload success
+2022-01-18 13:50:55:767 - info: load achievement reference table success !!
+2022-01-18 13:50:55:778 - info: load character reference table success !!
+2022-01-18 13:50:55:783 - info: load collection reference table success !!
+2022-01-18 13:50:55:796 - info: load daily attendance reference table success !!
+2022-01-18 13:50:55:851 - info: load item reference table success !!
+2022-01-18 13:50:55:874 - info: load open world reference table success !!
+2022-01-18 13:50:55:883 - info: load payment reference table success !!
+2022-01-18 13:50:55:888 - info: load play world reference table success !!
+2022-01-18 13:50:55:895 - info: load ranking reward reference table success !!
+2022-01-18 13:50:55:919 - info: load reward reference table success !!
+2022-01-18 13:50:55:924 - info: load reward_fishing reference table success !!
+2022-01-18 13:50:55:929 - info: load system shop reference table success !!
+2022-01-18 13:50:55:929 - info: ref table reload success
+2022-01-18 13:53:01:408 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 13:53:01:408 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:53:01:408 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:53:01:409 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:53:02:158 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}
+2022-01-18 13:58:01:352 - info: main: redis pong
+2022-01-18 13:58:01:352 - info: sub: redis pong
+2022-01-18 13:58:01:352 - info: msg: redis pong
+2022-01-18 13:58:01:411 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 13:58:01:411 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:58:01:411 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:58:01:411 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 13:58:02:167 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}
+2022-01-18 14:03:01:406 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 14:03:01:406 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:03:01:406 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:03:01:406 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:03:02:175 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}
+2022-01-18 14:08:01:358 - info: main: redis pong
+2022-01-18 14:08:01:358 - info: sub: redis pong
+2022-01-18 14:08:01:358 - info: msg: redis pong
+2022-01-18 14:08:01:415 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 14:08:01:415 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:08:01:415 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:08:01:415 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:08:02:186 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}
+2022-01-18 14:13:01:418 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 14:13:01:418 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:13:01:418 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:13:01:419 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:13:02:198 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}
+2022-01-18 14:18:01:359 - info: main: redis pong
+2022-01-18 14:18:01:360 - info: sub: redis pong
+2022-01-18 14:18:01:417 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 14:18:01:417 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:18:01:417 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:18:01:418 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:18:02:197 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}
+2022-01-18 14:18:01:361 - info: msg: redis pong
+2022-01-18 14:20:18:369 - info: load achievement reference table success !!
+2022-01-18 14:20:18:374 - info: load character reference table success !!
+2022-01-18 14:20:18:380 - info: load collection reference table success !!
+2022-01-18 14:20:18:386 - info: load daily attendance reference table success !!
+2022-01-18 14:20:18:392 - info: load item reference table success !!
+2022-01-18 14:20:18:399 - info: load open world reference table success !!
+2022-01-18 14:20:18:405 - info: load payment reference table success !!
+2022-01-18 14:20:18:410 - info: load play world reference table success !!
+2022-01-18 14:20:18:417 - info: load ranking reward reference table success !!
+2022-01-18 14:20:18:422 - info: load reward reference table success !!
+2022-01-18 14:20:18:429 - info: load reward_fishing reference table success !!
+2022-01-18 14:20:18:434 - info: load system shop reference table success !!
+2022-01-18 14:20:18:434 - info: ref table reload success
+2022-01-18 14:20:33:059 - info: load achievement reference table success !!
+2022-01-18 14:20:33:064 - info: load character reference table success !!
+2022-01-18 14:20:33:085 - info: load collection reference table success !!
+2022-01-18 14:20:33:090 - info: load daily attendance reference table success !!
+2022-01-18 14:20:33:095 - info: load item reference table success !!
+2022-01-18 14:20:33:103 - info: load open world reference table success !!
+2022-01-18 14:20:33:108 - info: load payment reference table success !!
+2022-01-18 14:20:33:113 - info: load play world reference table success !!
+2022-01-18 14:20:33:118 - info: load ranking reward reference table success !!
+2022-01-18 14:20:33:123 - info: load reward reference table success !!
+2022-01-18 14:20:33:129 - info: load reward_fishing reference table success !!
+2022-01-18 14:20:33:134 - info: load system shop reference table success !!
+2022-01-18 14:20:33:134 - info: ref table reload success
+2022-01-18 14:21:01:213 - info: load achievement reference table success !!
+2022-01-18 14:21:01:219 - info: load character reference table success !!
+2022-01-18 14:21:01:235 - info: load collection reference table success !!
+2022-01-18 14:21:01:241 - info: load daily attendance reference table success !!
+2022-01-18 14:21:01:247 - info: load item reference table success !!
+2022-01-18 14:21:01:256 - info: load open world reference table success !!
+2022-01-18 14:21:01:261 - info: load payment reference table success !!
+2022-01-18 14:21:01:266 - info: load play world reference table success !!
+2022-01-18 14:21:01:272 - info: load ranking reward reference table success !!
+2022-01-18 14:21:01:276 - info: load reward reference table success !!
+2022-01-18 14:21:01:282 - info: load reward_fishing reference table success !!
+2022-01-18 14:21:01:287 - info: load system shop reference table success !!
+2022-01-18 14:21:01:287 - info: ref table reload success
+2022-01-18 14:21:12:682 - info: load achievement reference table success !!
+2022-01-18 14:21:12:689 - info: load character reference table success !!
+2022-01-18 14:21:12:703 - info: load collection reference table success !!
+2022-01-18 14:21:12:708 - info: load daily attendance reference table success !!
+2022-01-18 14:21:12:714 - info: load item reference table success !!
+2022-01-18 14:21:12:721 - info: load open world reference table success !!
+2022-01-18 14:21:12:727 - info: load payment reference table success !!
+2022-01-18 14:21:12:731 - info: load play world reference table success !!
+2022-01-18 14:21:12:737 - info: load ranking reward reference table success !!
+2022-01-18 14:21:12:758 - info: load reward reference table success !!
+2022-01-18 14:21:12:764 - info: load reward_fishing reference table success !!
+2022-01-18 14:21:12:769 - info: load system shop reference table success !!
+2022-01-18 14:21:12:769 - info: ref table reload success
+2022-01-18 14:23:01:421 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 14:23:01:421 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:23:01:421 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:23:01:421 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:23:02:203 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}
+2022-01-18 14:28:01:355 - info: sub: redis pong
+2022-01-18 14:28:01:355 - info: main: redis pong
+2022-01-18 14:28:01:355 - info: msg: redis pong
+2022-01-18 14:28:01:427 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-18 14:28:01:427 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:28:01:427 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:28:01:427 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-18 14:28:02:198 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":1,"max":1,"min":0,"average":0.5}}

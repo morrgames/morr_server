@@ -1,0 +1,30 @@
+2022-05-02 13:24:26:361 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-02 13:24:26:367 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-02 13:24:26:368 - info: connect sub redis : ["server_message"]
+2022-05-02 13:24:26:371 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-02 13:24:26:377 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-02 13:24:26:377 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-02 13:24:26:377 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-02 13:24:26:393 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-02 13:24:26:421 - info: load achievement reference table success !!
+2022-05-02 13:24:26:429 - info: load character reference table success !!
+2022-05-02 13:24:26:459 - info: load collection reference table success !!
+2022-05-02 13:24:26:469 - info: load daily attendance reference table success !!
+2022-05-02 13:24:26:530 - info: load item reference table success !!
+2022-05-02 13:24:26:538 - info: load open world reference table success !!
+2022-05-02 13:24:26:546 - info: load payment reference table success !!
+2022-05-02 13:24:26:565 - info: load play rank group reference table success !!
+2022-05-02 13:24:26:572 - info: load play world reference table success !!
+2022-05-02 13:24:26:580 - info: load ranking reward reference table success !!
+2022-05-02 13:24:26:606 - info: load reward reference table success !!
+2022-05-02 13:24:26:616 - info: load reward_fishing reference table success !!
+2022-05-02 13:24:26:624 - info: load system shop reference table success !!
+2022-05-02 13:24:27:355 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-02 13:24:27:356 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-02 13:24:27:356 - info: packet status : packet status not recorded yet.
+2022-05-02 13:24:30:046 - error: error cmd : 803 , err: TypeError: unique_items is not iterable
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\item_equip.js:24:24)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-05-02 13:24:30:046 - error: {"aidx":5,"session":"39097215","equips":{"weapon":0,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 13:24:30:046 - error: {"data":{},"cmd":804,"status":-103}
+2022-05-02 13:24:30:046 - error: -103

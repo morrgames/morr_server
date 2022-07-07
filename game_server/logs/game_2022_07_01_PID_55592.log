@@ -1,0 +1,27 @@
+2022-07-01 18:00:35:509 - info: main : redis-connect-database = 0 : 115.85.181.9:6379
+2022-07-01 18:00:35:513 - info: mysql morr_com com db init : 115.85.181.9:3306
+2022-07-01 18:00:35:513 - info: mysql morr_log log db init : 115.85.181.9:3306
+2022-07-01 18:00:35:513 - info: mysql morr_msg msg db init : 115.85.181.9:3306
+2022-07-01 18:00:35:514 - info: mysql morr_user user db init : 115.85.181.9:3306
+2022-07-01 18:00:35:533 - info: load character reference table success !!
+2022-07-01 18:00:35:548 - info: 서버가 시작되었습니다. [port:8080]
+2022-07-01 18:00:35:548 - info: try to start [morr game server] : http://127.0.0.1:8080
+2022-07-01 18:00:35:549 - info: packet status : packet status not recorded yet.
+2022-07-01 18:00:37:456 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:01:09:404 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:01:09:986 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:01:10:750 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:02:16:159 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:02:16:749 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:02:16:937 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:02:17:564 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:02:17:979 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:02:18:386 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:03:54:610 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:04:40:228 - error: parameter error : {"os_type":"1","login_id":"woongda","uuid":"woongda","login_type":"0","cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:04:45:628 - error: error cmd : 103 , err: ReferenceError: login_id is not defined
+    at module.exports (C:\workspace\Morr\MorrGame\game\handlers\account\login.js:24:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-07-01 18:04:45:628 - error: {"os_type":1,"login_id":"woongda","uuid":"woongda","login_type":0,"cmd":103,"version":"1.0.0","aidx":0,"session":"","client_ip":"127.0.0.1"}
+2022-07-01 18:04:45:628 - error: {"data":{},"cmd":104,"status":-103}
+2022-07-01 18:04:45:629 - error: -103

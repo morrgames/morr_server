@@ -1,0 +1,29 @@
+2021-12-29 16:26:57:929 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-29 16:26:57:935 - info: connect sub redis : ["server_message"]
+2021-12-29 16:26:57:935 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-29 16:26:57:938 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-29 16:26:57:944 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-29 16:26:57:944 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-29 16:26:57:944 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-29 16:26:57:960 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-29 16:26:57:980 - info: load achievement reference table success !!
+2021-12-29 16:26:57:987 - info: load character reference table success !!
+2021-12-29 16:26:57:998 - info: load collection reference table success !!
+2021-12-29 16:26:58:005 - info: load daily attendance reference table success !!
+2021-12-29 16:26:58:051 - info: load item reference table success !!
+2021-12-29 16:26:58:060 - info: load open world reference table success !!
+2021-12-29 16:26:58:067 - info: load payment reference table success !!
+2021-12-29 16:26:58:073 - info: load play world reference table success !!
+2021-12-29 16:26:58:079 - info: load ranking reward reference table success !!
+2021-12-29 16:26:58:098 - info: load reward reference table success !!
+2021-12-29 16:26:58:105 - info: load reward_fishing reference table success !!
+2021-12-29 16:26:58:580 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-29 16:26:58:581 - info: try to start [freemeta game server] : http://127.0.0.1:30051
+2021-12-29 16:26:58:581 - info: packet status : packet status not recorded yet.
+2021-12-29 16:27:22:252 - error: error cmd : 101 , err: TypeError: this.insert_money is not a function
+    at Object.exports.insert_user_shard (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\functions\fnUser.js:110:14)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\reg_id.js:47:5)
+2021-12-29 16:27:22:252 - error: {"login_id":"woongda5","version":"0.9.1","uuid":"woongda5","os_type":1,"login_type":0,"name":"woongda5","cmd":101,"aidx":0,"session":""}
+2021-12-29 16:27:22:252 - error: {"data":{},"cmd":102,"status":-103}
+2021-12-29 16:27:22:254 - error: -103

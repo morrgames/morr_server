@@ -1,0 +1,179 @@
+2022-02-08 12:56:01:138 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-02-08 12:56:01:142 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-02-08 12:56:01:143 - info: connect sub redis : ["server_message"]
+2022-02-08 12:56:01:146 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-02-08 12:56:01:148 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-02-08 12:56:01:148 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-02-08 12:56:01:149 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-02-08 12:56:01:164 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-02-08 12:56:01:185 - info: load achievement reference table success !!
+2022-02-08 12:56:01:190 - info: load character reference table success !!
+2022-02-08 12:56:01:215 - info: load collection reference table success !!
+2022-02-08 12:56:01:222 - info: load daily attendance reference table success !!
+2022-02-08 12:56:01:278 - info: load item reference table success !!
+2022-02-08 12:56:01:285 - info: load open world reference table success !!
+2022-02-08 12:56:01:293 - info: load payment reference table success !!
+2022-02-08 12:56:01:299 - info: load play world reference table success !!
+2022-02-08 12:56:01:306 - info: load ranking reward reference table success !!
+2022-02-08 12:56:01:330 - info: load reward reference table success !!
+2022-02-08 12:56:01:337 - info: load reward_fishing reference table success !!
+2022-02-08 12:56:01:343 - info: load system shop reference table success !!
+2022-02-08 12:56:01:630 - info: 서버가 시작되었습니다. [port:8080]
+2022-02-08 12:56:01:630 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-02-08 12:56:01:630 - info: packet status : packet status not recorded yet.
+2022-02-08 13:01:01:166 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:01:01:166 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:01:01:166 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:01:01:167 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:01:01:633 - info: packet status : packet status not recorded yet.
+2022-02-08 13:06:01:154 - info: main: redis pong
+2022-02-08 13:06:01:154 - info: sub: redis pong
+2022-02-08 13:06:01:155 - info: msg: redis pong
+2022-02-08 13:06:01:167 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:06:01:167 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:06:01:167 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:06:01:167 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:06:01:634 - info: packet status : packet status not recorded yet.
+2022-02-08 13:11:01:177 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:11:01:177 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:11:01:177 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:11:01:177 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:11:01:631 - info: packet status : packet status not recorded yet.
+2022-02-08 13:16:01:154 - info: main: redis pong
+2022-02-08 13:16:01:154 - info: sub: redis pong
+2022-02-08 13:16:01:154 - info: msg: redis pong
+2022-02-08 13:16:01:182 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:16:01:182 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:16:01:182 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:16:01:182 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:16:01:634 - info: packet status : packet status not recorded yet.
+2022-02-08 13:21:01:188 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:21:01:188 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:21:01:188 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:21:01:188 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:21:01:642 - info: packet status : packet status not recorded yet.
+2022-02-08 13:26:01:157 - info: main: redis pong
+2022-02-08 13:26:01:157 - info: sub: redis pong
+2022-02-08 13:26:01:157 - info: msg: redis pong
+2022-02-08 13:26:01:193 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:26:01:193 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:26:01:193 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:26:01:193 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:26:01:643 - info: packet status : packet status not recorded yet.
+2022-02-08 13:29:41:884 - info: load achievement reference table success !!
+2022-02-08 13:29:41:897 - info: load character reference table success !!
+2022-02-08 13:29:41:933 - info: load collection reference table success !!
+2022-02-08 13:29:41:952 - info: load daily attendance reference table success !!
+2022-02-08 13:29:42:012 - info: load item reference table success !!
+2022-02-08 13:29:42:020 - info: load open world reference table success !!
+2022-02-08 13:29:42:026 - info: load payment reference table success !!
+2022-02-08 13:29:42:034 - info: load play world reference table success !!
+2022-02-08 13:29:42:040 - info: load ranking reward reference table success !!
+2022-02-08 13:29:42:062 - info: load reward reference table success !!
+2022-02-08 13:29:42:071 - info: load reward_fishing reference table success !!
+2022-02-08 13:29:42:077 - info: load system shop reference table success !!
+2022-02-08 13:29:42:077 - info: ref table reload success
+2022-02-08 13:31:01:200 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:31:01:200 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:31:01:200 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:31:01:200 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:31:01:651 - info: packet status : packet status not recorded yet.
+2022-02-08 13:36:01:145 - info: main: redis pong
+2022-02-08 13:36:01:145 - info: sub: redis pong
+2022-02-08 13:36:01:145 - info: msg: redis pong
+2022-02-08 13:36:01:203 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:36:01:203 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:36:01:203 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:36:01:203 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:36:01:657 - info: packet status : packet status not recorded yet.
+2022-02-08 13:41:01:210 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:41:01:210 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:41:01:210 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:41:01:210 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:41:01:663 - info: packet status : packet status not recorded yet.
+2022-02-08 13:46:01:153 - info: main: redis pong
+2022-02-08 13:46:01:153 - info: sub: redis pong
+2022-02-08 13:46:01:153 - info: msg: redis pong
+2022-02-08 13:46:01:212 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:46:01:212 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:46:01:212 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:46:01:212 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:46:01:663 - info: packet status : packet status not recorded yet.
+2022-02-08 13:51:01:211 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:51:01:211 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:51:01:211 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:51:01:211 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:51:01:664 - info: packet status : packet status not recorded yet.
+2022-02-08 13:56:01:150 - info: sub: redis pong
+2022-02-08 13:56:01:150 - info: main: redis pong
+2022-02-08 13:56:01:150 - info: msg: redis pong
+2022-02-08 13:56:01:209 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 13:56:01:209 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:56:01:209 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:56:01:209 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 13:56:01:662 - info: packet status : packet status not recorded yet.
+2022-02-08 14:01:01:218 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:01:01:218 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:01:01:218 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:01:01:218 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:01:01:668 - info: packet status : packet status not recorded yet.
+2022-02-08 14:06:01:153 - info: main: redis pong
+2022-02-08 14:06:01:153 - info: sub: redis pong
+2022-02-08 14:06:01:153 - info: msg: redis pong
+2022-02-08 14:06:01:226 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:06:01:226 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:06:01:226 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:06:01:226 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:06:01:676 - info: packet status : packet status not recorded yet.
+2022-02-08 14:11:01:224 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:11:01:224 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:11:01:224 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:11:01:224 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:11:01:677 - info: packet status : packet status not recorded yet.
+2022-02-08 14:16:01:161 - info: main: redis pong
+2022-02-08 14:16:01:161 - info: sub: redis pong
+2022-02-08 14:16:01:161 - info: msg: redis pong
+2022-02-08 14:16:01:234 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:16:01:234 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:16:01:234 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:16:01:234 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:16:01:689 - info: packet status : packet status not recorded yet.
+2022-02-08 14:21:01:234 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:21:01:234 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:21:01:234 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:21:01:234 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:21:01:688 - info: packet status : packet status not recorded yet.
+2022-02-08 14:26:01:151 - info: main: redis pong
+2022-02-08 14:26:01:151 - info: sub: redis pong
+2022-02-08 14:26:01:151 - info: msg: redis pong
+2022-02-08 14:26:01:238 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:26:01:238 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:26:01:238 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:26:01:238 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:26:01:692 - info: packet status : packet status not recorded yet.
+2022-02-08 14:31:01:238 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:31:01:238 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:31:01:238 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:31:01:238 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:31:01:692 - info: packet status : packet status not recorded yet.
+2022-02-08 14:36:01:152 - info: main: redis pong
+2022-02-08 14:36:01:152 - info: sub: redis pong
+2022-02-08 14:36:01:153 - info: msg: redis pong
+2022-02-08 14:36:01:240 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:36:01:240 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:36:01:240 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:36:01:240 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:36:01:691 - info: packet status : packet status not recorded yet.
+2022-02-08 14:41:01:238 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:41:01:238 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:41:01:238 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:41:01:238 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:41:01:689 - info: packet status : packet status not recorded yet.
+2022-02-08 14:46:01:159 - info: main: redis pong
+2022-02-08 14:46:01:159 - info: sub: redis pong
+2022-02-08 14:46:01:159 - info: msg: redis pong
+2022-02-08 14:46:01:246 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-08 14:46:01:246 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:46:01:246 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:46:01:246 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-02-08 14:46:01:698 - info: packet status : packet status not recorded yet.

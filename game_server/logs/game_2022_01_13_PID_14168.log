@@ -1,0 +1,27 @@
+2022-01-13 16:59:52:820 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-13 16:59:52:823 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-13 16:59:52:827 - info: connect sub redis : ["server_message"]
+2022-01-13 16:59:52:829 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-13 16:59:52:832 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-13 16:59:52:832 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-13 16:59:52:832 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-13 16:59:52:847 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-13 16:59:52:868 - info: load achievement reference table success !!
+2022-01-13 16:59:52:878 - info: load character reference table success !!
+2022-01-13 16:59:52:900 - info: load collection reference table success !!
+2022-01-13 16:59:52:907 - info: load daily attendance reference table success !!
+2022-01-13 16:59:52:952 - info: load item reference table success !!
+2022-01-13 16:59:52:961 - info: load open world reference table success !!
+2022-01-13 16:59:52:969 - info: load payment reference table success !!
+2022-01-13 16:59:52:976 - info: load play world reference table success !!
+2022-01-13 16:59:52:983 - info: load ranking reward reference table success !!
+2022-01-13 16:59:53:005 - info: load reward reference table success !!
+2022-01-13 16:59:53:013 - info: load reward_fishing reference table success !!
+2022-01-13 16:59:53:019 - info: load system shop reference table success !!
+2022-01-13 16:59:53:475 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-13 16:59:53:475 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-13 16:59:53:475 - info: packet status : packet status not recorded yet.
+2022-01-13 16:59:55:183 - error: {"cmd":103,"login_id":"1642060793_0_14168_96779018","uuid":"1642060793_0_14168_96779018","version":"0.14.1","os_type":1,"login_type":1}
+2022-01-13 16:59:55:183 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642060795,"timezone_offset":-32400}},"cmd":104,"status":-201}
+2022-01-13 16:59:55:184 - error: -201
+2022-01-13 17:00:07:668 - error: >>>>>>>>>>>>>>> fail to start freemeta game server(port = 30051, err = TypeError: Cannot read property 'aidx' of undefined)

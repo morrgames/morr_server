@@ -1,0 +1,59 @@
+2022-05-09 13:18:59:537 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-09 13:18:59:548 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-09 13:18:59:555 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-09 13:18:59:555 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-09 13:18:59:556 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-09 13:18:59:572 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-09 13:18:59:596 - info: load achievement reference table success !!
+2022-05-09 13:18:59:604 - info: load character reference table success !!
+2022-05-09 13:18:59:632 - info: load collection reference table success !!
+2022-05-09 13:18:59:641 - info: load daily attendance reference table success !!
+2022-05-09 13:18:59:650 - info: load system shop reference table success !!
+2022-05-09 13:18:59:718 - info: load item reference table success !!
+2022-05-09 13:18:59:728 - info: load open world reference table success !!
+2022-05-09 13:18:59:736 - info: load payment reference table success !!
+2022-05-09 13:18:59:757 - info: load play rank group reference table success !!
+2022-05-09 13:18:59:764 - info: load play world reference table success !!
+2022-05-09 13:18:59:772 - info: load ranking reward reference table success !!
+2022-05-09 13:18:59:798 - info: load reward reference table success !!
+2022-05-09 13:18:59:806 - info: load reward_fishing reference table success !!
+2022-05-09 13:18:59:813 - info: load system shop reference table success !!
+2022-05-09 13:18:59:544 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-09 13:18:59:545 - info: connect sub redis : ["server_message"]
+2022-05-09 13:19:00:208 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-09 13:19:00:210 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-09 13:19:00:210 - info: packet status : packet status not recorded yet.
+2022-05-09 13:23:40:311 - error: {"cmd":103,"login_id":"333","uuid":"333","version":"0.9.3","os_type":1,"login_type":0,"client_ip":"175.123.90.3"}
+2022-05-09 13:23:40:311 - error: {"data":{"server_info":{"version":"1.1.0","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://m.afreecatv.com/report/user/a/view/nBno/130404/szModel/web","help_page":"","time":1652070220,"timezone_offset":-32400}},"cmd":104,"status":-201}
+2022-05-09 13:23:40:312 - error: -201
+2022-05-09 13:23:59:582 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:23:59:583 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:23:59:583 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-09 13:23:59:583 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:24:00:216 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0}}
+2022-05-09 13:28:59:544 - info: main: redis pong
+2022-05-09 13:28:59:546 - info: sub: redis pong
+2022-05-09 13:28:59:548 - info: msg: redis pong
+2022-05-09 13:28:59:586 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:28:59:586 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:28:59:586 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:28:59:587 - info: [shard db pool : [1] ] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:29:00:218 - info: packet status : {"103":{"cmd":103,"key":"login","call":4,"total":0,"max":0,"min":0,"average":0},"111":{"cmd":111,"key":"user_preview_list","call":10,"total":0,"max":0,"min":0,"average":0},"301":{"cmd":301,"key":"attendance_list","call":3,"total":0,"max":0,"min":0,"average":0},"303":{"cmd":303,"key":"attendance_reward","call":1,"total":0,"max":0,"min":0,"average":0},"327":{"cmd":327,"key":"payment_reward","call":2,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":0,"max":0,"min":0,"average":0},"405":{"cmd":405,"key":"world_list","call":2,"total":0,"max":0,"min":0,"average":0},"443":{"cmd":443,"key":"world_info","call":2,"total":0,"max":0,"min":0,"average":0},"457":{"cmd":457,"key":"play_world_list","call":2,"total":0,"max":0,"min":0,"average":0},"603":{"cmd":603,"key":"friend_list","call":2,"total":1,"max":1,"min":0,"average":0.5},"605":{"cmd":605,"key":"friend_following_list","call":2,"total":0,"max":0,"min":0,"average":0},"607":{"cmd":607,"key":"friend_follower_list","call":2,"total":0,"max":0,"min":0,"average":0},"615":{"cmd":615,"key":"friend_count","call":2,"total":0,"max":0,"min":0,"average":0},"631":{"cmd":631,"key":"notify","call":2,"total":0,"max":0,"min":0,"average":0},"701":{"cmd":701,"key":"achievement_list","call":2,"total":0,"max":0,"min":0,"average":0},"703":{"cmd":703,"key":"achievement_update","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":2,"total":0,"max":0,"min":0,"average":0}}
+2022-05-09 13:33:59:588 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:33:59:588 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:33:59:588 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:33:59:588 - info: [shard db pool : [1] ] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:34:00:218 - info: packet status : {"103":{"cmd":103,"key":"login","call":4,"total":0,"max":0,"min":0,"average":0},"111":{"cmd":111,"key":"user_preview_list","call":10,"total":0,"max":0,"min":0,"average":0},"301":{"cmd":301,"key":"attendance_list","call":3,"total":0,"max":0,"min":0,"average":0},"303":{"cmd":303,"key":"attendance_reward","call":1,"total":0,"max":0,"min":0,"average":0},"327":{"cmd":327,"key":"payment_reward","call":2,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":0,"max":0,"min":0,"average":0},"405":{"cmd":405,"key":"world_list","call":2,"total":0,"max":0,"min":0,"average":0},"443":{"cmd":443,"key":"world_info","call":2,"total":0,"max":0,"min":0,"average":0},"457":{"cmd":457,"key":"play_world_list","call":2,"total":0,"max":0,"min":0,"average":0},"603":{"cmd":603,"key":"friend_list","call":2,"total":1,"max":1,"min":0,"average":0.5},"605":{"cmd":605,"key":"friend_following_list","call":2,"total":0,"max":0,"min":0,"average":0},"607":{"cmd":607,"key":"friend_follower_list","call":2,"total":0,"max":0,"min":0,"average":0},"615":{"cmd":615,"key":"friend_count","call":2,"total":0,"max":0,"min":0,"average":0},"631":{"cmd":631,"key":"notify","call":2,"total":0,"max":0,"min":0,"average":0},"701":{"cmd":701,"key":"achievement_list","call":2,"total":0,"max":0,"min":0,"average":0},"703":{"cmd":703,"key":"achievement_update","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":2,"total":0,"max":0,"min":0,"average":0}}
+2022-05-09 13:38:59:554 - info: sub: redis pong
+2022-05-09 13:38:59:554 - info: main: redis pong
+2022-05-09 13:38:59:554 - info: msg: redis pong
+2022-05-09 13:38:59:597 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:38:59:597 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:38:59:597 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:38:59:597 - info: [shard db pool : [1] ] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:39:00:231 - info: packet status : {"103":{"cmd":103,"key":"login","call":4,"total":0,"max":0,"min":0,"average":0},"111":{"cmd":111,"key":"user_preview_list","call":10,"total":0,"max":0,"min":0,"average":0},"301":{"cmd":301,"key":"attendance_list","call":3,"total":0,"max":0,"min":0,"average":0},"303":{"cmd":303,"key":"attendance_reward","call":1,"total":0,"max":0,"min":0,"average":0},"327":{"cmd":327,"key":"payment_reward","call":2,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":0,"max":0,"min":0,"average":0},"405":{"cmd":405,"key":"world_list","call":2,"total":0,"max":0,"min":0,"average":0},"443":{"cmd":443,"key":"world_info","call":2,"total":0,"max":0,"min":0,"average":0},"457":{"cmd":457,"key":"play_world_list","call":2,"total":0,"max":0,"min":0,"average":0},"603":{"cmd":603,"key":"friend_list","call":2,"total":1,"max":1,"min":0,"average":0.5},"605":{"cmd":605,"key":"friend_following_list","call":2,"total":0,"max":0,"min":0,"average":0},"607":{"cmd":607,"key":"friend_follower_list","call":2,"total":0,"max":0,"min":0,"average":0},"615":{"cmd":615,"key":"friend_count","call":2,"total":0,"max":0,"min":0,"average":0},"631":{"cmd":631,"key":"notify","call":2,"total":0,"max":0,"min":0,"average":0},"701":{"cmd":701,"key":"achievement_list","call":2,"total":0,"max":0,"min":0,"average":0},"703":{"cmd":703,"key":"achievement_update","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":2,"total":0,"max":0,"min":0,"average":0}}
+2022-05-09 13:43:59:596 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:43:59:596 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:43:59:597 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-09 13:43:59:597 - info: [shard db pool : [1] ] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-09 13:44:00:241 - info: packet status : {"103":{"cmd":103,"key":"login","call":4,"total":0,"max":0,"min":0,"average":0},"111":{"cmd":111,"key":"user_preview_list","call":10,"total":0,"max":0,"min":0,"average":0},"301":{"cmd":301,"key":"attendance_list","call":3,"total":0,"max":0,"min":0,"average":0},"303":{"cmd":303,"key":"attendance_reward","call":1,"total":0,"max":0,"min":0,"average":0},"327":{"cmd":327,"key":"payment_reward","call":2,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":0,"max":0,"min":0,"average":0},"405":{"cmd":405,"key":"world_list","call":2,"total":0,"max":0,"min":0,"average":0},"443":{"cmd":443,"key":"world_info","call":2,"total":0,"max":0,"min":0,"average":0},"457":{"cmd":457,"key":"play_world_list","call":2,"total":0,"max":0,"min":0,"average":0},"603":{"cmd":603,"key":"friend_list","call":2,"total":1,"max":1,"min":0,"average":0.5},"605":{"cmd":605,"key":"friend_following_list","call":2,"total":0,"max":0,"min":0,"average":0},"607":{"cmd":607,"key":"friend_follower_list","call":2,"total":0,"max":0,"min":0,"average":0},"615":{"cmd":615,"key":"friend_count","call":2,"total":0,"max":0,"min":0,"average":0},"631":{"cmd":631,"key":"notify","call":2,"total":0,"max":0,"min":0,"average":0},"701":{"cmd":701,"key":"achievement_list","call":2,"total":0,"max":0,"min":0,"average":0},"703":{"cmd":703,"key":"achievement_update","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":2,"total":0,"max":0,"min":0,"average":0}}

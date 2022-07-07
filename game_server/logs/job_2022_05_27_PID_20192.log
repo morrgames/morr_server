@@ -1,0 +1,29 @@
+2022-05-27 11:12:10:185 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-27 11:12:10:191 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-27 11:12:10:195 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-27 11:12:10:200 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-27 11:12:10:200 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-27 11:12:10:200 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-27 11:12:10:215 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-27 11:12:10:238 - info: load achievement reference table success !!
+2022-05-27 11:12:10:245 - info: load character reference table success !!
+2022-05-27 11:12:10:270 - info: load collection reference table success !!
+2022-05-27 11:12:10:278 - info: load daily attendance reference table success !!
+2022-05-27 11:12:10:287 - info: load system shop reference table success !!
+2022-05-27 11:12:10:354 - info: load item reference table success !!
+2022-05-27 11:12:10:362 - info: load open world reference table success !!
+2022-05-27 11:12:10:372 - info: load payment reference table success !!
+2022-05-27 11:12:10:390 - info: load play rank group reference table success !!
+2022-05-27 11:12:10:397 - info: load play world reference table success !!
+2022-05-27 11:12:10:405 - info: load ranking reward reference table success !!
+2022-05-27 11:12:10:432 - info: load reward reference table success !!
+2022-05-27 11:12:10:442 - info: load reward_fishing reference table success !!
+2022-05-27 11:12:10:449 - info: load system shop reference table success !!
+2022-05-27 11:12:10:519 - info: delete expire exchange item schedule success~~
+2022-05-27 11:12:10:530 - info: delete mail cnt = 0
+2022-05-27 11:12:10:530 - info: delete expire mail schedule success~~
+2022-05-27 11:12:10:567 - info: delete expire mail schedule success~~
+2022-05-27 11:12:10:578 - info: iocp junk room clear schedule success~~
+2022-05-27 11:12:10:624 - info: nft item cnt = 18
+2022-05-27 11:12:10:624 - info: nft item sync schedule success~~
+2022-05-27 11:12:10:627 - error: error : rank schedule , {}

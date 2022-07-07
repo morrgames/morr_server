@@ -1,0 +1,40 @@
+2022-06-13 16:10:15:321 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-13 16:10:15:327 - info: connect sub redis : ["server_message"]
+2022-06-13 16:10:15:330 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-06-13 16:10:15:334 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-06-13 16:10:15:334 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-06-13 16:10:15:334 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-06-13 16:10:15:350 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-06-13 16:10:15:373 - info: load achievement reference table success !!
+2022-06-13 16:10:15:380 - info: load character reference table success !!
+2022-06-13 16:10:15:412 - info: load collection reference table success !!
+2022-06-13 16:10:15:420 - info: load daily attendance reference table success !!
+2022-06-13 16:10:15:429 - info: load system shop reference table success !!
+2022-06-13 16:10:15:495 - info: load item reference table success !!
+2022-06-13 16:10:15:503 - info: load open world reference table success !!
+2022-06-13 16:10:15:511 - info: load payment reference table success !!
+2022-06-13 16:10:15:529 - info: load play rank group reference table success !!
+2022-06-13 16:10:15:537 - info: load play world reference table success !!
+2022-06-13 16:10:15:544 - info: load ranking reward reference table success !!
+2022-06-13 16:10:15:567 - info: load reward reference table success !!
+2022-06-13 16:10:15:576 - info: load reward_fishing reference table success !!
+2022-06-13 16:10:15:583 - info: load system shop reference table success !!
+2022-06-13 16:10:15:879 - info: 서버가 시작되었습니다. [port:8080]
+2022-06-13 16:10:15:879 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-06-13 16:10:15:880 - info: packet status : packet status not recorded yet.
+2022-06-13 16:10:16:811 - error: {"aidx":108,"session":"51314130","sidx":1234,"min_rank":1,"cmd":803,"client_ip":"127.0.0.1"}
+2022-06-13 16:10:16:811 - error: {"data":{},"cmd":804,"status":-1154}
+2022-06-13 16:10:16:811 - error: -1154
+2022-06-13 16:10:54:413 - error: {"aidx":108,"session":"51314130","sidx":1234,"min_rank":1,"cmd":803,"client_ip":"127.0.0.1"}
+2022-06-13 16:10:54:413 - error: {"data":{},"cmd":804,"status":-1154}
+2022-06-13 16:10:54:413 - error: -1154
+2022-06-13 16:10:15:327 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-06-13 16:13:12:323 - error: {"aidx":108,"session":"51314130","sidx":1234,"min_rank":1,"cmd":803,"client_ip":"127.0.0.1"}
+2022-06-13 16:13:12:324 - error: {"data":{},"cmd":804,"status":-1154}
+2022-06-13 16:13:12:324 - error: -1154
+2022-06-13 16:15:15:363 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-06-13 16:15:15:363 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-06-13 16:15:15:363 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-06-13 16:15:15:363 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-13 16:15:15:876 - info: packet status : {"801":{"cmd":801,"key":"rank_update","call":1,"total":37,"max":37,"min":0,"average":37},"803":{"cmd":803,"key":"rank_list","call":4,"total":118,"max":107,"min":0,"average":29.5}}
+2022-06-13 16:15:40:025 - error: db_query error : {"code":"ER_WRONG_VALUE_COUNT_ON_ROW","errno":1136,"sqlMessage":"Column count doesn't match value count at row 1","sqlState":"21S01","index":0,"sql":"insert into log_schedule_rank values (null, 801, 108, 108, 1, 1234, 30, 30, '2022-06-13 16:15:39')"}

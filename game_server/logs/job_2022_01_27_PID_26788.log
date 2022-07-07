@@ -1,0 +1,29 @@
+2022-01-27 14:26:19:696 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-27 14:26:19:703 - info: connect sub redis : ["server_message"]
+2022-01-27 14:26:19:703 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-27 14:26:19:708 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-27 14:26:19:714 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-27 14:26:19:715 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-27 14:26:19:715 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-27 14:26:19:732 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-27 14:26:19:756 - info: load achievement reference table success !!
+2022-01-27 14:26:19:764 - info: load character reference table success !!
+2022-01-27 14:26:19:790 - info: load collection reference table success !!
+2022-01-27 14:26:19:810 - info: load daily attendance reference table success !!
+2022-01-27 14:26:19:895 - info: load item reference table success !!
+2022-01-27 14:26:19:909 - info: load open world reference table success !!
+2022-01-27 14:26:19:921 - info: load payment reference table success !!
+2022-01-27 14:26:19:933 - info: load play world reference table success !!
+2022-01-27 14:26:19:944 - info: load ranking reward reference table success !!
+2022-01-27 14:26:19:977 - info: load reward reference table success !!
+2022-01-27 14:26:19:992 - info: load reward_fishing reference table success !!
+2022-01-27 14:26:20:004 - info: load system shop reference table success !!
+2022-01-27 14:26:20:031 - info: open_world_init
+2022-01-27 14:26:20:135 - info: delete expire exchange item schedule success~~
+2022-01-27 14:26:20:147 - info: delete mail cnt = 0
+2022-01-27 14:26:20:147 - info: delete expire mail schedule success~~
+2022-01-27 14:26:20:161 - info: delete expire mail schedule success~~
+2022-01-27 14:26:20:178 - info: iocp junk room clear schedule success~~
+2022-01-27 14:26:20:203 - info: nft item cnt = 12
+2022-01-27 14:26:20:203 - info: nft item sync schedule success~~
+2022-01-27 14:27:00:018 - info: iocp junk room clear schedule success~~

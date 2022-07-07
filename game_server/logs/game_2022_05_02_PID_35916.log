@@ -1,0 +1,70 @@
+2022-05-02 16:16:46:367 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-02 16:16:46:376 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-02 16:16:46:382 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-02 16:16:46:382 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-02 16:16:46:382 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-02 16:16:46:406 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-02 16:16:46:435 - info: load achievement reference table success !!
+2022-05-02 16:16:46:444 - info: load character reference table success !!
+2022-05-02 16:16:46:476 - info: load collection reference table success !!
+2022-05-02 16:16:46:484 - info: load daily attendance reference table success !!
+2022-05-02 16:16:46:549 - info: load item reference table success !!
+2022-05-02 16:16:46:557 - info: load open world reference table success !!
+2022-05-02 16:16:46:568 - info: load payment reference table success !!
+2022-05-02 16:16:46:586 - info: load play rank group reference table success !!
+2022-05-02 16:16:46:594 - info: load play world reference table success !!
+2022-05-02 16:16:46:602 - info: load ranking reward reference table success !!
+2022-05-02 16:16:46:631 - info: load reward reference table success !!
+2022-05-02 16:16:46:640 - info: load reward_fishing reference table success !!
+2022-05-02 16:16:46:650 - info: load system shop reference table success !!
+2022-05-02 16:16:47:398 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-02 16:16:47:398 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-02 16:16:47:399 - info: packet status : packet status not recorded yet.
+2022-05-02 16:16:57:743 - error: {"aidx":5,"session":"58644168","_group":1,"equips":{"weapon":1654,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 16:16:57:743 - error: {"data":{},"cmd":804,"status":-1142}
+2022-05-02 16:16:57:743 - error: -1142
+2022-05-02 16:16:46:373 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-02 16:16:46:374 - info: connect sub redis : ["server_message"]
+2022-05-02 16:17:18:339 - error: {"aidx":5,"session":"58644168","_group":1,"equips":{"weapon":1654,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 16:17:18:340 - error: {"data":{},"cmd":804,"status":-1142}
+2022-05-02 16:17:18:340 - error: -1142
+2022-05-02 16:17:46:143 - error: {"aidx":5,"session":"58644168","_group":1,"equips":{"weapon":1654,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 16:17:46:143 - error: {"data":{},"cmd":804,"status":-1142}
+2022-05-02 16:17:46:143 - error: -1142
+2022-05-02 16:18:47:387 - error: {"aidx":5,"session":"58644168","_group":1,"equips":{"weapon":0,"head":1654,"top":0,"under":0,"neck":0,"ear":0,"ring_1":1658,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 16:18:47:387 - error: {"data":{},"cmd":804,"status":-110}
+2022-05-02 16:18:47:388 - error: -110
+2022-05-02 16:19:06:568 - error: {"aidx":5,"session":"12202004","_group":1,"equips":{"weapon":0,"head":1654,"top":0,"under":0,"neck":0,"ear":0,"ring_1":1658,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 16:19:06:568 - error: {"data":{},"cmd":804,"status":-1142}
+2022-05-02 16:19:06:568 - error: -1142
+2022-05-02 16:21:46:412 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-02 16:21:46:412 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:21:46:412 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-02 16:21:46:412 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:21:47:410 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"803":{"cmd":803,"key":"item_equip","call":8,"total":17,"max":14,"min":0,"average":2.125}}
+2022-05-02 16:26:46:376 - info: main: redis pong
+2022-05-02 16:26:46:384 - info: sub: redis pong
+2022-05-02 16:26:46:384 - info: msg: redis pong
+2022-05-02 16:26:46:413 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-02 16:26:46:413 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:26:46:413 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-02 16:26:46:413 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:26:47:411 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"803":{"cmd":803,"key":"item_equip","call":8,"total":17,"max":14,"min":0,"average":2.125}}
+2022-05-02 16:31:46:406 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-02 16:31:46:406 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:31:46:406 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-02 16:31:46:406 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:31:47:417 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"803":{"cmd":803,"key":"item_equip","call":8,"total":17,"max":14,"min":0,"average":2.125}}
+2022-05-02 16:36:46:364 - info: sub: redis pong
+2022-05-02 16:36:46:364 - info: msg: redis pong
+2022-05-02 16:36:46:364 - info: main: redis pong
+2022-05-02 16:36:46:404 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-02 16:36:46:404 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:36:46:404 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-02 16:36:46:404 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:36:47:417 - info: packet status : {"103":{"cmd":103,"key":"login","call":3,"total":0,"max":0,"min":0,"average":0},"307":{"cmd":307,"key":"mail_reward","call":1,"total":0,"max":0,"min":0,"average":0},"803":{"cmd":803,"key":"item_equip","call":8,"total":17,"max":14,"min":0,"average":2.125}}
+2022-05-02 16:41:46:405 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-02 16:41:46:405 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:41:46:405 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-02 16:41:46:405 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 16:41:47:418 - info: packet status : {"103":{"cmd":103,"key":"login","call":3,"total":0,"max":0,"min":0,"average":0},"307":{"cmd":307,"key":"mail_reward","call":1,"total":0,"max":0,"min":0,"average":0},"803":{"cmd":803,"key":"item_equip","call":8,"total":17,"max":14,"min":0,"average":2.125}}

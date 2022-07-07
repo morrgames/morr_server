@@ -1,0 +1,33 @@
+2022-01-14 11:24:53:580 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-14 11:24:53:589 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-14 11:24:53:592 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-14 11:24:53:593 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-14 11:24:53:593 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-14 11:24:53:608 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-14 11:24:53:630 - info: load achievement reference table success !!
+2022-01-14 11:24:53:637 - info: load character reference table success !!
+2022-01-14 11:24:53:659 - info: load collection reference table success !!
+2022-01-14 11:24:53:667 - info: load daily attendance reference table success !!
+2022-01-14 11:24:53:709 - info: load item reference table success !!
+2022-01-14 11:24:53:718 - info: load open world reference table success !!
+2022-01-14 11:24:53:726 - info: load payment reference table success !!
+2022-01-14 11:24:53:733 - info: load play world reference table success !!
+2022-01-14 11:24:53:739 - info: load ranking reward reference table success !!
+2022-01-14 11:24:53:759 - info: load reward reference table success !!
+2022-01-14 11:24:53:766 - info: load reward_fishing reference table success !!
+2022-01-14 11:24:53:773 - info: load system shop reference table success !!
+2022-01-14 11:24:54:171 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-14 11:24:54:171 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-14 11:24:54:171 - info: packet status : packet status not recorded yet.
+2022-01-14 11:24:54:210 - error: {"cmd":103,"login_id":"1642127094_0_24688_104809532","uuid":"1642127094_0_24688_104809532","version":"0.16.1","os_type":1,"login_type":1}
+2022-01-14 11:24:54:210 - error: {"data":{"server_info":{"version":"0.16.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642127094,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-14 11:24:54:210 - error: -1023
+2022-01-14 11:24:54:274 - error: null
+2022-01-14 11:24:54:321 - error: null
+2022-01-14 11:24:54:350 - error: null
+2022-01-14 11:24:54:369 - error: null
+2022-01-14 11:24:54:390 - error: null
+2022-01-14 11:24:54:425 - error: null
+2022-01-14 11:24:54:452 - error: null
+2022-01-14 11:24:54:485 - error: null
+2022-01-14 11:24:54:529 - error: null

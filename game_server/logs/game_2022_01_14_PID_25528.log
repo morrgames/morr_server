@@ -1,0 +1,37 @@
+2022-01-14 13:51:08:055 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-14 13:51:08:060 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-14 13:51:08:061 - info: connect sub redis : ["server_message"]
+2022-01-14 13:51:08:064 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-14 13:51:08:068 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-14 13:51:08:069 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-14 13:51:08:069 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-14 13:51:08:083 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-14 13:51:08:105 - info: load achievement reference table success !!
+2022-01-14 13:51:08:112 - info: load character reference table success !!
+2022-01-14 13:51:08:134 - info: load collection reference table success !!
+2022-01-14 13:51:08:142 - info: load daily attendance reference table success !!
+2022-01-14 13:51:08:187 - info: load item reference table success !!
+2022-01-14 13:51:08:197 - info: load open world reference table success !!
+2022-01-14 13:51:08:206 - info: load payment reference table success !!
+2022-01-14 13:51:08:213 - info: load play world reference table success !!
+2022-01-14 13:51:08:220 - info: load ranking reward reference table success !!
+2022-01-14 13:51:08:244 - info: load reward reference table success !!
+2022-01-14 13:51:08:251 - info: load reward_fishing reference table success !!
+2022-01-14 13:51:08:258 - info: load system shop reference table success !!
+2022-01-14 13:51:08:740 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-14 13:51:08:740 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-14 13:51:08:741 - info: packet status : packet status not recorded yet.
+2022-01-14 13:51:17:948 - error: {"cmd":103,"login_id":"1642135877_0_25528_845988747","uuid":"1642135877_0_25528_845988747","version":"0.16.1","os_type":1,"login_type":1}
+2022-01-14 13:51:17:948 - error: {"data":{"server_info":{"version":"0.16.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642135877,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-14 13:51:17:949 - error: -1023
+2022-01-14 13:51:18:013 - error: null
+2022-01-14 13:51:18:063 - error: null
+2022-01-14 13:51:18:096 - error: null
+2022-01-14 13:51:18:126 - error: null
+2022-01-14 13:51:18:142 - error: null
+2022-01-14 13:51:18:160 - error: null
+2022-01-14 13:51:18:177 - error: null
+2022-01-14 13:51:18:194 - error: null
+2022-01-14 13:51:18:213 - error: null
+2022-01-14 13:51:18:230 - error: null
+2022-01-14 13:51:18:242 - error: null

@@ -1,0 +1,42 @@
+2022-01-25 11:02:35:887 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-25 11:02:35:893 - info: connect sub redis : ["server_message"]
+2022-01-25 11:02:35:896 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-25 11:02:35:900 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-25 11:02:35:900 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-25 11:02:35:900 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-25 11:02:35:917 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-25 11:02:35:951 - info: load achievement reference table success !!
+2022-01-25 11:02:35:958 - info: load character reference table success !!
+2022-01-25 11:02:35:983 - info: load collection reference table success !!
+2022-01-25 11:02:35:991 - info: load daily attendance reference table success !!
+2022-01-25 11:02:36:047 - info: load item reference table success !!
+2022-01-25 11:02:36:057 - info: load open world reference table success !!
+2022-01-25 11:02:36:069 - info: load payment reference table success !!
+2022-01-25 11:02:36:076 - info: load play world reference table success !!
+2022-01-25 11:02:36:083 - info: load ranking reward reference table success !!
+2022-01-25 11:02:36:105 - info: load reward reference table success !!
+2022-01-25 11:02:36:114 - info: load reward_fishing reference table success !!
+2022-01-25 11:02:36:121 - info: load system shop reference table success !!
+2022-01-25 11:02:36:635 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-25 11:02:36:635 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-25 11:02:36:635 - info: packet status : packet status not recorded yet.
+2022-01-25 11:02:51:820 - error: error cmd : 709 , err: ReferenceError: redis is not defined
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\collection_update.js:26:17)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-01-25 11:02:51:820 - error: {"aidx":2,"session":"73694503","collection_code":101001,"seq":2,"cmd":709}
+2022-01-25 11:02:51:820 - error: {"data":{},"cmd":710,"status":-103}
+2022-01-25 11:02:51:821 - error: -103
+2022-01-25 11:02:35:892 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-25 11:07:35:926 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 11:07:35:926 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:07:35:926 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:07:35:926 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:07:36:634 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-01-25 11:12:35:893 - info: main: redis pong
+2022-01-25 11:12:35:893 - info: msg: redis pong
+2022-01-25 11:12:35:893 - info: sub: redis pong
+2022-01-25 11:12:35:920 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 11:12:35:920 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:12:35:920 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:12:35:920 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:12:36:643 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":0,"max":0,"min":0,"average":0}}

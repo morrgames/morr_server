@@ -1,0 +1,28 @@
+2022-03-03 14:06:58:150 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-03 14:06:58:157 - info: connect sub redis : ["server_message"]
+2022-03-03 14:06:58:159 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-03 14:06:58:163 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-03 14:06:58:163 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-03 14:06:58:163 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-03 14:06:58:179 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-03 14:06:58:202 - info: load achievement reference table success !!
+2022-03-03 14:06:58:209 - info: load character reference table success !!
+2022-03-03 14:06:58:232 - info: load collection reference table success !!
+2022-03-03 14:06:58:240 - info: load daily attendance reference table success !!
+2022-03-03 14:06:58:298 - info: load item reference table success !!
+2022-03-03 14:06:58:308 - info: load open world reference table success !!
+2022-03-03 14:06:58:316 - info: load payment reference table success !!
+2022-03-03 14:06:58:323 - info: load play world reference table success !!
+2022-03-03 14:06:58:330 - info: load ranking reward reference table success !!
+2022-03-03 14:06:58:357 - info: load reward reference table success !!
+2022-03-03 14:06:58:364 - info: load reward_fishing reference table success !!
+2022-03-03 14:06:58:371 - info: load system shop reference table success !!
+2022-03-03 14:06:58:840 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-03 14:06:58:840 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-03 14:06:58:841 - info: packet status : packet status not recorded yet.
+2022-03-03 14:06:58:155 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-03 14:07:01:563 - error: db_query error : {"code":"ER_OPERAND_COLUMNS","errno":1241,"sqlMessage":"Operand should contain 2 column(s)","sqlState":"21000","index":0,"sql":"select idx as widx, _type as type, world_data_url, image_url, world_read, world_like, unix_timestamp(reg_dt) as reg_time from dat_world where (idx, aidx) in ('(5, 5)');"}
+2022-03-03 14:07:01:564 - error: error cmd : 443 , err: {"code":"ER_OPERAND_COLUMNS","errno":1241,"sqlMessage":"Operand should contain 2 column(s)","sqlState":"21000","index":0,"sql":"select idx as widx, _type as type, world_data_url, image_url, world_read, world_like, unix_timestamp(reg_dt) as reg_time from dat_world where (idx, aidx) in ('(5, 5)');"}
+2022-03-03 14:07:01:564 - error: {"aidx":5,"session":"95897450","world_list":[{"widx":5,"target_aidx":5}],"cmd":443}
+2022-03-03 14:07:01:564 - error: {"data":{},"cmd":444,"status":-103}
+2022-03-03 14:07:01:564 - error: -103

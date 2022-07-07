@@ -1,0 +1,63 @@
+2022-01-13 17:12:34:167 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-13 17:12:34:173 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-13 17:12:34:174 - info: connect sub redis : ["server_message"]
+2022-01-13 17:12:34:176 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-13 17:12:34:179 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-13 17:12:34:180 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-13 17:12:34:180 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-13 17:12:34:196 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-13 17:12:34:216 - info: load achievement reference table success !!
+2022-01-13 17:12:34:223 - info: load character reference table success !!
+2022-01-13 17:12:34:243 - info: load collection reference table success !!
+2022-01-13 17:12:34:251 - info: load daily attendance reference table success !!
+2022-01-13 17:12:34:293 - info: load item reference table success !!
+2022-01-13 17:12:34:302 - info: load open world reference table success !!
+2022-01-13 17:12:34:309 - info: load payment reference table success !!
+2022-01-13 17:12:34:316 - info: load play world reference table success !!
+2022-01-13 17:12:34:322 - info: load ranking reward reference table success !!
+2022-01-13 17:12:34:344 - info: load reward reference table success !!
+2022-01-13 17:12:34:351 - info: load reward_fishing reference table success !!
+2022-01-13 17:12:34:357 - info: load system shop reference table success !!
+2022-01-13 17:12:34:749 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-13 17:12:34:749 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-13 17:12:34:749 - info: packet status : packet status not recorded yet.
+2022-01-13 17:12:34:778 - error: {"cmd":103,"login_id":"1642061554_0_31040_666938482","uuid":"1642061554_0_31040_666938482","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:34:778 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061554,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:34:778 - error: -1023
+2022-01-13 17:12:35:052 - error: {"cmd":103,"login_id":"1642061555_1_31040_583672413","uuid":"1642061555_1_31040_583672413","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:35:052 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061555,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:35:052 - error: -1023
+2022-01-13 17:12:35:300 - error: {"cmd":103,"login_id":"1642061555_2_31040_300553636","uuid":"1642061555_2_31040_300553636","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:35:300 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061555,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:35:300 - error: -1023
+2022-01-13 17:12:35:554 - error: {"cmd":103,"login_id":"1642061555_3_31040_103172889","uuid":"1642061555_3_31040_103172889","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:35:555 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061555,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:35:555 - error: -1023
+2022-01-13 17:12:35:791 - error: {"cmd":103,"login_id":"1642061555_4_31040_140768934","uuid":"1642061555_4_31040_140768934","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:35:791 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061555,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:35:791 - error: -1023
+2022-01-13 17:12:36:034 - error: {"cmd":103,"login_id":"1642061556_5_31040_588591716","uuid":"1642061556_5_31040_588591716","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:36:034 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061556,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:36:034 - error: -1023
+2022-01-13 17:12:36:265 - error: {"cmd":103,"login_id":"1642061556_6_31040_2537203","uuid":"1642061556_6_31040_2537203","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:36:265 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061556,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:36:265 - error: -1023
+2022-01-13 17:12:36:518 - error: {"cmd":103,"login_id":"1642061556_7_31040_692469501","uuid":"1642061556_7_31040_692469501","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:36:518 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061556,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:36:518 - error: -1023
+2022-01-13 17:12:36:750 - error: {"cmd":103,"login_id":"1642061556_8_31040_900687265","uuid":"1642061556_8_31040_900687265","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:36:750 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061556,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:36:750 - error: -1023
+2022-01-13 17:12:37:004 - error: {"cmd":103,"login_id":"1642061556_9_31040_703956154","uuid":"1642061556_9_31040_703956154","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:37:005 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061557,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:37:005 - error: -1023
+2022-01-13 17:12:37:260 - error: {"cmd":103,"login_id":"1642061557_10_31040_710470154","uuid":"1642061557_10_31040_710470154","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:37:260 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061557,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:37:260 - error: -1023
+2022-01-13 17:12:37:492 - error: {"cmd":103,"login_id":"1642061557_11_31040_483546554","uuid":"1642061557_11_31040_483546554","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:37:492 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061557,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:37:492 - error: -1023
+2022-01-13 17:12:37:733 - error: {"cmd":103,"login_id":"1642061557_12_31040_402678538","uuid":"1642061557_12_31040_402678538","version":"0.15.1","os_type":1,"login_type":1}
+2022-01-13 17:12:37:733 - error: {"data":{"server_info":{"version":"0.15.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642061557,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-13 17:12:37:733 - error: -1023
+2022-01-13 17:12:37:769 - error: db_query error : {"code":"ER_DUP_ENTRY","errno":1062,"sqlMessage":"Duplicate entry '215-10000001' for key 'PRIMARY'","sqlState":"23000","index":0,"sql":"insert into dat_attendance (aidx, attendance_code, reward_day, update_dt)  values (215, '10000001', 0,  now());"}

@@ -1,0 +1,23 @@
+2022-01-25 11:26:57:944 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-25 11:26:57:952 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-25 11:26:57:953 - info: connect sub redis : ["server_message"]
+2022-01-25 11:26:57:955 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-25 11:26:57:960 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-25 11:26:57:960 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-25 11:26:57:960 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-25 11:26:57:977 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-25 11:26:57:999 - info: load achievement reference table success !!
+2022-01-25 11:26:58:006 - info: load character reference table success !!
+2022-01-25 11:26:58:030 - info: load collection reference table success !!
+2022-01-25 11:26:58:038 - info: load daily attendance reference table success !!
+2022-01-25 11:26:58:097 - info: load item reference table success !!
+2022-01-25 11:26:58:107 - info: load open world reference table success !!
+2022-01-25 11:26:58:115 - info: load payment reference table success !!
+2022-01-25 11:26:58:123 - info: load play world reference table success !!
+2022-01-25 11:26:58:130 - info: load ranking reward reference table success !!
+2022-01-25 11:26:58:154 - info: load reward reference table success !!
+2022-01-25 11:26:58:162 - info: load reward_fishing reference table success !!
+2022-01-25 11:26:58:170 - info: load system shop reference table success !!
+2022-01-25 11:26:58:707 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-25 11:26:58:707 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-25 11:26:58:708 - info: packet status : packet status not recorded yet.

@@ -1,0 +1,72 @@
+2022-05-02 13:27:59:266 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-02 13:27:59:274 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-02 13:27:59:276 - info: connect sub redis : ["server_message"]
+2022-05-02 13:27:59:282 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-02 13:27:59:288 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-02 13:27:59:288 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-02 13:27:59:288 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-02 13:27:59:307 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-02 13:27:59:330 - info: load achievement reference table success !!
+2022-05-02 13:27:59:337 - info: load character reference table success !!
+2022-05-02 13:27:59:378 - info: load collection reference table success !!
+2022-05-02 13:27:59:388 - info: load daily attendance reference table success !!
+2022-05-02 13:27:59:454 - info: load item reference table success !!
+2022-05-02 13:27:59:461 - info: load open world reference table success !!
+2022-05-02 13:27:59:469 - info: load payment reference table success !!
+2022-05-02 13:27:59:489 - info: load play rank group reference table success !!
+2022-05-02 13:27:59:497 - info: load play world reference table success !!
+2022-05-02 13:27:59:505 - info: load ranking reward reference table success !!
+2022-05-02 13:27:59:530 - info: load reward reference table success !!
+2022-05-02 13:27:59:543 - info: load reward_fishing reference table success !!
+2022-05-02 13:27:59:550 - info: load system shop reference table success !!
+2022-05-02 13:28:00:241 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-02 13:28:00:242 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-02 13:28:00:242 - info: packet status : packet status not recorded yet.
+2022-05-02 13:28:01:115 - error: error cmd : 803 , err: TypeError: Cannot read property 'type' of undefined
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\item_equip.js:27:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-05-02 13:28:01:116 - error: {"aidx":5,"session":"56730984","equips":{"weapon":0,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 13:28:01:116 - error: {"data":{},"cmd":804,"status":-103}
+2022-05-02 13:28:01:116 - error: -103
+2022-05-02 13:28:09:876 - error: error cmd : 803 , err: TypeError: Cannot read property 'type' of undefined
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\item_equip.js:27:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-05-02 13:28:09:876 - error: {"aidx":5,"session":"84757485","equips":{"weapon":0,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 13:28:09:876 - error: {"data":{},"cmd":804,"status":-103}
+2022-05-02 13:28:09:876 - error: -103
+2022-05-02 13:28:46:492 - error: error cmd : 803 , err: TypeError: Cannot read property 'type' of undefined
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\item_equip.js:27:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-05-02 13:28:46:492 - error: {"aidx":5,"session":"84757485","equips":{"weapon":0,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 13:28:46:492 - error: {"data":{},"cmd":804,"status":-103}
+2022-05-02 13:28:46:492 - error: -103
+2022-05-02 13:33:08:623 - error: error cmd : 803 , err: TypeError: Cannot read property 'type' of undefined
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\item_equip.js:27:20)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-05-02 13:33:08:623 - error: {"aidx":5,"session":"84757485","equips":{"weapon":0,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 13:33:08:623 - error: {"data":{},"cmd":804,"status":-103}
+2022-05-02 13:33:08:623 - error: -103
+2022-05-02 13:33:08:629 - info: [game db pool] all : 2, wait : 0, acqu : 1, free : 1
+2022-05-02 13:33:08:629 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 13:33:08:629 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-02 13:33:08:629 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 13:33:08:629 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"803":{"cmd":803,"key":"item_equip","call":4,"total":239,"max":205,"min":0,"average":59.75}}
+2022-05-02 13:33:44:634 - error: error cmd : 803 , err: ReferenceError: item_obj is not defined
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\item_equip.js:48:9)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-05-02 13:33:44:634 - error: {"aidx":5,"session":"12165637","equips":{"weapon":0,"head":0,"top":0,"under":0,"neck":0,"ear":0,"ring_1":0,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 13:33:44:634 - error: {"data":{},"cmd":804,"status":-103}
+2022-05-02 13:33:44:634 - error: -103
+2022-05-02 13:37:59:268 - info: main: redis pong
+2022-05-02 13:37:59:273 - info: sub: redis pong
+2022-05-02 13:37:59:282 - info: msg: redis pong
+2022-05-02 13:38:08:637 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-02 13:38:08:637 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 13:38:08:637 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-02 13:38:08:637 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 13:38:08:638 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"803":{"cmd":803,"key":"item_equip","call":5,"total":265,"max":205,"min":0,"average":53}}
+2022-05-02 13:43:08:637 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-02 13:43:08:637 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 13:43:08:637 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-02 13:43:08:637 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-02 13:43:08:638 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"803":{"cmd":803,"key":"item_equip","call":5,"total":265,"max":205,"min":0,"average":53}}

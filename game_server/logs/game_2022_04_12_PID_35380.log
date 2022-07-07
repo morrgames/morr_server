@@ -1,0 +1,324 @@
+2022-04-12 11:57:48:705 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-04-12 11:57:48:720 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-04-12 11:57:48:725 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-04-12 11:57:48:725 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-04-12 11:57:48:726 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-04-12 11:57:48:748 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-04-12 11:57:48:775 - info: load achievement reference table success !!
+2022-04-12 11:57:48:783 - info: load character reference table success !!
+2022-04-12 11:57:48:828 - info: load collection reference table success !!
+2022-04-12 11:57:48:835 - info: load daily attendance reference table success !!
+2022-04-12 11:57:48:910 - info: load item reference table success !!
+2022-04-12 11:57:48:930 - info: load open world reference table success !!
+2022-04-12 11:57:48:940 - info: load payment reference table success !!
+2022-04-12 11:57:48:967 - info: load play rank group reference table success !!
+2022-04-12 11:57:48:975 - info: load play world reference table success !!
+2022-04-12 11:57:48:982 - info: load ranking reward reference table success !!
+2022-04-12 11:57:49:009 - info: load reward reference table success !!
+2022-04-12 11:57:49:018 - info: load reward_fishing reference table success !!
+2022-04-12 11:57:49:026 - info: load system shop reference table success !!
+2022-04-12 11:57:49:564 - info: 서버가 시작되었습니다. [port:8080]
+2022-04-12 11:57:49:564 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-04-12 11:57:49:564 - info: packet status : packet status not recorded yet.
+2022-04-12 11:57:48:715 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-04-12 11:57:48:717 - info: connect sub redis : ["server_message"]
+2022-04-12 12:12:07:445 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 1
+2022-04-12 12:12:07:445 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:12:07:446 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:12:07:446 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:12:07:446 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-04-12 12:12:07:451 - info: sub: redis pong
+2022-04-12 12:12:07:451 - info: main: redis pong
+2022-04-12 12:12:07:451 - info: msg: redis pong
+2022-04-12 12:17:07:443 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:17:07:443 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:17:07:443 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:17:07:443 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:17:07:444 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 12:22:07:442 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:22:07:442 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:22:07:442 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:22:07:443 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:22:07:443 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 12:22:07:445 - info: sub: redis pong
+2022-04-12 12:22:07:445 - info: main: redis pong
+2022-04-12 12:22:07:445 - info: msg: redis pong
+2022-04-12 12:27:07:448 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:27:07:448 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:27:07:448 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:27:07:448 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:27:07:449 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 12:32:07:448 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:32:07:448 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:32:07:448 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:32:07:448 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:32:07:448 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 12:32:07:448 - info: sub: redis pong
+2022-04-12 12:32:07:448 - info: main: redis pong
+2022-04-12 12:32:07:449 - info: msg: redis pong
+2022-04-12 12:37:07:448 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:37:07:448 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:37:07:448 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:37:07:448 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:37:07:449 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 12:42:07:442 - info: sub: redis pong
+2022-04-12 12:42:07:442 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:42:07:442 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:42:07:442 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:42:07:442 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:42:07:443 - info: main: redis pong
+2022-04-12 12:42:07:443 - info: msg: redis pong
+2022-04-12 12:42:07:443 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 12:47:07:443 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:47:07:443 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:47:07:444 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:47:07:444 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:47:07:444 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 12:52:07:451 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:52:07:452 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:52:07:452 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:52:07:452 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:52:07:452 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 12:52:07:453 - info: main: redis pong
+2022-04-12 12:52:07:453 - info: sub: redis pong
+2022-04-12 12:52:07:454 - info: msg: redis pong
+2022-04-12 12:57:07:457 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 12:57:07:457 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:57:07:457 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 12:57:07:457 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 12:57:07:458 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:02:07:459 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:02:07:460 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:02:07:460 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:02:07:460 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:02:07:460 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:02:07:461 - info: main: redis pong
+2022-04-12 13:02:07:462 - info: sub: redis pong
+2022-04-12 13:02:07:462 - info: msg: redis pong
+2022-04-12 13:07:07:466 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:07:07:466 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:07:07:466 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:07:07:466 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:07:07:467 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:12:07:466 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:12:07:466 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:12:07:466 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:12:07:466 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:12:07:466 - info: sub: redis pong
+2022-04-12 13:12:07:466 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:12:07:467 - info: main: redis pong
+2022-04-12 13:12:07:467 - info: msg: redis pong
+2022-04-12 13:17:07:461 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:17:07:461 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:17:07:461 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:17:07:461 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:17:07:462 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:22:07:460 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:22:07:460 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:22:07:461 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:22:07:461 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:22:07:461 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:22:07:462 - info: main: redis pong
+2022-04-12 13:22:07:463 - info: sub: redis pong
+2022-04-12 13:22:07:463 - info: msg: redis pong
+2022-04-12 13:27:07:467 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:27:07:467 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:27:07:467 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:27:07:467 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:27:07:468 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:32:07:467 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:32:07:468 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:32:07:468 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:32:07:468 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:32:07:468 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:32:07:469 - info: sub: redis pong
+2022-04-12 13:32:07:470 - info: msg: redis pong
+2022-04-12 13:32:07:470 - info: main: redis pong
+2022-04-12 13:37:07:467 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:37:07:468 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:37:07:468 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:37:07:468 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:37:07:468 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:42:07:467 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:42:07:468 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:42:07:468 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:42:07:468 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:42:07:468 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:42:07:469 - info: main: redis pong
+2022-04-12 13:42:07:470 - info: sub: redis pong
+2022-04-12 13:42:07:470 - info: msg: redis pong
+2022-04-12 13:47:07:472 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:47:07:472 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:47:07:472 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:47:07:472 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:47:07:473 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:52:07:469 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:52:07:469 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:52:07:469 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:52:07:470 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:52:07:470 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 13:52:07:471 - info: sub: redis pong
+2022-04-12 13:52:07:471 - info: main: redis pong
+2022-04-12 13:52:07:471 - info: msg: redis pong
+2022-04-12 13:57:07:467 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 13:57:07:467 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:57:07:467 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 13:57:07:467 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 13:57:07:468 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:02:07:476 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:02:07:476 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:02:07:477 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:02:07:477 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:02:07:477 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:02:07:478 - info: sub: redis pong
+2022-04-12 14:02:07:478 - info: main: redis pong
+2022-04-12 14:02:07:479 - info: msg: redis pong
+2022-04-12 14:07:07:480 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:07:07:480 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:07:07:480 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:07:07:480 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:07:07:481 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:12:07:484 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:12:07:485 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:12:07:485 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:12:07:485 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:12:07:485 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:12:07:486 - info: sub: redis pong
+2022-04-12 14:12:07:486 - info: main: redis pong
+2022-04-12 14:12:07:488 - info: msg: redis pong
+2022-04-12 14:17:07:490 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:17:07:490 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:17:07:490 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:17:07:491 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:17:07:491 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:22:07:493 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:22:07:494 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:22:07:494 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:22:07:494 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:22:07:494 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:22:07:495 - info: sub: redis pong
+2022-04-12 14:22:07:495 - info: main: redis pong
+2022-04-12 14:22:07:496 - info: msg: redis pong
+2022-04-12 14:27:07:490 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:27:07:490 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:27:07:490 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:27:07:490 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:27:07:491 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:32:07:489 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:32:07:490 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:32:07:490 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:32:07:490 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:32:07:490 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:32:07:492 - info: sub: redis pong
+2022-04-12 14:32:07:492 - info: main: redis pong
+2022-04-12 14:32:07:492 - info: msg: redis pong
+2022-04-12 14:37:07:489 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:37:07:489 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:37:07:489 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:37:07:489 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:37:07:490 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:42:07:487 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:42:07:488 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:42:07:488 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:42:07:488 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:42:07:488 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:42:07:489 - info: sub: redis pong
+2022-04-12 14:42:07:489 - info: main: redis pong
+2022-04-12 14:42:07:489 - info: msg: redis pong
+2022-04-12 14:47:07:497 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:47:07:497 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:47:07:497 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:47:07:497 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:47:07:498 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:52:07:497 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:52:07:498 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:52:07:498 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:52:07:498 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:52:07:498 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 14:52:07:499 - info: sub: redis pong
+2022-04-12 14:52:07:499 - info: main: redis pong
+2022-04-12 14:52:07:500 - info: msg: redis pong
+2022-04-12 14:57:07:510 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 14:57:07:510 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:57:07:510 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 14:57:07:510 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 14:57:07:511 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:02:07:498 - info: main: redis pong
+2022-04-12 15:02:07:499 - info: sub: redis pong
+2022-04-12 15:02:07:499 - info: msg: redis pong
+2022-04-12 15:02:07:511 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 15:02:07:511 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:02:07:511 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:02:07:511 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:02:07:511 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:07:07:520 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 15:07:07:520 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:07:07:520 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:07:07:520 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:07:07:521 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:12:07:503 - info: sub: redis pong
+2022-04-12 15:12:07:503 - info: main: redis pong
+2022-04-12 15:12:07:503 - info: msg: redis pong
+2022-04-12 15:12:07:530 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 15:12:07:530 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:12:07:530 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:12:07:531 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:12:07:531 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:17:07:535 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-04-12 15:17:07:535 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:17:07:535 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:17:07:535 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:17:07:536 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:22:07:505 - info: sub: redis pong
+2022-04-12 15:22:07:505 - info: main: redis pong
+2022-04-12 15:22:07:505 - info: msg: redis pong
+2022-04-12 15:22:07:547 - info: [game db pool] all : 2, wait : 0, acqu : 1, free : 1
+2022-04-12 15:22:07:547 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:22:07:548 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:22:07:548 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:22:07:548 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:22:18:042 - info: load achievement reference table success !!
+2022-04-12 15:22:18:046 - info: load character reference table success !!
+2022-04-12 15:22:18:067 - info: load collection reference table success !!
+2022-04-12 15:22:18:072 - info: load daily attendance reference table success !!
+2022-04-12 15:22:18:140 - info: load item reference table success !!
+2022-04-12 15:22:18:149 - info: load open world reference table success !!
+2022-04-12 15:22:18:156 - info: load payment reference table success !!
+2022-04-12 15:22:18:163 - info: load play rank group reference table success !!
+2022-04-12 15:22:18:174 - info: load play world reference table success !!
+2022-04-12 15:22:18:180 - info: load ranking reward reference table success !!
+2022-04-12 15:22:18:194 - info: load reward reference table success !!
+2022-04-12 15:22:18:200 - info: load reward_fishing reference table success !!
+2022-04-12 15:22:18:206 - info: load system shop reference table success !!
+2022-04-12 15:22:18:206 - info: ref table reload success
+2022-04-12 15:27:07:558 - info: [game db pool] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:27:07:558 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:27:07:558 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:27:07:559 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:27:07:559 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:32:07:497 - info: sub: redis pong
+2022-04-12 15:32:07:497 - info: main: redis pong
+2022-04-12 15:32:07:497 - info: msg: redis pong
+2022-04-12 15:32:07:554 - info: [game db pool] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:32:07:554 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:32:07:554 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:32:07:554 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:32:07:555 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:37:07:555 - info: [game db pool] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:37:07:555 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:37:07:555 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:37:07:555 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:37:07:556 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:42:07:490 - info: sub: redis pong
+2022-04-12 15:42:07:563 - info: [game db pool] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:42:07:563 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:42:07:563 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:42:07:563 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:42:07:563 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}
+2022-04-12 15:42:07:491 - info: main: redis pong
+2022-04-12 15:42:07:491 - info: msg: redis pong
+2022-04-12 15:47:07:573 - info: [game db pool] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:47:07:573 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:47:07:573 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-04-12 15:47:07:574 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-04-12 15:47:07:574 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"349":{"cmd":349,"key":"coin_exchange_list","call":2,"total":790,"max":790,"min":0,"average":395}}

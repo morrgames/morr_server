@@ -1,0 +1,31 @@
+2022-06-29 14:56:54:582 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-29 14:56:54:588 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-06-29 14:56:54:592 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-06-29 14:57:09:119 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-06-29 14:57:09:119 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-06-29 14:57:09:119 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-06-29 14:57:09:119 - info: mysql freemeta_user user db init : 49.50.172.145:3306
+2022-06-29 14:57:09:152 - info: load achievement reference table success !!
+2022-06-29 14:57:09:160 - info: load character reference table success !!
+2022-06-29 14:57:09:191 - info: load collection reference table success !!
+2022-06-29 14:57:09:199 - info: load daily attendance reference table success !!
+2022-06-29 14:57:09:209 - info: load system shop reference table success !!
+2022-06-29 14:57:09:297 - info: load item reference table success !!
+2022-06-29 14:57:09:305 - info: load open world reference table success !!
+2022-06-29 14:57:09:314 - info: load payment reference table success !!
+2022-06-29 14:57:09:331 - info: load play rank group reference table success !!
+2022-06-29 14:57:09:338 - info: load play world reference table success !!
+2022-06-29 14:57:09:346 - info: load ranking reward reference table success !!
+2022-06-29 14:57:09:381 - info: load reward reference table success !!
+2022-06-29 14:57:09:391 - info: load reward_fishing reference table success !!
+2022-06-29 14:57:09:398 - info: load system shop reference table success !!
+2022-06-29 14:57:09:480 - info: coin_exchange success~~
+2022-06-29 14:57:09:503 - info: delete expire exchange item schedule success~~
+2022-06-29 14:57:09:514 - info: delete mail cnt = 0
+2022-06-29 14:57:09:515 - info: delete expire mail schedule success~~
+2022-06-29 14:57:09:553 - info: delete expire mail schedule success~~
+2022-06-29 14:57:09:564 - info: iocp junk room clear schedule success~~
+2022-06-29 14:57:09:607 - info: nft item cnt = 18
+2022-06-29 14:57:09:607 - info: nft item sync schedule success~~
+2022-06-29 14:57:12:326 - error: error : rank update , {}
+2022-06-29 14:58:00:025 - info: iocp junk room clear schedule success~~

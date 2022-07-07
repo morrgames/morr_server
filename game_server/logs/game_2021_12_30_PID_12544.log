@@ -1,0 +1,37 @@
+2021-12-30 17:14:02:686 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-30 17:14:02:692 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-30 17:14:02:693 - info: connect sub redis : ["server_message"]
+2021-12-30 17:14:02:696 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-30 17:14:02:698 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-30 17:14:02:698 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-30 17:14:02:699 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-30 17:14:02:714 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-30 17:14:02:734 - info: load achievement reference table success !!
+2021-12-30 17:14:02:739 - info: load character reference table success !!
+2021-12-30 17:14:02:753 - info: load collection reference table success !!
+2021-12-30 17:14:02:759 - info: load daily attendance reference table success !!
+2021-12-30 17:14:02:805 - info: load item reference table success !!
+2021-12-30 17:14:02:814 - info: load open world reference table success !!
+2021-12-30 17:14:02:820 - info: load payment reference table success !!
+2021-12-30 17:14:02:827 - info: load play world reference table success !!
+2021-12-30 17:14:02:834 - info: load ranking reward reference table success !!
+2021-12-30 17:14:02:853 - info: load reward reference table success !!
+2021-12-30 17:14:02:860 - info: load reward_fishing reference table success !!
+2021-12-30 17:14:03:145 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-30 17:14:03:145 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-30 17:14:03:145 - info: packet status : packet status not recorded yet.
+2021-12-30 17:14:03:152 - error: C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\test_logic\test_fn_friend.js:91
+    relation_type: ,
+                   ^
+
+SyntaxError: Unexpected token ','
+    at Module._compile (internal/modules/cjs/loader.js:895:18)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:727:14)
+    at Module.require (internal/modules/cjs/loader.js:852:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+    at Object.<anonymous> (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\test_logic\test_senario1.js:4:19)
+    at Module._compile (internal/modules/cjs/loader.js:959:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:995:10)
+    at Module.load (internal/modules/cjs/loader.js:815:32)

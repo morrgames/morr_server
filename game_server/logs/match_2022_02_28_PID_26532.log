@@ -1,0 +1,27 @@
+2022-02-28 16:32:33:237 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-02-28 16:32:33:243 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-02-28 16:32:33:243 - info: connect sub redis : ["iocp_cmd"]
+2022-02-28 16:32:33:246 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-02-28 16:32:33:250 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-02-28 16:32:33:251 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-02-28 16:32:33:251 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-02-28 16:32:33:267 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-02-28 16:32:33:290 - info: load achievement reference table success !!
+2022-02-28 16:32:33:298 - info: load character reference table success !!
+2022-02-28 16:32:33:328 - info: load collection reference table success !!
+2022-02-28 16:32:33:336 - info: load daily attendance reference table success !!
+2022-02-28 16:32:33:396 - info: load item reference table success !!
+2022-02-28 16:32:33:407 - info: load open world reference table success !!
+2022-02-28 16:32:33:414 - info: load payment reference table success !!
+2022-02-28 16:32:33:421 - info: load play world reference table success !!
+2022-02-28 16:32:33:428 - info: load ranking reward reference table success !!
+2022-02-28 16:32:33:457 - info: load reward reference table success !!
+2022-02-28 16:32:33:465 - info: load reward_fishing reference table success !!
+2022-02-28 16:32:33:473 - info: load system shop reference table success !!
+2022-02-28 16:32:33:491 - info: 서버가 시작되었습니다. [port:10001]
+2022-02-28 16:32:33:491 - info: try to start [freemeta match server] : http://175.123.90.25:10001
+2022-02-28 16:32:33:492 - info: packet status : packet status not recorded yet.
+2022-02-28 16:32:35:680 - error: {"aidx":5,"session":"27783860","world_idx":105,"cmd":451}
+2022-02-28 16:32:35:680 - error: {"data":{},"cmd":452,"status":-1136}
+2022-02-28 16:32:35:680 - error: -1136
+2022-02-28 16:32:57:546 - info: room_key = P130_0, update_time = 2022-02-28 16:32:46, current_time = 2022-02-28 16:32:57

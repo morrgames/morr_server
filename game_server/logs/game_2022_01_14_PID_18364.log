@@ -1,0 +1,44 @@
+2022-01-14 13:35:45:556 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-14 13:35:45:561 - info: connect sub redis : ["server_message"]
+2022-01-14 13:35:45:562 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-14 13:35:45:565 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-14 13:35:45:569 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-14 13:35:45:570 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-14 13:35:45:570 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-14 13:35:45:585 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-14 13:35:45:606 - info: load achievement reference table success !!
+2022-01-14 13:35:45:613 - info: load character reference table success !!
+2022-01-14 13:35:45:634 - info: load collection reference table success !!
+2022-01-14 13:35:45:643 - info: load daily attendance reference table success !!
+2022-01-14 13:35:45:686 - info: load item reference table success !!
+2022-01-14 13:35:45:696 - info: load open world reference table success !!
+2022-01-14 13:35:45:703 - info: load payment reference table success !!
+2022-01-14 13:35:45:710 - info: load play world reference table success !!
+2022-01-14 13:35:45:717 - info: load ranking reward reference table success !!
+2022-01-14 13:35:45:741 - info: load reward reference table success !!
+2022-01-14 13:35:45:749 - info: load reward_fishing reference table success !!
+2022-01-14 13:35:45:756 - info: load system shop reference table success !!
+2022-01-14 13:35:46:196 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-14 13:35:46:196 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-14 13:35:46:197 - info: packet status : packet status not recorded yet.
+2022-01-14 13:35:46:227 - error: {"cmd":103,"login_id":"1642134946_0_18364_412636652","uuid":"1642134946_0_18364_412636652","version":"0.16.1","os_type":1,"login_type":1}
+2022-01-14 13:35:46:227 - error: {"data":{"server_info":{"version":"0.16.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642134946,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-14 13:35:46:228 - error: -1023
+2022-01-14 13:35:46:289 - error: null
+2022-01-14 13:35:46:334 - error: null
+2022-01-14 13:35:46:365 - error: null
+2022-01-14 13:39:15:179 - error: logdb_connect error : {"code":"PROTOCOL_SEQUENCE_TIMEOUT","fatal":true,"timeout":10000}
+2022-01-14 13:39:15:203 - error: null
+2022-01-14 13:39:15:254 - error: null
+2022-01-14 13:39:15:305 - error: null
+2022-01-14 13:39:15:384 - error: null
+2022-01-14 13:39:15:416 - error: null
+2022-01-14 13:39:15:445 - error: null
+2022-01-14 13:39:15:481 - error: null
+2022-01-14 13:40:06:108 - error: null
+2022-01-14 13:42:30:693 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-14 13:42:30:693 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 0
+2022-01-14 13:42:30:693 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-14 13:42:30:693 - info: [shard db pool : [1] ] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-14 13:42:30:693 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"415":{"cmd":415,"key":"world_item_list","call":1,"total":0,"max":0,"min":0,"average":0},"701":{"cmd":701,"key":"achievement_list","call":1,"total":51,"max":51,"min":0,"average":51},"703":{"cmd":703,"key":"achievement_update","call":7,"total":209,"max":209,"min":0,"average":29.857142857142858}}
+2022-01-14 13:42:30:708 - error: null

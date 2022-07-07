@@ -1,0 +1,25 @@
+2022-05-27 15:05:25:832 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-27 15:05:25:844 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-27 15:05:25:850 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-27 15:05:25:850 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-27 15:05:25:850 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-27 15:05:25:872 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-27 15:05:25:895 - info: load achievement reference table success !!
+2022-05-27 15:05:25:904 - info: load character reference table success !!
+2022-05-27 15:05:25:933 - info: load collection reference table success !!
+2022-05-27 15:05:25:941 - info: load daily attendance reference table success !!
+2022-05-27 15:05:25:949 - info: load system shop reference table success !!
+2022-05-27 15:05:26:020 - info: load item reference table success !!
+2022-05-27 15:05:26:029 - info: load open world reference table success !!
+2022-05-27 15:05:26:038 - info: load payment reference table success !!
+2022-05-27 15:05:26:062 - info: load play rank group reference table success !!
+2022-05-27 15:05:26:070 - info: load play world reference table success !!
+2022-05-27 15:05:26:078 - info: load ranking reward reference table success !!
+2022-05-27 15:05:26:106 - info: load reward reference table success !!
+2022-05-27 15:05:26:119 - info: load reward_fishing reference table success !!
+2022-05-27 15:05:26:127 - info: load system shop reference table success !!
+2022-05-27 15:05:26:200 - info: delete expire exchange item schedule success~~
+2022-05-27 15:05:26:211 - info: delete mail cnt = 0
+2022-05-27 15:05:26:212 - info: delete expire mail schedule success~~
+2022-05-27 15:05:26:241 - info: delete expire mail schedule success~~
+2022-05-27 15:05:26:253 - info: iocp junk room clear schedule success~~

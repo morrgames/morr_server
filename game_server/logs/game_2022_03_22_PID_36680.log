@@ -1,0 +1,29 @@
+2022-03-22 17:14:09:908 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-22 17:14:09:914 - info: connect sub redis : ["server_message"]
+2022-03-22 17:14:09:915 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-22 17:14:09:918 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-22 17:14:09:923 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-22 17:14:09:923 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-22 17:14:09:923 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-22 17:14:09:938 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-22 17:14:09:960 - info: load achievement reference table success !!
+2022-03-22 17:14:09:967 - info: load character reference table success !!
+2022-03-22 17:14:09:992 - info: load collection reference table success !!
+2022-03-22 17:14:09:999 - info: load daily attendance reference table success !!
+2022-03-22 17:14:10:065 - info: load item reference table success !!
+2022-03-22 17:14:10:075 - info: load open world reference table success !!
+2022-03-22 17:14:10:082 - info: load payment reference table success !!
+2022-03-22 17:14:10:099 - info: load play rank group reference table success !!
+2022-03-22 17:14:10:106 - info: load play world reference table success !!
+2022-03-22 17:14:10:112 - info: load ranking reward reference table success !!
+2022-03-22 17:14:10:135 - info: load reward reference table success !!
+2022-03-22 17:14:10:143 - info: load reward_fishing reference table success !!
+2022-03-22 17:14:10:149 - info: load system shop reference table success !!
+2022-03-22 17:14:10:612 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-22 17:14:10:612 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-22 17:14:10:612 - info: packet status : packet status not recorded yet.
+2022-03-22 17:19:09:939 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-22 17:19:09:939 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:19:09:939 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-22 17:19:09:940 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-22 17:19:10:616 - info: packet status : {"435":{"cmd":435,"key":"play_world_reward","call":1,"total":22,"max":22,"min":0,"average":22}}

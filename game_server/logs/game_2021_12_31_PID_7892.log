@@ -1,0 +1,53 @@
+2021-12-31 11:22:14:447 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-31 11:22:14:453 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-31 11:22:14:454 - info: connect sub redis : ["server_message"]
+2021-12-31 11:22:14:456 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-31 11:22:14:459 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-31 11:22:14:459 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-31 11:22:14:459 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-31 11:22:14:474 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-31 11:22:14:496 - info: load achievement reference table success !!
+2021-12-31 11:22:14:502 - info: load character reference table success !!
+2021-12-31 11:22:14:515 - info: load collection reference table success !!
+2021-12-31 11:22:14:522 - info: load daily attendance reference table success !!
+2021-12-31 11:22:14:567 - info: load item reference table success !!
+2021-12-31 11:22:14:576 - info: load open world reference table success !!
+2021-12-31 11:22:14:583 - info: load payment reference table success !!
+2021-12-31 11:22:14:589 - info: load play world reference table success !!
+2021-12-31 11:22:14:596 - info: load ranking reward reference table success !!
+2021-12-31 11:22:14:614 - info: load reward reference table success !!
+2021-12-31 11:22:14:622 - info: load reward_fishing reference table success !!
+2021-12-31 11:22:14:921 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-31 11:22:14:921 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-31 11:22:14:921 - info: packet status : packet status not recorded yet.
+2021-12-31 11:24:16:752 - info: server_message : ref_table_reload
+2021-12-31 11:24:16:760 - info: load achievement reference table success !!
+2021-12-31 11:24:16:780 - info: load character reference table success !!
+2021-12-31 11:24:16:792 - info: load collection reference table success !!
+2021-12-31 11:24:16:804 - info: load daily attendance reference table success !!
+2021-12-31 11:24:16:861 - info: load item reference table success !!
+2021-12-31 11:24:16:880 - info: load open world reference table success !!
+2021-12-31 11:24:16:893 - info: load payment reference table success !!
+2021-12-31 11:24:16:899 - info: load play world reference table success !!
+2021-12-31 11:24:16:905 - info: load ranking reward reference table success !!
+2021-12-31 11:24:16:925 - info: load reward reference table success !!
+2021-12-31 11:24:16:931 - info: load reward_fishing reference table success !!
+2021-12-31 11:24:16:931 - info: ref table reload success
+2021-12-31 11:27:14:475 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2021-12-31 11:27:14:476 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:27:14:476 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:27:14:476 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:27:14:927 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":1,"max":1,"min":0,"average":1},"615":{"cmd":615,"key":"nft_item_exists","call":1,"total":1,"max":1,"min":0,"average":1}}
+2021-12-31 11:32:14:453 - info: main: redis pong
+2021-12-31 11:32:14:453 - info: sub: redis pong
+2021-12-31 11:32:14:454 - info: msg: redis pong
+2021-12-31 11:32:14:483 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2021-12-31 11:32:14:483 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:32:14:483 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:32:14:483 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:32:14:925 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":1,"max":1,"min":0,"average":1},"615":{"cmd":615,"key":"nft_item_exists","call":1,"total":1,"max":1,"min":0,"average":1}}
+2021-12-31 11:37:14:490 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2021-12-31 11:37:14:490 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:37:14:490 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:37:14:490 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2021-12-31 11:37:14:922 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":1,"max":1,"min":0,"average":1},"615":{"cmd":615,"key":"nft_item_exists","call":1,"total":1,"max":1,"min":0,"average":1}}

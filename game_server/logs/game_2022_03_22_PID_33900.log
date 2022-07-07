@@ -1,0 +1,27 @@
+2022-03-22 17:13:27:767 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-22 17:13:27:773 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-22 17:13:27:774 - info: connect sub redis : ["server_message"]
+2022-03-22 17:13:27:777 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-22 17:13:27:781 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-22 17:13:27:781 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-22 17:13:27:781 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-22 17:13:27:796 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-22 17:13:27:818 - info: load achievement reference table success !!
+2022-03-22 17:13:27:825 - info: load character reference table success !!
+2022-03-22 17:13:27:849 - info: load collection reference table success !!
+2022-03-22 17:13:27:856 - info: load daily attendance reference table success !!
+2022-03-22 17:13:27:920 - info: load item reference table success !!
+2022-03-22 17:13:27:930 - info: load open world reference table success !!
+2022-03-22 17:13:27:937 - info: load payment reference table success !!
+2022-03-22 17:13:27:956 - info: load play rank group reference table success !!
+2022-03-22 17:13:27:964 - info: load play world reference table success !!
+2022-03-22 17:13:27:971 - info: load ranking reward reference table success !!
+2022-03-22 17:13:27:995 - info: load reward reference table success !!
+2022-03-22 17:13:28:002 - info: load reward_fishing reference table success !!
+2022-03-22 17:13:28:009 - info: load system shop reference table success !!
+2022-03-22 17:13:28:438 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-22 17:13:28:439 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-22 17:13:28:439 - info: packet status : packet status not recorded yet.
+2022-03-22 17:13:40:967 - error: {"aidx":108,"session":"72693560","world_idx":187,"cmd":435}
+2022-03-22 17:13:40:967 - error: {"data":{},"cmd":436,"status":-1113}
+2022-03-22 17:13:40:968 - error: -1113

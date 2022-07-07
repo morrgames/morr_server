@@ -1,0 +1,63 @@
+2022-05-27 14:47:55:601 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-27 14:47:55:608 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-27 14:47:55:613 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-27 14:47:55:617 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-27 14:47:55:617 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-27 14:47:55:617 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-27 14:47:55:633 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-27 14:47:55:658 - info: load achievement reference table success !!
+2022-05-27 14:47:55:666 - info: load character reference table success !!
+2022-05-27 14:47:55:695 - info: load collection reference table success !!
+2022-05-27 14:47:55:703 - info: load daily attendance reference table success !!
+2022-05-27 14:47:55:712 - info: load system shop reference table success !!
+2022-05-27 14:47:55:775 - info: load item reference table success !!
+2022-05-27 14:47:55:782 - info: load open world reference table success !!
+2022-05-27 14:47:55:791 - info: load payment reference table success !!
+2022-05-27 14:47:55:808 - info: load play rank group reference table success !!
+2022-05-27 14:47:55:815 - info: load play world reference table success !!
+2022-05-27 14:47:55:824 - info: load ranking reward reference table success !!
+2022-05-27 14:47:55:846 - info: load reward reference table success !!
+2022-05-27 14:47:55:854 - info: load reward_fishing reference table success !!
+2022-05-27 14:47:55:860 - info: load system shop reference table success !!
+2022-05-27 14:47:55:931 - info: delete expire exchange item schedule success~~
+2022-05-27 14:47:55:945 - info: delete mail cnt = 0
+2022-05-27 14:47:55:945 - info: delete expire mail schedule success~~
+2022-05-27 14:47:55:978 - info: delete expire mail schedule success~~
+2022-05-27 14:47:55:988 - info: iocp junk room clear schedule success~~
+2022-05-27 14:47:56:016 - info: nft item cnt = 18
+2022-05-27 14:47:56:016 - info: nft item sync schedule success~~
+2022-05-27 14:47:56:032 - info: rank update success~~
+2022-05-27 14:48:00:010 - info: iocp junk room clear schedule success~~
+2022-05-27 14:49:00:010 - info: iocp junk room clear schedule success~~
+2022-05-27 14:50:00:010 - info: iocp junk room clear schedule success~~
+2022-05-27 14:51:00:011 - info: iocp junk room clear schedule success~~
+2022-05-27 14:52:00:020 - info: iocp junk room clear schedule success~~
+2022-05-27 14:52:55:641 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-27 14:52:55:641 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-27 14:52:55:641 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-27 14:52:55:641 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-27 14:53:00:012 - info: iocp junk room clear schedule success~~
+2022-05-27 14:54:00:021 - info: iocp junk room clear schedule success~~
+2022-05-27 14:55:00:015 - info: iocp junk room clear schedule success~~
+2022-05-27 14:56:00:019 - info: iocp junk room clear schedule success~~
+2022-05-27 14:57:00:009 - info: iocp junk room clear schedule success~~
+2022-05-27 14:57:55:611 - info: main: redis pong
+2022-05-27 14:57:55:617 - info: sub: redis pong
+2022-05-27 14:57:55:620 - info: msg: redis pong
+2022-05-27 14:57:55:646 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-27 14:57:55:646 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-27 14:57:55:646 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-27 14:57:55:646 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-27 14:58:00:012 - info: iocp junk room clear schedule success~~
+2022-05-27 14:59:00:011 - info: iocp junk room clear schedule success~~
+2022-05-27 15:00:00:014 - info: iocp junk room clear schedule success~~
+2022-05-27 15:00:00:043 - info: delete expire mail schedule success~~
+2022-05-27 15:00:00:043 - info: nft item cnt = 18
+2022-05-27 15:00:00:044 - info: nft item sync schedule success~~
+2022-05-27 15:01:00:015 - info: iocp junk room clear schedule success~~
+2022-05-27 15:02:00:009 - info: iocp junk room clear schedule success~~
+2022-05-27 15:02:55:647 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-27 15:02:55:647 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-27 15:02:55:647 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-27 15:02:55:647 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-27 15:03:00:016 - info: iocp junk room clear schedule success~~

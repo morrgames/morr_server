@@ -1,0 +1,31 @@
+2022-01-26 12:59:43:905 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-26 12:59:43:912 - info: connect sub redis : ["server_message"]
+2022-01-26 12:59:43:914 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-26 12:59:43:922 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-26 12:59:43:922 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-26 12:59:43:922 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-26 12:59:43:937 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-26 12:59:43:959 - info: load achievement reference table success !!
+2022-01-26 12:59:43:965 - info: load character reference table success !!
+2022-01-26 12:59:43:995 - info: load collection reference table success !!
+2022-01-26 12:59:44:002 - info: load daily attendance reference table success !!
+2022-01-26 12:59:44:061 - info: load item reference table success !!
+2022-01-26 12:59:44:070 - info: load open world reference table success !!
+2022-01-26 12:59:44:078 - info: load payment reference table success !!
+2022-01-26 12:59:44:084 - info: load play world reference table success !!
+2022-01-26 12:59:44:092 - info: load ranking reward reference table success !!
+2022-01-26 12:59:44:115 - info: load reward reference table success !!
+2022-01-26 12:59:44:123 - info: load reward_fishing reference table success !!
+2022-01-26 12:59:44:130 - info: load system shop reference table success !!
+2022-01-26 12:59:44:817 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-26 12:59:44:817 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-26 12:59:44:817 - info: packet status : packet status not recorded yet.
+2022-01-26 12:59:43:910 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-26 13:01:14:176 - error: {"aidx":27,"session":"20692929","login_id":"fd576a3960244dac8b74660734a4e8fdd8fa9f725d7216e1cbd104855a8534e9","login_type":1,"name":"woongda","cmd":113,"user_no":"woongda"}
+2022-01-26 13:01:14:176 - error: {"data":{},"cmd":114,"status":-1024}
+2022-01-26 13:01:14:176 - error: -1024
+2022-01-26 13:01:59:809 - error: db_query error : {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column 'idx' in 'where clause'","sqlState":"42S22","index":0,"sql":"update dat_preview set name = 'switchtest' where idx = 36;"}
+2022-01-26 13:01:59:809 - error: error cmd : 113 , err: {"code":"ER_BAD_FIELD_ERROR","errno":1054,"sqlMessage":"Unknown column 'idx' in 'where clause'","sqlState":"42S22","index":0,"sql":"update dat_preview set name = 'switchtest' where idx = 36;"}
+2022-01-26 13:01:59:809 - error: {"aidx":36,"session":"95997435","login_id":"1646748421e7b598202d50f37e37d1656512dd1aebeebd1cf8537f89fa5189a4","login_type":1,"name":"switchtest","cmd":113,"user_no":"switchtest"}
+2022-01-26 13:01:59:809 - error: {"data":{},"cmd":114,"status":-103}
+2022-01-26 13:01:59:810 - error: -103

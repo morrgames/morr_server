@@ -1,0 +1,25 @@
+2021-12-31 11:54:01:366 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-31 11:54:01:371 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-31 11:54:01:372 - info: connect sub redis : ["server_message"]
+2021-12-31 11:54:01:376 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-31 11:54:01:379 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-31 11:54:01:379 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-31 11:54:01:379 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-31 11:54:01:395 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-31 11:54:01:414 - info: load achievement reference table success !!
+2021-12-31 11:54:01:420 - info: load character reference table success !!
+2021-12-31 11:54:01:431 - info: load collection reference table success !!
+2021-12-31 11:54:01:438 - info: load daily attendance reference table success !!
+2021-12-31 11:54:01:484 - info: load item reference table success !!
+2021-12-31 11:54:01:493 - info: load open world reference table success !!
+2021-12-31 11:54:01:500 - info: load payment reference table success !!
+2021-12-31 11:54:01:507 - info: load play world reference table success !!
+2021-12-31 11:54:01:513 - info: load ranking reward reference table success !!
+2021-12-31 11:54:01:530 - info: load reward reference table success !!
+2021-12-31 11:54:01:538 - info: load reward_fishing reference table success !!
+2021-12-31 11:54:01:816 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-31 11:54:01:817 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-31 11:54:01:817 - info: packet status : packet status not recorded yet.
+2021-12-31 11:54:01:904 - error: {"cmd":615,"aidx":139,"session":"94034029","target_item_code":11903008,"target_item_cnt":1,"material_list":[{"code":50301005,"value":3},{"code":50301004,"value":4},{"code":50306004,"value":3},{"code":50301009,"value":5}]}
+2021-12-31 11:54:01:905 - error: {"data":{},"cmd":616,"status":-1058}
+2021-12-31 11:54:01:905 - error: -1058

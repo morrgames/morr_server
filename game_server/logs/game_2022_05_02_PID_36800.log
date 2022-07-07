@@ -1,0 +1,28 @@
+2022-05-02 17:25:01:142 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-02 17:25:01:153 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-02 17:25:01:159 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-02 17:25:01:159 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-02 17:25:01:159 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-02 17:25:01:176 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-02 17:25:01:201 - info: load achievement reference table success !!
+2022-05-02 17:25:01:219 - info: load character reference table success !!
+2022-05-02 17:25:01:265 - info: load collection reference table success !!
+2022-05-02 17:25:01:274 - info: load daily attendance reference table success !!
+2022-05-02 17:25:01:336 - info: load item reference table success !!
+2022-05-02 17:25:01:345 - info: load open world reference table success !!
+2022-05-02 17:25:01:353 - info: load payment reference table success !!
+2022-05-02 17:25:01:376 - info: load play rank group reference table success !!
+2022-05-02 17:25:01:385 - info: load play world reference table success !!
+2022-05-02 17:25:01:395 - info: load ranking reward reference table success !!
+2022-05-02 17:25:01:420 - info: load reward reference table success !!
+2022-05-02 17:25:01:434 - info: load reward_fishing reference table success !!
+2022-05-02 17:25:01:444 - info: load system shop reference table success !!
+2022-05-02 17:25:02:236 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-02 17:25:02:236 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-02 17:25:02:237 - info: packet status : packet status not recorded yet.
+2022-05-02 17:25:11:910 - error: error cmd : 803 , err: TypeError: result.unset is not a function
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\item_equip.js:45:16)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-05-02 17:25:11:910 - error: {"aidx":5,"session":"99583027","_group":1,"equips":{"weapon":0,"head":1654,"top":0,"under":0,"neck":0,"ear":0,"ring_1":1658,"ring_2":0},"cmd":803,"client_ip":"127.0.0.1"}
+2022-05-02 17:25:11:910 - error: {"data":{},"cmd":804,"status":-103}
+2022-05-02 17:25:11:910 - error: -103

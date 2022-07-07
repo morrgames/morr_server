@@ -1,0 +1,39 @@
+2022-05-04 14:13:25:911 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-04 14:13:25:918 - info: connect sub redis : ["server_message"]
+2022-05-04 14:13:25:921 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-04 14:13:25:925 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-04 14:13:25:926 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-04 14:13:25:926 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-04 14:13:25:941 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-04 14:13:25:963 - info: load achievement reference table success !!
+2022-05-04 14:13:25:971 - info: load character reference table success !!
+2022-05-04 14:13:25:996 - info: load collection reference table success !!
+2022-05-04 14:13:26:004 - info: load daily attendance reference table success !!
+2022-05-04 14:13:26:013 - info: load system shop reference table success !!
+2022-05-04 14:13:26:077 - info: load item reference table success !!
+2022-05-04 14:13:26:085 - info: load open world reference table success !!
+2022-05-04 14:13:26:092 - info: load payment reference table success !!
+2022-05-04 14:13:26:114 - info: load play rank group reference table success !!
+2022-05-04 14:13:26:121 - info: load play world reference table success !!
+2022-05-04 14:13:26:128 - info: load ranking reward reference table success !!
+2022-05-04 14:13:26:156 - info: load reward reference table success !!
+2022-05-04 14:13:26:164 - info: load reward_fishing reference table success !!
+2022-05-04 14:13:26:170 - info: load system shop reference table success !!
+2022-05-04 14:13:26:870 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-04 14:13:26:870 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-04 14:13:26:871 - info: packet status : packet status not recorded yet.
+2022-05-04 14:13:59:737 - error: {"aidx":5,"session":"76611610","world_code":1234,"monster_item_code":540101001,"monster_local_id":1,"cmd":467,"client_ip":"127.0.0.1"}
+2022-05-04 14:13:59:737 - error: {"data":{},"cmd":468,"status":-1141}
+2022-05-04 14:13:59:738 - error: -1141
+2022-05-04 14:13:25:917 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-04 14:18:25:955 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-04 14:18:25:955 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-04 14:18:25:955 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-04 14:18:25:955 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-04 14:18:26:876 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"407":{"cmd":407,"key":"world_data_update","call":1,"total":2,"max":2,"min":0,"average":2},"467":{"cmd":467,"key":"world_map_reward_hunting","call":3,"total":99,"max":74,"min":0,"average":33}}
+2022-05-04 14:18:51:839 - error: {"aidx":5,"session":"76611610","world_code":500101009,"monster_item_code":50301014,"monster_local_id":1,"cmd":467,"client_ip":"127.0.0.1"}
+2022-05-04 14:18:51:839 - error: {"data":{},"cmd":468,"status":-1050}
+2022-05-04 14:18:51:839 - error: -1050
+2022-05-04 14:19:38:726 - error: {"aidx":5,"session":"76611610","world_code":500101009,"monster_item_code":150404012,"monster_local_id":1,"cmd":467,"client_ip":"127.0.0.1"}
+2022-05-04 14:19:38:726 - error: {"data":{},"cmd":468,"status":-1151}
+2022-05-04 14:19:38:726 - error: -1151

@@ -1,0 +1,95 @@
+2022-01-07 10:29:52:739 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-07 10:29:52:745 - info: connect sub redis : ["server_message"]
+2022-01-07 10:29:52:745 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-07 10:29:52:749 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-07 10:29:52:752 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-07 10:29:52:752 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-07 10:29:52:752 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-07 10:29:52:768 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-07 10:29:52:792 - info: load achievement reference table success !!
+2022-01-07 10:29:52:799 - info: load character reference table success !!
+2022-01-07 10:29:52:813 - info: load collection reference table success !!
+2022-01-07 10:29:52:820 - info: load daily attendance reference table success !!
+2022-01-07 10:29:52:869 - info: load item reference table success !!
+2022-01-07 10:29:52:879 - info: load open world reference table success !!
+2022-01-07 10:29:52:887 - info: load payment reference table success !!
+2022-01-07 10:29:52:894 - info: load play world reference table success !!
+2022-01-07 10:29:52:901 - info: load ranking reward reference table success !!
+2022-01-07 10:29:52:923 - info: load reward reference table success !!
+2022-01-07 10:29:52:931 - info: load reward_fishing reference table success !!
+2022-01-07 10:29:52:938 - info: load system shop reference table success !!
+2022-01-07 10:29:53:279 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-07 10:29:53:279 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-07 10:29:53:279 - info: packet status : packet status not recorded yet.
+2022-01-07 10:29:53:844 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101006,"seq":6}
+2022-01-07 10:29:53:844 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:53:844 - error: -1078
+2022-01-07 10:29:53:943 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101016,"seq":6}
+2022-01-07 10:29:53:943 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:53:943 - error: -1078
+2022-01-07 10:29:54:029 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101015,"seq":6}
+2022-01-07 10:29:54:030 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:030 - error: -1078
+2022-01-07 10:29:54:116 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101009,"seq":6}
+2022-01-07 10:29:54:116 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:116 - error: -1078
+2022-01-07 10:29:54:202 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101024,"seq":6}
+2022-01-07 10:29:54:202 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:202 - error: -1078
+2022-01-07 10:29:54:288 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101013,"seq":6}
+2022-01-07 10:29:54:288 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:288 - error: -1078
+2022-01-07 10:29:54:373 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101021,"seq":6}
+2022-01-07 10:29:54:373 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:373 - error: -1078
+2022-01-07 10:29:54:460 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101019,"seq":6}
+2022-01-07 10:29:54:460 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:460 - error: -1078
+2022-01-07 10:29:54:550 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101011,"seq":6}
+2022-01-07 10:29:54:551 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:551 - error: -1078
+2022-01-07 10:29:54:639 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101017,"seq":6}
+2022-01-07 10:29:54:639 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:639 - error: -1078
+2022-01-07 10:29:54:729 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101010,"seq":6}
+2022-01-07 10:29:54:729 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:729 - error: -1078
+2022-01-07 10:29:54:817 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101007,"seq":6}
+2022-01-07 10:29:54:817 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:817 - error: -1078
+2022-01-07 10:29:54:902 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101023,"seq":6}
+2022-01-07 10:29:54:902 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:902 - error: -1078
+2022-01-07 10:29:54:988 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101001,"seq":6}
+2022-01-07 10:29:54:988 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:54:988 - error: -1078
+2022-01-07 10:29:55:077 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101002,"seq":6}
+2022-01-07 10:29:55:077 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:077 - error: -1078
+2022-01-07 10:29:55:165 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101018,"seq":6}
+2022-01-07 10:29:55:165 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:165 - error: -1078
+2022-01-07 10:29:55:250 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101004,"seq":6}
+2022-01-07 10:29:55:250 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:250 - error: -1078
+2022-01-07 10:29:55:340 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101008,"seq":6}
+2022-01-07 10:29:55:340 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:340 - error: -1078
+2022-01-07 10:29:55:428 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101014,"seq":6}
+2022-01-07 10:29:55:428 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:428 - error: -1078
+2022-01-07 10:29:55:518 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101020,"seq":6}
+2022-01-07 10:29:55:518 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:518 - error: -1078
+2022-01-07 10:29:55:605 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101005,"seq":6}
+2022-01-07 10:29:55:605 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:605 - error: -1078
+2022-01-07 10:29:55:691 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101003,"seq":6}
+2022-01-07 10:29:55:691 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:691 - error: -1078
+2022-01-07 10:29:55:780 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101022,"seq":6}
+2022-01-07 10:29:55:780 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:780 - error: -1078
+2022-01-07 10:29:55:870 - error: {"cmd":615,"aidx":69,"session":"86953658","collection_code":101012,"seq":6}
+2022-01-07 10:29:55:870 - error: {"data":{},"cmd":616,"status":-1078}
+2022-01-07 10:29:55:870 - error: -1078

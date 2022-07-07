@@ -1,0 +1,132 @@
+2022-01-25 11:42:29:804 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-25 11:42:29:810 - info: connect sub redis : ["server_message"]
+2022-01-25 11:42:29:813 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-25 11:42:29:818 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-25 11:42:29:818 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-25 11:42:29:818 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-25 11:42:29:834 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-25 11:42:29:857 - info: load achievement reference table success !!
+2022-01-25 11:42:29:864 - info: load character reference table success !!
+2022-01-25 11:42:29:889 - info: load collection reference table success !!
+2022-01-25 11:42:29:898 - info: load daily attendance reference table success !!
+2022-01-25 11:42:29:955 - info: load item reference table success !!
+2022-01-25 11:42:29:966 - info: load open world reference table success !!
+2022-01-25 11:42:29:975 - info: load payment reference table success !!
+2022-01-25 11:42:29:982 - info: load play world reference table success !!
+2022-01-25 11:42:29:989 - info: load ranking reward reference table success !!
+2022-01-25 11:42:30:014 - info: load reward reference table success !!
+2022-01-25 11:42:30:021 - info: load reward_fishing reference table success !!
+2022-01-25 11:42:30:029 - info: load system shop reference table success !!
+2022-01-25 11:42:30:590 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-25 11:42:30:591 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-01-25 11:42:30:591 - info: packet status : packet status not recorded yet.
+2022-01-25 11:42:29:810 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-25 11:47:29:837 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 11:47:29:837 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:47:29:837 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:47:29:837 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:47:30:594 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 11:52:29:804 - info: main: redis pong
+2022-01-25 11:52:29:804 - info: msg: redis pong
+2022-01-25 11:52:29:805 - info: sub: redis pong
+2022-01-25 11:52:29:832 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 11:52:29:832 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:52:29:832 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:52:29:832 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:52:30:602 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 11:57:29:834 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 11:57:29:834 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:57:29:834 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:57:29:834 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 11:57:30:605 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 11:59:01:122 - info: load achievement reference table success !!
+2022-01-25 11:59:01:140 - info: load character reference table success !!
+2022-01-25 11:59:01:168 - info: load collection reference table success !!
+2022-01-25 11:59:01:181 - info: load daily attendance reference table success !!
+2022-01-25 11:59:01:243 - info: load item reference table success !!
+2022-01-25 11:59:01:264 - info: load open world reference table success !!
+2022-01-25 11:59:01:270 - info: load payment reference table success !!
+2022-01-25 11:59:01:275 - info: load play world reference table success !!
+2022-01-25 11:59:01:281 - info: load ranking reward reference table success !!
+2022-01-25 11:59:01:309 - info: load reward reference table success !!
+2022-01-25 11:59:01:315 - info: load reward_fishing reference table success !!
+2022-01-25 11:59:01:320 - info: load system shop reference table success !!
+2022-01-25 11:59:01:321 - info: ref table reload success
+2022-01-25 12:02:29:806 - info: main: redis pong
+2022-01-25 12:02:29:807 - info: sub: redis pong
+2022-01-25 12:02:29:807 - info: msg: redis pong
+2022-01-25 12:02:29:834 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:02:29:834 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:02:29:834 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:02:29:834 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:02:30:609 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:07:29:839 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:07:29:839 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:07:29:839 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:07:29:839 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:07:30:612 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:12:29:804 - info: msg: redis pong
+2022-01-25 12:12:29:804 - info: main: redis pong
+2022-01-25 12:12:29:804 - info: sub: redis pong
+2022-01-25 12:12:29:847 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:12:29:847 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:12:29:847 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:12:29:847 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:12:30:620 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:17:29:847 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:17:29:847 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:17:29:847 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:17:29:847 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:17:30:632 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:22:29:799 - info: main: redis pong
+2022-01-25 12:22:29:799 - info: sub: redis pong
+2022-01-25 12:22:29:799 - info: msg: redis pong
+2022-01-25 12:22:29:842 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:22:29:842 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:22:29:842 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:22:29:842 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:22:30:627 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:27:29:848 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:27:29:848 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:27:29:848 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:27:29:848 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:27:30:634 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:32:29:804 - info: main: redis pong
+2022-01-25 12:32:29:804 - info: msg: redis pong
+2022-01-25 12:32:29:804 - info: sub: redis pong
+2022-01-25 12:32:29:846 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:32:29:846 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:32:29:846 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:32:29:846 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:32:30:632 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:37:29:847 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:37:29:847 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:37:29:847 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:37:29:848 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:37:30:631 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:42:29:805 - info: main: redis pong
+2022-01-25 12:42:29:805 - info: sub: redis pong
+2022-01-25 12:42:29:805 - info: msg: redis pong
+2022-01-25 12:42:29:848 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:42:29:848 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:42:29:848 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:42:29:848 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:42:30:632 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:47:29:859 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:47:29:859 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:47:29:859 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:47:29:859 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:47:30:629 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:52:29:811 - info: main: redis pong
+2022-01-25 12:52:29:811 - info: msg: redis pong
+2022-01-25 12:52:29:812 - info: sub: redis pong
+2022-01-25 12:52:29:870 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:52:29:870 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:52:29:870 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:52:29:870 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:52:30:636 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}
+2022-01-25 12:57:29:869 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-25 12:57:29:869 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:57:29:869 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:57:29:869 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-25 12:57:30:640 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":27,"max":27,"min":0,"average":27}}

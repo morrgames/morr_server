@@ -1,0 +1,26 @@
+2022-01-03 11:52:31:414 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-03 11:52:31:420 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-03 11:52:31:422 - info: connect sub redis : ["server_message"]
+2022-01-03 11:52:31:424 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-03 11:52:31:427 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-03 11:52:31:427 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-03 11:52:31:427 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-03 11:52:31:445 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-03 11:52:31:466 - info: load achievement reference table success !!
+2022-01-03 11:52:31:471 - info: load character reference table success !!
+2022-01-03 11:52:31:484 - info: load collection reference table success !!
+2022-01-03 11:52:31:491 - info: load daily attendance reference table success !!
+2022-01-03 11:52:31:538 - info: load item reference table success !!
+2022-01-03 11:52:31:548 - info: load open world reference table success !!
+2022-01-03 11:52:31:555 - info: load payment reference table success !!
+2022-01-03 11:52:31:561 - info: load play world reference table success !!
+2022-01-03 11:52:31:567 - info: load ranking reward reference table success !!
+2022-01-03 11:52:31:585 - info: load reward reference table success !!
+2022-01-03 11:52:31:593 - info: load reward_fishing reference table success !!
+2022-01-03 11:52:31:599 - info: load system shop reference table success !!
+2022-01-03 11:52:31:848 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-03 11:52:31:848 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-03 11:52:31:848 - info: packet status : packet status not recorded yet.
+2022-01-03 11:52:31:936 - error: {"cmd":501,"aidx":155,"session":"39276250","pidx":1,"equip_list":[{"eidx":49,"code":11701001},{"eidx":51,"code":11901010}],"local_id":2}
+2022-01-03 11:52:31:936 - error: {"data":{},"cmd":502,"status":-112}
+2022-01-03 11:52:31:936 - error: -112

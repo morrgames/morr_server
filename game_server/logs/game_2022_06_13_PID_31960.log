@@ -1,0 +1,25 @@
+2022-06-13 16:03:36:534 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-13 16:03:36:540 - info: connect sub redis : ["server_message"]
+2022-06-13 16:03:36:543 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-06-13 16:03:36:547 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-06-13 16:03:36:547 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-06-13 16:03:36:547 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-06-13 16:03:36:563 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-06-13 16:03:36:585 - info: load achievement reference table success !!
+2022-06-13 16:03:36:593 - info: load character reference table success !!
+2022-06-13 16:03:36:619 - info: load collection reference table success !!
+2022-06-13 16:03:36:635 - info: load daily attendance reference table success !!
+2022-06-13 16:03:36:644 - info: load system shop reference table success !!
+2022-06-13 16:03:36:709 - info: load item reference table success !!
+2022-06-13 16:03:36:717 - info: load open world reference table success !!
+2022-06-13 16:03:36:725 - info: load payment reference table success !!
+2022-06-13 16:03:36:743 - info: load play rank group reference table success !!
+2022-06-13 16:03:36:750 - info: load play world reference table success !!
+2022-06-13 16:03:36:757 - info: load ranking reward reference table success !!
+2022-06-13 16:03:36:788 - info: load reward reference table success !!
+2022-06-13 16:03:36:796 - info: load reward_fishing reference table success !!
+2022-06-13 16:03:36:803 - info: load system shop reference table success !!
+2022-06-13 16:03:37:107 - info: 서버가 시작되었습니다. [port:8080]
+2022-06-13 16:03:37:107 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-06-13 16:03:37:107 - info: packet status : packet status not recorded yet.
+2022-06-13 16:03:49:209 - error: db_query error : {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlMessage":"Table 'freemeta_log.log_world_join_log' doesn't exist","sqlState":"42S02","index":0,"sql":"insert into log_world_join_log values (null, 361, 108, 108, 1, 1, '2022-06-13 16:03:48')"}

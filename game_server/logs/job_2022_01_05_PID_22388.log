@@ -1,0 +1,115 @@
+2022-01-05 11:12:21:551 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-05 11:12:21:557 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-05 11:12:21:558 - info: connect sub redis : ["server_message"]
+2022-01-05 11:12:21:560 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-05 11:12:21:564 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-05 11:12:21:564 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-05 11:12:21:564 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-05 11:12:21:581 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-05 11:12:21:604 - info: load achievement reference table success !!
+2022-01-05 11:12:21:611 - info: load character reference table success !!
+2022-01-05 11:12:21:624 - info: load collection reference table success !!
+2022-01-05 11:12:21:632 - info: load daily attendance reference table success !!
+2022-01-05 11:12:21:679 - info: load item reference table success !!
+2022-01-05 11:12:21:689 - info: load open world reference table success !!
+2022-01-05 11:12:21:696 - info: load payment reference table success !!
+2022-01-05 11:12:21:703 - info: load play world reference table success !!
+2022-01-05 11:12:21:710 - info: load ranking reward reference table success !!
+2022-01-05 11:12:21:729 - info: load reward reference table success !!
+2022-01-05 11:12:21:736 - info: load reward_fishing reference table success !!
+2022-01-05 11:12:21:743 - info: load system shop reference table success !!
+2022-01-05 11:12:21:762 - info: open_world_init
+2022-01-05 11:12:21:817 - info: delete expire exchange item schedule success~~
+2022-01-05 11:12:21:828 - info: delete mail cnt = 0
+2022-01-05 11:12:21:828 - info: delete expire mail schedule success~~
+2022-01-05 11:12:21:837 - info: iocp junk room clear schedule success~~
+2022-01-05 11:16:09:964 - info: iocp junk room clear schedule success~~
+2022-01-05 11:16:09:966 - info: iocp junk room clear schedule success~~
+2022-01-05 11:16:09:968 - info: iocp junk room clear schedule success~~
+2022-01-05 11:16:38:265 - info: nft item cnt = 3
+2022-01-05 11:16:38:265 - info: nft item sync schedule success~~
+2022-01-05 11:16:09:969 - info: iocp junk room clear schedule success~~
+2022-01-05 11:17:00:018 - info: iocp junk room clear schedule success~~
+2022-01-05 11:17:21:569 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-05 11:17:21:569 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:17:21:569 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-05 11:17:21:569 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:18:00:021 - info: iocp junk room clear schedule success~~
+2022-01-05 11:19:00:020 - info: iocp junk room clear schedule success~~
+2022-01-05 11:20:00:013 - info: iocp junk room clear schedule success~~
+2022-01-05 11:21:00:012 - info: iocp junk room clear schedule success~~
+2022-01-05 11:22:00:014 - info: iocp junk room clear schedule success~~
+2022-01-05 11:22:21:531 - info: main: redis pong
+2022-01-05 11:22:21:546 - info: sub: redis pong
+2022-01-05 11:22:21:546 - info: msg: redis pong
+2022-01-05 11:22:21:575 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-05 11:22:21:575 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:22:21:575 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-05 11:22:21:575 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:23:00:012 - info: iocp junk room clear schedule success~~
+2022-01-05 11:24:00:020 - info: iocp junk room clear schedule success~~
+2022-01-05 11:25:00:010 - info: iocp junk room clear schedule success~~
+2022-01-05 11:26:00:006 - info: iocp junk room clear schedule success~~
+2022-01-05 11:27:00:018 - info: iocp junk room clear schedule success~~
+2022-01-05 11:27:21:585 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-05 11:27:21:585 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:27:21:585 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-05 11:27:21:585 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:28:00:012 - info: iocp junk room clear schedule success~~
+2022-01-05 11:29:00:008 - info: iocp junk room clear schedule success~~
+2022-01-05 11:30:00:024 - info: iocp junk room clear schedule success~~
+2022-01-05 11:30:00:044 - info: nft item cnt = 3
+2022-01-05 11:30:00:044 - info: nft item sync schedule success~~
+2022-01-05 11:31:00:018 - info: iocp junk room clear schedule success~~
+2022-01-05 11:32:00:020 - info: iocp junk room clear schedule success~~
+2022-01-05 11:32:21:538 - info: main: redis pong
+2022-01-05 11:32:21:552 - info: sub: redis pong
+2022-01-05 11:32:21:552 - info: msg: redis pong
+2022-01-05 11:32:21:596 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-05 11:32:21:596 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:32:21:596 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-05 11:32:21:596 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:33:00:008 - info: iocp junk room clear schedule success~~
+2022-01-05 11:34:00:020 - info: iocp junk room clear schedule success~~
+2022-01-05 11:35:00:008 - info: iocp junk room clear schedule success~~
+2022-01-05 11:36:00:026 - info: iocp junk room clear schedule success~~
+2022-01-05 11:37:00:007 - info: iocp junk room clear schedule success~~
+2022-01-05 11:37:21:597 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-05 11:37:21:597 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:37:21:597 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-05 11:37:21:597 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:38:00:018 - info: iocp junk room clear schedule success~~
+2022-01-05 11:39:00:015 - info: iocp junk room clear schedule success~~
+2022-01-05 11:40:00:018 - info: iocp junk room clear schedule success~~
+2022-01-05 11:41:00:008 - info: iocp junk room clear schedule success~~
+2022-01-05 11:42:00:011 - info: iocp junk room clear schedule success~~
+2022-01-05 11:42:21:549 - info: main: redis pong
+2022-01-05 11:42:21:551 - info: sub: redis pong
+2022-01-05 11:42:21:551 - info: msg: redis pong
+2022-01-05 11:42:21:607 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-05 11:42:21:607 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:42:21:607 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-05 11:42:21:607 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:43:00:010 - info: iocp junk room clear schedule success~~
+2022-01-05 11:44:00:012 - info: iocp junk room clear schedule success~~
+2022-01-05 11:45:00:017 - info: iocp junk room clear schedule success~~
+2022-01-05 11:46:00:017 - info: iocp junk room clear schedule success~~
+2022-01-05 11:47:00:014 - info: iocp junk room clear schedule success~~
+2022-01-05 11:47:21:615 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-05 11:47:21:615 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:47:21:615 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-05 11:47:21:615 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:48:00:011 - info: iocp junk room clear schedule success~~
+2022-01-05 11:49:00:005 - info: iocp junk room clear schedule success~~
+2022-01-05 11:50:00:012 - info: iocp junk room clear schedule success~~
+2022-01-05 11:51:00:010 - info: iocp junk room clear schedule success~~
+2022-01-05 11:52:00:014 - info: iocp junk room clear schedule success~~
+2022-01-05 11:52:21:532 - info: main: redis pong
+2022-01-05 11:52:21:535 - info: sub: redis pong
+2022-01-05 11:52:21:535 - info: msg: redis pong
+2022-01-05 11:52:21:608 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-01-05 11:52:21:608 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:52:21:608 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-01-05 11:52:21:608 - info: [shard db pool : [1] ] all : 0, wait : 0, acqu : 0, free : 0
+2022-01-05 11:53:00:018 - info: iocp junk room clear schedule success~~
+2022-01-05 11:54:00:007 - info: iocp junk room clear schedule success~~

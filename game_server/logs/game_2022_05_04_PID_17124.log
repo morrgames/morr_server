@@ -1,0 +1,30 @@
+2022-05-04 10:41:31:923 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-04 10:41:31:935 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-04 10:41:31:940 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-04 10:41:31:940 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-04 10:41:31:940 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-04 10:41:31:956 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-04 10:41:31:981 - info: load achievement reference table success !!
+2022-05-04 10:41:31:989 - info: load character reference table success !!
+2022-05-04 10:41:32:013 - info: load collection reference table success !!
+2022-05-04 10:41:32:022 - info: load daily attendance reference table success !!
+2022-05-04 10:41:32:031 - info: load system shop reference table success !!
+2022-05-04 10:41:32:101 - info: load item reference table success !!
+2022-05-04 10:41:32:109 - info: load open world reference table success !!
+2022-05-04 10:41:32:117 - info: load payment reference table success !!
+2022-05-04 10:41:32:139 - info: load play rank group reference table success !!
+2022-05-04 10:41:32:147 - info: load play world reference table success !!
+2022-05-04 10:41:32:154 - info: load ranking reward reference table success !!
+2022-05-04 10:41:32:178 - info: load reward reference table success !!
+2022-05-04 10:41:32:188 - info: load reward_fishing reference table success !!
+2022-05-04 10:41:32:195 - info: load system shop reference table success !!
+2022-05-04 10:41:32:787 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-04 10:41:32:787 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-04 10:41:32:788 - info: packet status : packet status not recorded yet.
+2022-05-04 10:41:31:931 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-04 10:41:31:932 - info: connect sub redis : ["server_message"]
+2022-05-04 10:43:07:609 - error: db_query error : {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlMessage":"Column 'gate' cannot be null","sqlState":"23000","index":0,"sql":"update dat_open_world set world_data_url = '/default/openworld/500101009.fmw?dt=1651628587', image_url = '/default/openworld/500101009.jpg?dt=1651628587', gate = NULL where world_code = 500101009"}
+2022-05-04 10:43:07:609 - error: error cmd : 407 , err: {"code":"ER_BAD_NULL_ERROR","errno":1048,"sqlMessage":"Column 'gate' cannot be null","sqlState":"23000","index":0,"sql":"update dat_open_world set world_data_url = '/default/openworld/500101009.fmw?dt=1651628587', image_url = '/default/openworld/500101009.jpg?dt=1651628587', gate = NULL where world_code = 500101009"}
+2022-05-04 10:43:07:609 - error: {"aidx":5,"session":"79719516","world_type":4,"target_obj":{"widx":491,"world_code":500101009},"add_item_list":[{"code":150404012,"cnt":100}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-04 10:43:07:609 - error: {"data":{},"cmd":408,"status":-103}
+2022-05-04 10:43:07:610 - error: -103

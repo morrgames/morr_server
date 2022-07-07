@@ -1,0 +1,36 @@
+2022-03-03 14:52:25:498 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-03 14:52:25:503 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-03 14:52:25:504 - info: connect sub redis : ["server_message"]
+2022-03-03 14:52:25:507 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-03 14:52:25:510 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-03 14:52:25:511 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-03 14:52:25:511 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-03 14:52:25:527 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-03 14:52:25:548 - info: load achievement reference table success !!
+2022-03-03 14:52:25:555 - info: load character reference table success !!
+2022-03-03 14:52:25:580 - info: load collection reference table success !!
+2022-03-03 14:52:25:587 - info: load daily attendance reference table success !!
+2022-03-03 14:52:25:644 - info: load item reference table success !!
+2022-03-03 14:52:25:654 - info: load open world reference table success !!
+2022-03-03 14:52:25:661 - info: load payment reference table success !!
+2022-03-03 14:52:25:668 - info: load play world reference table success !!
+2022-03-03 14:52:25:675 - info: load ranking reward reference table success !!
+2022-03-03 14:52:25:700 - info: load reward reference table success !!
+2022-03-03 14:52:25:707 - info: load reward_fishing reference table success !!
+2022-03-03 14:52:25:715 - info: load system shop reference table success !!
+2022-03-03 14:52:26:107 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-03 14:52:26:108 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-03 14:52:26:108 - info: packet status : packet status not recorded yet.
+2022-03-03 14:57:25:532 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-03 14:57:25:532 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-03 14:57:25:532 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-03 14:57:25:532 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-03 14:57:26:105 - info: packet status : {"443":{"cmd":443,"key":"world_info","call":1,"total":0,"max":0,"min":0,"average":0}}
+2022-03-03 15:02:25:499 - info: main: redis pong
+2022-03-03 15:02:25:500 - info: sub: redis pong
+2022-03-03 15:02:25:501 - info: msg: redis pong
+2022-03-03 15:02:25:542 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-03 15:02:25:542 - info: [log db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-03 15:02:25:542 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-03 15:02:25:542 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-03 15:02:26:115 - info: packet status : {"443":{"cmd":443,"key":"world_info","call":1,"total":0,"max":0,"min":0,"average":0}}

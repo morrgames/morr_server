@@ -1,0 +1,26 @@
+2022-03-14 13:18:35:065 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-14 13:18:35:071 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-14 13:18:35:072 - info: connect sub redis : ["server_message"]
+2022-03-14 13:18:35:074 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-14 13:18:35:078 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-14 13:18:35:078 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-14 13:18:35:079 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-14 13:18:35:094 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-14 13:18:35:115 - info: load achievement reference table success !!
+2022-03-14 13:18:35:122 - info: load character reference table success !!
+2022-03-14 13:18:35:148 - info: load collection reference table success !!
+2022-03-14 13:18:35:155 - info: load daily attendance reference table success !!
+2022-03-14 13:18:35:214 - info: load item reference table success !!
+2022-03-14 13:18:35:223 - info: load open world reference table success !!
+2022-03-14 13:18:35:231 - info: load payment reference table success !!
+2022-03-14 13:18:35:237 - info: load play world reference table success !!
+2022-03-14 13:18:35:244 - info: load ranking reward reference table success !!
+2022-03-14 13:18:35:269 - info: load reward reference table success !!
+2022-03-14 13:18:35:277 - info: load reward_fishing reference table success !!
+2022-03-14 13:18:35:283 - info: load system shop reference table success !!
+2022-03-14 13:18:35:741 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-14 13:18:35:742 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-14 13:18:35:742 - info: packet status : packet status not recorded yet.
+2022-03-14 13:19:38:316 - error: {"aidx":5,"session":"25540775","world_item_code":150404002,"world_item_local_id":15,"equip_item_idx":5,"target_obj":{"widx":233,"target_aidx":242,"world_code":2},"world_type":2,"parameter":5,"cmd":419}
+2022-03-14 13:19:38:317 - error: {"data":{},"cmd":420,"status":-1069}
+2022-03-14 13:19:38:317 - error: -1069

@@ -1,0 +1,32 @@
+2022-05-25 17:51:40:467 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-25 17:51:40:480 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-25 17:51:40:481 - info: connect sub redis : ["server_message"]
+2022-05-25 17:51:40:492 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-25 17:51:40:496 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-25 17:51:40:496 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-25 17:51:40:497 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-25 17:51:40:530 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-25 17:51:40:558 - info: load achievement reference table success !!
+2022-05-25 17:51:40:566 - info: load character reference table success !!
+2022-05-25 17:51:40:596 - info: load collection reference table success !!
+2022-05-25 17:51:40:610 - info: load daily attendance reference table success !!
+2022-05-25 17:51:40:630 - info: load system shop reference table success !!
+2022-05-25 17:51:40:740 - info: load item reference table success !!
+2022-05-25 17:51:40:760 - info: load open world reference table success !!
+2022-05-25 17:51:40:781 - info: load payment reference table success !!
+2022-05-25 17:51:40:816 - info: load play rank group reference table success !!
+2022-05-25 17:51:40:834 - info: load play world reference table success !!
+2022-05-25 17:51:40:855 - info: load ranking reward reference table success !!
+2022-05-25 17:51:40:893 - info: load reward reference table success !!
+2022-05-25 17:51:40:915 - info: load reward_fishing reference table success !!
+2022-05-25 17:51:40:936 - info: load system shop reference table success !!
+2022-05-25 17:51:41:247 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-25 17:51:41:248 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-25 17:51:41:248 - info: packet status : packet status not recorded yet.
+2022-05-25 17:52:07:656 - error: error cmd : 801 , err: TypeError: Cannot read property 'user' of undefined
+    at Object.exports.sharddb_connect_my (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\db\mysql.js:195:54)
+    at module.exports (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\game\handlers\rank\rank_update.js:22:33)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+2022-05-25 17:52:07:657 - error: {"aidx":107,"session":"26077615","sidx":1,"score":40,"cmd":801,"client_ip":"127.0.0.1"}
+2022-05-25 17:52:07:657 - error: {"data":{},"cmd":802,"status":-103}
+2022-05-25 17:52:07:657 - error: -103

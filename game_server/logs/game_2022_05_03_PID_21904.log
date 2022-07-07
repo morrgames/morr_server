@@ -1,0 +1,75 @@
+2022-05-03 14:06:38:072 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-05-03 14:06:38:079 - info: connect sub redis : ["server_message"]
+2022-05-03 14:06:38:079 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-05-03 14:06:38:083 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-05-03 14:06:38:088 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-05-03 14:06:38:089 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-05-03 14:06:38:089 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-05-03 14:06:38:106 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-05-03 14:06:38:128 - info: load achievement reference table success !!
+2022-05-03 14:06:38:136 - info: load character reference table success !!
+2022-05-03 14:06:38:160 - info: load collection reference table success !!
+2022-05-03 14:06:38:169 - info: load daily attendance reference table success !!
+2022-05-03 14:06:38:177 - info: load system shop reference table success !!
+2022-05-03 14:06:38:244 - info: load item reference table success !!
+2022-05-03 14:06:38:253 - info: load open world reference table success !!
+2022-05-03 14:06:38:268 - info: load payment reference table success !!
+2022-05-03 14:06:38:288 - info: load play rank group reference table success !!
+2022-05-03 14:06:38:299 - info: load play world reference table success !!
+2022-05-03 14:06:38:308 - info: load ranking reward reference table success !!
+2022-05-03 14:06:38:340 - info: load reward reference table success !!
+2022-05-03 14:06:38:350 - info: load reward_fishing reference table success !!
+2022-05-03 14:06:38:358 - info: load system shop reference table success !!
+2022-05-03 14:06:38:995 - info: 서버가 시작되었습니다. [port:8080]
+2022-05-03 14:06:38:995 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-05-03 14:06:38:996 - info: packet status : packet status not recorded yet.
+2022-05-03 14:08:07:533 - error: {"aidx":5,"session":"49648607","world_type":4,"target_obj":{"widx":491,"world_code":500101002},"add_item_list":[],"use_item_list":[{"code":200101001,"cnt":1}],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-03 14:08:07:534 - error: {"data":{},"cmd":408,"status":-1050}
+2022-05-03 14:08:07:534 - error: -1050
+2022-05-03 14:08:16:847 - info: load achievement reference table success !!
+2022-05-03 14:08:16:868 - info: load character reference table success !!
+2022-05-03 14:08:16:911 - info: load collection reference table success !!
+2022-05-03 14:08:16:921 - info: load daily attendance reference table success !!
+2022-05-03 14:08:16:931 - info: load system shop reference table success !!
+2022-05-03 14:08:17:011 - info: load item reference table success !!
+2022-05-03 14:08:17:020 - info: load open world reference table success !!
+2022-05-03 14:08:17:031 - info: load payment reference table success !!
+2022-05-03 14:08:17:039 - info: load play rank group reference table success !!
+2022-05-03 14:08:17:045 - info: load play world reference table success !!
+2022-05-03 14:08:17:050 - info: load ranking reward reference table success !!
+2022-05-03 14:08:17:067 - info: load reward reference table success !!
+2022-05-03 14:08:17:075 - info: load reward_fishing reference table success !!
+2022-05-03 14:08:17:081 - info: load system shop reference table success !!
+2022-05-03 14:08:17:081 - info: ref table reload success
+2022-05-03 14:08:18:394 - error: {"aidx":5,"session":"49648607","world_type":4,"target_obj":{"widx":491,"world_code":500101002},"add_item_list":[{"code":200101001,"cnt":1}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-03 14:08:18:394 - error: {"data":{},"cmd":408,"status":-1052}
+2022-05-03 14:08:18:394 - error: -1052
+2022-05-03 14:08:44:470 - error: {"aidx":5,"session":"49648607","world_type":4,"target_obj":{"widx":491,"world_code":500101002},"add_item_list":[{"code":200101001,"cnt":1}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-03 14:08:44:470 - error: {"data":{},"cmd":408,"status":-1052}
+2022-05-03 14:08:44:470 - error: -1052
+2022-05-03 14:10:52:714 - error: {"aidx":5,"session":"49648607","world_type":4,"target_obj":{"widx":491,"world_code":500101002},"add_item_list":[{"code":200101001,"cnt":1}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-03 14:10:52:714 - error: {"data":{},"cmd":408,"status":-1052}
+2022-05-03 14:10:52:714 - error: -1052
+2022-05-03 14:11:14:585 - error: {"aidx":5,"session":"49648607","world_type":4,"target_obj":{"widx":491,"world_code":500101002},"add_item_list":[{"code":200101001,"cnt":1}],"use_item_list":[],"delete_item_list":[],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-03 14:11:14:586 - error: {"data":{},"cmd":408,"status":-1052}
+2022-05-03 14:11:14:586 - error: -1052
+2022-05-03 14:11:38:109 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-05-03 14:11:38:109 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-03 14:11:38:109 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-03 14:11:38:109 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-03 14:11:39:000 - info: packet status : {"407":{"cmd":407,"key":"world_data_update","call":7,"total":136,"max":118,"min":0,"average":19.428571428571427}}
+2022-05-03 14:13:00:528 - error: parameter error : {"aidx":5,"session":"39435172","world_type":4,"target_obj":{"widx":491,"world_code":500101002},"add_item_list":[],"use_item_list":[],"delete_item_list":[{"code":530101001,"cnt":1}],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-03 14:15:14:239 - error: {"aidx":5,"session":"39435172","world_type":4,"target_obj":{"widx":491,"world_code":500101002},"add_item_list":[{"code":530101001,"cnt":1}],"use_item_list":[],"delete_item_list":[{"code":530101001,"world_item_local_id":1}],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-03 14:15:14:240 - error: {"data":{},"cmd":408,"status":-1050}
+2022-05-03 14:15:14:240 - error: -1050
+2022-05-03 14:16:44:342 - info: [game db pool] all : 2, wait : 0, acqu : 1, free : 1
+2022-05-03 14:16:44:342 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-03 14:16:44:342 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-05-03 14:16:44:342 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-05-03 14:16:44:342 - info: packet status : {"103":{"cmd":103,"key":"login","call":2,"total":0,"max":0,"min":0,"average":0},"407":{"cmd":407,"key":"world_data_update","call":10,"total":161,"max":118,"min":0,"average":16.1}}
+2022-05-03 14:16:44:346 - info: main: redis pong
+2022-05-03 14:16:44:346 - info: msg: redis pong
+2022-05-03 14:16:44:346 - info: sub: redis pong
+2022-05-03 14:16:44:348 - error: {"aidx":5,"session":"95138337","world_type":4,"target_obj":{"widx":491,"world_code":500101002},"add_item_list":[{"code":530101001,"cnt":1}],"use_item_list":[],"delete_item_list":[{"code":530101001,"world_item_local_id":1}],"cmd":407,"client_ip":"127.0.0.1"}
+2022-05-03 14:16:44:349 - error: {"data":{},"cmd":408,"status":-1050}
+2022-05-03 14:16:44:349 - error: -1050

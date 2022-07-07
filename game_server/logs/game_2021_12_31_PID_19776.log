@@ -1,0 +1,25 @@
+2021-12-31 11:49:13:940 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2021-12-31 11:49:13:946 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2021-12-31 11:49:13:947 - info: connect sub redis : ["server_message"]
+2021-12-31 11:49:13:950 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2021-12-31 11:49:13:952 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2021-12-31 11:49:13:952 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2021-12-31 11:49:13:953 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2021-12-31 11:49:13:967 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2021-12-31 11:49:13:989 - info: load achievement reference table success !!
+2021-12-31 11:49:13:995 - info: load character reference table success !!
+2021-12-31 11:49:14:007 - info: load collection reference table success !!
+2021-12-31 11:49:14:013 - info: load daily attendance reference table success !!
+2021-12-31 11:49:14:058 - info: load item reference table success !!
+2021-12-31 11:49:14:067 - info: load open world reference table success !!
+2021-12-31 11:49:14:073 - info: load payment reference table success !!
+2021-12-31 11:49:14:080 - info: load play world reference table success !!
+2021-12-31 11:49:14:087 - info: load ranking reward reference table success !!
+2021-12-31 11:49:14:106 - info: load reward reference table success !!
+2021-12-31 11:49:14:114 - info: load reward_fishing reference table success !!
+2021-12-31 11:49:14:390 - info: 서버가 시작되었습니다. [port:30051]
+2021-12-31 11:49:14:390 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2021-12-31 11:49:14:390 - info: packet status : packet status not recorded yet.
+2021-12-31 11:49:14:483 - error: {"cmd":615,"aidx":139,"session":"59559486","target_item_code":11901001,"target_item_cnt":10,"material_list":[{"code":50301005,"value":3},{"code":0,"value":0}]}
+2021-12-31 11:49:14:483 - error: {"data":{},"cmd":616,"status":-1058}
+2021-12-31 11:49:14:483 - error: -1058

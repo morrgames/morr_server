@@ -1,0 +1,28 @@
+2022-02-14 10:58:50:548 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-02-14 10:58:50:554 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-02-14 10:58:50:555 - info: connect sub redis : ["server_message"]
+2022-02-14 10:58:50:558 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-02-14 10:58:50:562 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-02-14 10:58:50:562 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-02-14 10:58:50:562 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-02-14 10:58:50:577 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-02-14 10:58:50:599 - info: load achievement reference table success !!
+2022-02-14 10:58:50:606 - info: load character reference table success !!
+2022-02-14 10:58:50:633 - info: load collection reference table success !!
+2022-02-14 10:58:50:640 - info: load daily attendance reference table success !!
+2022-02-14 10:58:50:699 - info: load item reference table success !!
+2022-02-14 10:58:50:708 - info: load open world reference table success !!
+2022-02-14 10:58:50:716 - info: load payment reference table success !!
+2022-02-14 10:58:50:723 - info: load play world reference table success !!
+2022-02-14 10:58:50:729 - info: load ranking reward reference table success !!
+2022-02-14 10:58:50:754 - info: load reward reference table success !!
+2022-02-14 10:58:50:763 - info: load reward_fishing reference table success !!
+2022-02-14 10:58:50:770 - info: load system shop reference table success !!
+2022-02-14 10:58:51:201 - info: 서버가 시작되었습니다. [port:8080]
+2022-02-14 10:58:51:201 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-02-14 10:58:51:202 - info: packet status : packet status not recorded yet.
+2022-02-14 11:03:50:580 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-02-14 11:03:50:581 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-14 11:03:50:581 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-14 11:03:50:581 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-02-14 11:03:51:212 - info: packet status : {"103":{"cmd":103,"key":"login","call":4,"total":1,"max":1,"min":0,"average":0.25},"111":{"cmd":111,"key":"user_preview_list","call":12,"total":0,"max":0,"min":0,"average":0},"301":{"cmd":301,"key":"attendance_list","call":3,"total":0,"max":0,"min":0,"average":0},"327":{"cmd":327,"key":"payment_reward","call":4,"total":0,"max":0,"min":0,"average":0},"405":{"cmd":405,"key":"world_list","call":4,"total":0,"max":0,"min":0,"average":0},"603":{"cmd":603,"key":"friend_list","call":4,"total":0,"max":0,"min":0,"average":0},"605":{"cmd":605,"key":"friend_following_list","call":4,"total":0,"max":0,"min":0,"average":0},"607":{"cmd":607,"key":"friend_follower_list","call":4,"total":1,"max":1,"min":0,"average":0.25},"615":{"cmd":615,"key":"friend_count","call":4,"total":0,"max":0,"min":0,"average":0},"631":{"cmd":631,"key":"notify","call":4,"total":0,"max":0,"min":0,"average":0},"701":{"cmd":701,"key":"achievement_list","call":4,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":4,"total":0,"max":0,"min":0,"average":0}}

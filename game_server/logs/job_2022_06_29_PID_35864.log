@@ -1,0 +1,3 @@
+2022-06-29 14:56:28:239 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-29 14:56:28:244 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-06-29 14:56:28:248 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379

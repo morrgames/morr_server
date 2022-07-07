@@ -1,0 +1,101 @@
+2022-03-14 14:19:35:792 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-14 14:19:35:799 - info: connect sub redis : ["server_message"]
+2022-03-14 14:19:35:799 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-14 14:19:35:803 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-14 14:19:35:807 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-14 14:19:35:807 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-14 14:19:35:807 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-14 14:19:35:822 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-14 14:19:35:845 - info: load achievement reference table success !!
+2022-03-14 14:19:35:853 - info: load character reference table success !!
+2022-03-14 14:19:35:879 - info: load collection reference table success !!
+2022-03-14 14:19:35:887 - info: load daily attendance reference table success !!
+2022-03-14 14:19:35:947 - info: load item reference table success !!
+2022-03-14 14:19:35:957 - info: load open world reference table success !!
+2022-03-14 14:19:35:965 - info: load payment reference table success !!
+2022-03-14 14:19:35:972 - info: load play world reference table success !!
+2022-03-14 14:19:35:979 - info: load ranking reward reference table success !!
+2022-03-14 14:19:36:005 - info: load reward reference table success !!
+2022-03-14 14:19:36:013 - info: load reward_fishing reference table success !!
+2022-03-14 14:19:36:020 - info: load system shop reference table success !!
+2022-03-14 14:19:36:399 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-14 14:19:36:400 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-14 14:19:36:400 - info: packet status : packet status not recorded yet.
+2022-03-14 14:21:24:552 - error: db_query error : {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlMessage":"Field 'sender_aidx' doesn't have a default value","sqlState":"HY000","index":0,"sql":"insert into dat_gather_inven (idx, aidx, _type, parameter, item_code, item_cnt, reg_dt)  values (null, 242, 2, 5, 49910035, 1, now()) on duplicate key update item_cnt = item_cnt + 1;"}
+2022-03-14 14:21:24:553 - error: error cmd : 419 , err: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlMessage":"Field 'sender_aidx' doesn't have a default value","sqlState":"HY000","index":0,"sql":"insert into dat_gather_inven (idx, aidx, _type, parameter, item_code, item_cnt, reg_dt)  values (null, 242, 2, 5, 49910035, 1, now()) on duplicate key update item_cnt = item_cnt + 1;"}
+2022-03-14 14:21:24:553 - error: {"aidx":5,"session":"70190132","world_item_code":150403004,"world_item_local_id":15,"equip_item_idx":13,"target_obj":{"widx":242,"target_aidx":242,"world_code":2},"world_type":2,"parameter":5,"cmd":419}
+2022-03-14 14:21:24:553 - error: {"data":{},"cmd":420,"status":-103}
+2022-03-14 14:21:24:554 - error: -103
+2022-03-14 14:24:35:830 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 14:24:35:830 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:24:35:830 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 14:24:35:830 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:24:36:401 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":2,"total":112,"max":106,"min":0,"average":56}}
+2022-03-14 14:29:35:804 - info: main: redis pong
+2022-03-14 14:29:35:804 - info: sub: redis pong
+2022-03-14 14:29:35:805 - info: msg: redis pong
+2022-03-14 14:29:35:832 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 14:29:35:832 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:29:35:832 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 14:29:35:832 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:29:36:406 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":2,"total":112,"max":106,"min":0,"average":56}}
+2022-03-14 14:34:35:832 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 14:34:35:832 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:34:35:832 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 14:34:35:832 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:34:36:417 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":2,"total":112,"max":106,"min":0,"average":56}}
+2022-03-14 14:39:35:802 - info: main: redis pong
+2022-03-14 14:39:35:830 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 14:39:35:830 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:39:35:830 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 14:39:35:830 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:39:36:420 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":2,"total":112,"max":106,"min":0,"average":56}}
+2022-03-14 14:39:35:803 - info: sub: redis pong
+2022-03-14 14:39:35:803 - info: msg: redis pong
+2022-03-14 14:44:35:834 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 14:44:35:834 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:44:35:834 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 14:44:35:834 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:44:36:422 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":2,"total":112,"max":106,"min":0,"average":56}}
+2022-03-14 14:46:14:713 - error: {"aidx":5,"session":"70190132","world_item_code":150403004,"world_item_local_id":15,"equip_item_idx":13,"target_obj":{"widx":242,"target_aidx":242,"world_code":2},"world_type":2,"parameter":5,"cmd":419}
+2022-03-14 14:46:14:714 - error: {"data":{},"cmd":420,"status":-1055}
+2022-03-14 14:46:14:714 - error: -1055
+2022-03-14 14:49:35:806 - info: main: redis pong
+2022-03-14 14:49:35:834 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 14:49:35:834 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:49:35:834 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 14:49:35:834 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:49:36:424 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":4,"total":112,"max":106,"min":0,"average":28}}
+2022-03-14 14:49:35:807 - info: msg: redis pong
+2022-03-14 14:49:35:807 - info: sub: redis pong
+2022-03-14 14:54:35:842 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 14:54:35:842 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:54:35:842 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 14:54:35:842 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:54:36:429 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":4,"total":112,"max":106,"min":0,"average":28}}
+2022-03-14 14:59:35:810 - info: main: redis pong
+2022-03-14 14:59:35:852 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 14:59:35:852 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:59:35:852 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 14:59:35:852 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 14:59:36:427 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":4,"total":112,"max":106,"min":0,"average":28}}
+2022-03-14 14:59:35:811 - info: msg: redis pong
+2022-03-14 14:59:35:811 - info: sub: redis pong
+2022-03-14 15:04:35:856 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 15:04:35:856 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 15:04:35:856 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 15:04:35:856 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 15:04:36:431 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":4,"total":112,"max":106,"min":0,"average":28}}
+2022-03-14 15:09:35:822 - info: main: redis pong
+2022-03-14 15:09:35:822 - info: sub: redis pong
+2022-03-14 15:09:35:865 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 15:09:35:865 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 15:09:35:865 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 15:09:35:865 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 15:09:36:438 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":4,"total":112,"max":106,"min":0,"average":28}}
+2022-03-14 15:09:35:823 - info: msg: redis pong
+2022-03-14 15:14:35:875 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-03-14 15:14:35:875 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 15:14:35:875 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-03-14 15:14:35:875 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-03-14 15:14:36:449 - info: packet status : {"419":{"cmd":419,"key":"world_map_reward_gather","call":4,"total":112,"max":106,"min":0,"average":28}}

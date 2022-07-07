@@ -1,0 +1,42 @@
+2022-01-14 11:17:27:039 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-14 11:17:27:046 - info: connect sub redis : ["server_message"]
+2022-01-14 11:17:27:046 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-14 11:17:27:051 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-14 11:17:27:054 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-14 11:17:27:054 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-14 11:17:27:054 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-14 11:17:27:071 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-14 11:17:27:091 - info: load achievement reference table success !!
+2022-01-14 11:17:27:099 - info: load character reference table success !!
+2022-01-14 11:17:27:119 - info: load collection reference table success !!
+2022-01-14 11:17:27:127 - info: load daily attendance reference table success !!
+2022-01-14 11:17:27:169 - info: load item reference table success !!
+2022-01-14 11:17:27:179 - info: load open world reference table success !!
+2022-01-14 11:17:27:187 - info: load payment reference table success !!
+2022-01-14 11:17:27:193 - info: load play world reference table success !!
+2022-01-14 11:17:27:200 - info: load ranking reward reference table success !!
+2022-01-14 11:17:27:220 - info: load reward reference table success !!
+2022-01-14 11:17:27:227 - info: load reward_fishing reference table success !!
+2022-01-14 11:17:27:234 - info: load system shop reference table success !!
+2022-01-14 11:17:27:636 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-14 11:17:27:636 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-14 11:17:27:636 - info: packet status : packet status not recorded yet.
+2022-01-14 11:17:27:677 - error: {"cmd":103,"login_id":"1642126647_0_24560_498031448","uuid":"1642126647_0_24560_498031448","version":"0.16.1","os_type":1,"login_type":1}
+2022-01-14 11:17:27:678 - error: {"data":{"server_info":{"version":"0.16.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642126647,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-14 11:17:27:678 - error: -1023
+2022-01-14 11:17:27:744 - error: null
+2022-01-14 11:17:27:794 - error: null
+2022-01-14 11:17:27:826 - error: null
+2022-01-14 11:17:27:846 - error: null
+2022-01-14 11:17:27:872 - error: null
+2022-01-14 11:17:27:907 - error: null
+2022-01-14 11:17:27:934 - error: null
+2022-01-14 11:17:27:966 - error: null
+2022-01-14 11:17:28:014 - error: null
+2022-01-14 11:17:31:765 - error: null
+2022-01-14 11:17:31:793 - error: {"cmd":107,"aidx":85,"session":"40456785","avt_idx":21,"equip_list":[{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0}]}
+2022-01-14 11:17:31:794 - error: {"data":{},"cmd":108,"status":-1035}
+2022-01-14 11:17:31:794 - error: -1035
+2022-01-14 11:17:31:841 - error: null
+2022-01-14 11:17:31:873 - error: null
+2022-01-14 11:17:31:892 - error: >>>>>>>>>>>>>>> fail to start freemeta game server(port = 30051, err = TypeError: Cannot read property 'idx' of undefined)

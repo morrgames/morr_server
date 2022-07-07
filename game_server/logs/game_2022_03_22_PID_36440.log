@@ -1,0 +1,26 @@
+2022-03-22 17:02:23:693 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-22 17:02:23:699 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-22 17:02:23:700 - info: connect sub redis : ["server_message"]
+2022-03-22 17:02:23:703 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-22 17:02:23:710 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-22 17:02:23:710 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-22 17:02:23:710 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-22 17:02:23:727 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-22 17:02:23:751 - info: load achievement reference table success !!
+2022-03-22 17:02:23:763 - info: load character reference table success !!
+2022-03-22 17:02:23:790 - info: load collection reference table success !!
+2022-03-22 17:02:23:797 - info: load daily attendance reference table success !!
+2022-03-22 17:02:23:860 - info: load item reference table success !!
+2022-03-22 17:02:23:870 - info: load open world reference table success !!
+2022-03-22 17:02:23:879 - info: load payment reference table success !!
+2022-03-22 17:02:23:900 - error: TypeError: Cannot set property 'min_user' of undefined
+    at Query.<anonymous> (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\reference\ref_play_rank_group.js:31:38)
+    at Query.<anonymous> (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\workspace\FM_DEV_NCloud\server\trunk\fm_node_server\game_server\node_modules\mysql\lib\protocol\Protocol.js:38:16)

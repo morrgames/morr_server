@@ -1,0 +1,36 @@
+2022-01-12 15:40:15:717 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-12 15:40:15:722 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-12 15:40:15:723 - info: connect sub redis : ["server_message"]
+2022-01-12 15:40:15:726 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-12 15:40:15:730 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-12 15:40:15:730 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-12 15:40:15:730 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-12 15:40:15:745 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-12 15:40:15:766 - info: load achievement reference table success !!
+2022-01-12 15:40:15:773 - info: load character reference table success !!
+2022-01-12 15:40:15:795 - info: load collection reference table success !!
+2022-01-12 15:40:15:803 - info: load daily attendance reference table success !!
+2022-01-12 15:40:15:843 - info: load item reference table success !!
+2022-01-12 15:40:15:853 - info: load open world reference table success !!
+2022-01-12 15:40:15:860 - info: load payment reference table success !!
+2022-01-12 15:40:15:866 - info: load play world reference table success !!
+2022-01-12 15:40:15:873 - info: load ranking reward reference table success !!
+2022-01-12 15:40:15:895 - info: load reward reference table success !!
+2022-01-12 15:40:15:903 - info: load reward_fishing reference table success !!
+2022-01-12 15:40:15:909 - info: load system shop reference table success !!
+2022-01-12 15:40:16:243 - info: 서버가 시작되었습니다. [port:8080]
+2022-01-12 15:40:16:244 - info: try to start [freemeta game test mode server] : http://live.freeblox.net:8080
+2022-01-12 15:40:16:244 - info: packet status : packet status not recorded yet.
+2022-01-12 15:42:26:361 - info: load achievement reference table success !!
+2022-01-12 15:42:26:373 - info: load character reference table success !!
+2022-01-12 15:42:26:407 - info: load collection reference table success !!
+2022-01-12 15:42:26:415 - info: load daily attendance reference table success !!
+2022-01-12 15:42:26:461 - info: load item reference table success !!
+2022-01-12 15:42:26:478 - info: load open world reference table success !!
+2022-01-12 15:42:26:494 - info: load payment reference table success !!
+2022-01-12 15:42:26:501 - info: load play world reference table success !!
+2022-01-12 15:42:26:507 - info: load ranking reward reference table success !!
+2022-01-12 15:42:26:524 - info: load reward reference table success !!
+2022-01-12 15:42:26:531 - info: load reward_fishing reference table success !!
+2022-01-12 15:42:26:536 - info: load system shop reference table success !!
+2022-01-12 15:42:26:536 - info: ref table reload success

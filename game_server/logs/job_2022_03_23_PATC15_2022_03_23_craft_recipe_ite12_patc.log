@@ -1,0 +1,22 @@
+2022-03-23 15:12:33:769 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-23 15:12:33:775 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-23 15:12:33:777 - info: connect sub redis : ["server_message"]
+2022-03-23 15:12:33:779 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-23 15:12:33:781 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-23 15:12:33:781 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-23 15:12:33:781 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-23 15:12:33:797 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-23 15:12:33:819 - info: load achievement reference table success !!
+2022-03-23 15:12:33:825 - info: load character reference table success !!
+2022-03-23 15:12:33:855 - info: load collection reference table success !!
+2022-03-23 15:12:33:862 - info: load daily attendance reference table success !!
+2022-03-23 15:12:33:923 - info: load item reference table success !!
+2022-03-23 15:12:33:932 - info: load open world reference table success !!
+2022-03-23 15:12:33:941 - info: load payment reference table success !!
+2022-03-23 15:12:33:947 - info: load play rank group reference table success !!
+2022-03-23 15:12:33:954 - info: load play world reference table success !!
+2022-03-23 15:12:33:960 - info: load ranking reward reference table success !!
+2022-03-23 15:12:33:980 - info: load reward reference table success !!
+2022-03-23 15:12:33:988 - info: load reward_fishing reference table success !!
+2022-03-23 15:12:33:995 - info: load system shop reference table success !!
+2022-03-23 15:12:34:050 - error: _2022_03_23_craft_recipe_item_patch : 패치 성공

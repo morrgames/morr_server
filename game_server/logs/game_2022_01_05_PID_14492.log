@@ -1,0 +1,34 @@
+2022-01-05 14:20:51:653 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-05 14:20:51:658 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-05 14:20:51:659 - info: connect sub redis : ["server_message"]
+2022-01-05 14:20:51:662 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-05 14:20:51:665 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-05 14:20:51:665 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-05 14:20:51:665 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-05 14:20:51:682 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-05 14:20:51:705 - info: load achievement reference table success !!
+2022-01-05 14:20:51:712 - info: load character reference table success !!
+2022-01-05 14:20:51:725 - info: load collection reference table success !!
+2022-01-05 14:20:51:732 - info: load daily attendance reference table success !!
+2022-01-05 14:20:51:785 - info: load item reference table success !!
+2022-01-05 14:20:51:795 - info: load open world reference table success !!
+2022-01-05 14:20:51:802 - info: load payment reference table success !!
+2022-01-05 14:20:51:809 - info: load play world reference table success !!
+2022-01-05 14:20:51:816 - info: load ranking reward reference table success !!
+2022-01-05 14:20:51:838 - info: load reward reference table success !!
+2022-01-05 14:20:51:847 - info: load reward_fishing reference table success !!
+2022-01-05 14:20:51:854 - info: load system shop reference table success !!
+2022-01-05 14:20:52:246 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-05 14:20:52:246 - info: try to start [freemeta game server] : http://127.0.0.1:30051
+2022-01-05 14:20:52:246 - info: packet status : packet status not recorded yet.
+2022-01-05 14:20:53:783 - error: {"login_id":"woongda","version":"0.9.1","uuid":"woongda","os_type":1,"login_type":1,"name":"woongda","cmd":101,"aidx":0,"session":""}
+2022-01-05 14:20:53:783 - error: {"data":{"server_info":{"version":"0.9.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":" ","help_page":" ","time":1641360053,"timezone_offset":-32400}},"cmd":102,"status":-1024}
+2022-01-05 14:20:53:783 - error: -1024
+2022-01-05 14:21:08:334 - error: {"login_id":"woongda","version":"0.9.1","uuid":"woongda","os_type":1,"login_type":1,"name":"woongda","cmd":101,"aidx":0,"session":""}
+2022-01-05 14:21:08:334 - error: {"data":{"server_info":{"version":"0.9.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":" ","help_page":" ","time":1641360068,"timezone_offset":-32400}},"cmd":102,"status":-1024}
+2022-01-05 14:21:08:334 - error: -1024
+2022-01-05 14:21:39:223 - error: db_query error : {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlMessage":"Field 'world_read' doesn't have a default value","sqlState":"HY000","index":0,"sql":"insert into dat_world (idx, aidx, world_data_url, image_url, reg_dt) values (null, 166, '/default/def.fmw', '/default/def.jpg', now());"}
+2022-01-05 14:21:39:223 - error: error cmd : 101 , err: {"code":"ER_NO_DEFAULT_FOR_FIELD","errno":1364,"sqlMessage":"Field 'world_read' doesn't have a default value","sqlState":"HY000","index":0,"sql":"insert into dat_world (idx, aidx, world_data_url, image_url, reg_dt) values (null, 166, '/default/def.fmw', '/default/def.jpg', now());"}
+2022-01-05 14:21:39:224 - error: {"login_id":"30575","version":"0.9.1","uuid":"30575","os_type":1,"login_type":1,"name":"30575","cmd":101,"aidx":0,"session":""}
+2022-01-05 14:21:39:224 - error: {"data":{},"cmd":102,"status":-103}
+2022-01-05 14:21:39:225 - error: -103

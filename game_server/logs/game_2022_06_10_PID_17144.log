@@ -1,0 +1,54 @@
+2022-06-10 11:40:58:003 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-10 11:40:58:012 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-06-10 11:40:58:013 - info: connect sub redis : ["server_message"]
+2022-06-10 11:40:58:021 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-06-10 11:40:58:025 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-06-10 11:40:58:025 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-06-10 11:40:58:025 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-06-10 11:40:58:046 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-06-10 11:40:58:077 - info: load achievement reference table success !!
+2022-06-10 11:40:58:085 - info: load character reference table success !!
+2022-06-10 11:40:58:116 - info: load collection reference table success !!
+2022-06-10 11:40:58:125 - info: load daily attendance reference table success !!
+2022-06-10 11:40:58:137 - info: load system shop reference table success !!
+2022-06-10 11:40:58:215 - info: load item reference table success !!
+2022-06-10 11:40:58:222 - info: load open world reference table success !!
+2022-06-10 11:40:58:230 - info: load payment reference table success !!
+2022-06-10 11:40:58:248 - info: load play rank group reference table success !!
+2022-06-10 11:40:58:256 - info: load play world reference table success !!
+2022-06-10 11:40:58:263 - info: load ranking reward reference table success !!
+2022-06-10 11:40:58:286 - info: load reward reference table success !!
+2022-06-10 11:40:58:294 - info: load reward_fishing reference table success !!
+2022-06-10 11:40:58:300 - info: load system shop reference table success !!
+2022-06-10 11:40:58:584 - info: 서버가 시작되었습니다. [port:8080]
+2022-06-10 11:40:58:584 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-06-10 11:40:58:584 - info: packet status : packet status not recorded yet.
+2022-06-10 11:42:34:741 - error: parameter error : {"aidx":0,"session":"","cmd":501,"client_ip":"127.0.0.1"}
+2022-06-10 11:42:58:041 - error: parameter error : {"aidx":0,"session":"","cmd":501,"client_ip":"127.0.0.1"}
+2022-06-10 11:43:19:392 - error: parameter error : {"aidx":0,"session":"","cmd":501,"client_ip":"127.0.0.1"}
+2022-06-10 11:43:19:847 - error: parameter error : {"aidx":0,"session":"","cmd":501,"client_ip":"127.0.0.1"}
+2022-06-10 11:44:55:948 - error: {"aidx":10002329,"session":"12388863","pidx":1,"cmd":507,"client_ip":"127.0.0.1"}
+2022-06-10 11:44:55:948 - error: {"data":{},"cmd":508,"status":-1045}
+2022-06-10 11:44:55:949 - error: -1045
+2022-06-10 11:45:42:920 - error: {"aidx":10002329,"session":"12388863","avt_idx":42,"avt_code":100000001,"equip_list":[10201002,10201007,13001002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"cmd":107,"client_ip":"127.0.0.1"}
+2022-06-10 11:45:42:920 - error: {"data":{},"cmd":108,"status":-1033}
+2022-06-10 11:45:42:920 - error: -1033
+2022-06-10 11:45:58:055 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-06-10 11:45:58:055 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-10 11:45:58:055 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-10 11:45:58:055 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-10 11:45:58:583 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"107":{"cmd":107,"key":"avatar_set_equip","call":1,"total":0,"max":0,"min":0,"average":0},"501":{"cmd":501,"key":"avatar_preset_list","call":2,"total":5,"max":5,"min":0,"average":2.5},"503":{"cmd":503,"key":"avatar_preset_register","call":1,"total":0,"max":0,"min":0,"average":0},"507":{"cmd":507,"key":"avatar_preset_delete","call":2,"total":8,"max":4,"min":0,"average":4}}
+2022-06-10 11:46:20:574 - error: {"aidx":10002329,"session":"12388863","avt_code":100000002,"equip_list":[10201002,0,0,0,0,0,0,0,10201007,0,0,0,0,13001002,0,0,0,16902046,0,0,16902046,0,0,0,0,0,0,0,0,0],"cmd":105,"client_ip":"127.0.0.1"}
+2022-06-10 11:46:20:574 - error: {"data":{},"cmd":106,"status":-1022}
+2022-06-10 11:46:20:574 - error: -1022
+2022-06-10 11:47:09:810 - error: {"aidx":10002329,"session":"12388863","avt_code":100000002,"equip_list":[10201003,0,0,12003070,15101003,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"cmd":105,"client_ip":"127.0.0.1"}
+2022-06-10 11:47:09:810 - error: {"data":{},"cmd":106,"status":-1022}
+2022-06-10 11:47:09:810 - error: -1022
+2022-06-10 11:50:58:014 - info: main: redis pong
+2022-06-10 11:50:58:014 - info: sub: redis pong
+2022-06-10 11:50:58:016 - info: msg: redis pong
+2022-06-10 11:50:58:056 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-06-10 11:50:58:056 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-10 11:50:58:056 - info: [msg db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-10 11:50:58:056 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-10 11:50:58:585 - info: packet status : {"101":{"cmd":101,"key":"reg_id","call":1,"total":0,"max":0,"min":0,"average":0},"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"105":{"cmd":105,"key":"avatar_register","call":2,"total":0,"max":0,"min":0,"average":0},"107":{"cmd":107,"key":"avatar_set_equip","call":1,"total":0,"max":0,"min":0,"average":0},"501":{"cmd":501,"key":"avatar_preset_list","call":2,"total":5,"max":5,"min":0,"average":2.5},"503":{"cmd":503,"key":"avatar_preset_register","call":1,"total":0,"max":0,"min":0,"average":0},"507":{"cmd":507,"key":"avatar_preset_delete","call":2,"total":8,"max":4,"min":0,"average":4}}

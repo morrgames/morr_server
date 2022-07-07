@@ -1,0 +1,25 @@
+2022-03-03 14:32:29:034 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-03-03 14:32:29:039 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-03-03 14:32:29:040 - info: connect sub redis : ["server_message"]
+2022-03-03 14:32:29:043 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-03-03 14:32:29:047 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-03-03 14:32:29:047 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-03-03 14:32:29:047 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-03-03 14:32:29:066 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-03-03 14:32:29:088 - info: load achievement reference table success !!
+2022-03-03 14:32:29:095 - info: load character reference table success !!
+2022-03-03 14:32:29:121 - info: load collection reference table success !!
+2022-03-03 14:32:29:129 - info: load daily attendance reference table success !!
+2022-03-03 14:32:29:188 - info: load item reference table success !!
+2022-03-03 14:32:29:198 - info: load open world reference table success !!
+2022-03-03 14:32:29:205 - info: load payment reference table success !!
+2022-03-03 14:32:29:212 - info: load play world reference table success !!
+2022-03-03 14:32:29:219 - info: load ranking reward reference table success !!
+2022-03-03 14:32:29:243 - info: load reward reference table success !!
+2022-03-03 14:32:29:251 - info: load reward_fishing reference table success !!
+2022-03-03 14:32:29:259 - info: load system shop reference table success !!
+2022-03-03 14:32:29:762 - info: 서버가 시작되었습니다. [port:8080]
+2022-03-03 14:32:29:763 - info: try to start [freemeta game server] : http://175.123.90.25:8080
+2022-03-03 14:32:29:763 - info: packet status : packet status not recorded yet.
+2022-03-03 14:32:30:015 - error: parameter error : {"aidx":0,"session":"","world_list":[{"widx":5,"target_aidx":5},{"widx":6,"target_aidx":6}],"cmd":443}
+2022-03-03 14:32:30:861 - error: parameter error : {"aidx":0,"session":"","world_list":[{"widx":5,"target_aidx":5},{"widx":6,"target_aidx":6}],"cmd":443}

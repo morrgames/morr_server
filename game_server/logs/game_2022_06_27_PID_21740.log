@@ -1,0 +1,38 @@
+2022-06-27 17:44:35:308 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-06-27 17:44:35:320 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-06-27 17:44:35:329 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-06-27 17:44:35:329 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-06-27 17:44:35:329 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-06-27 17:44:35:347 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-06-27 17:44:35:371 - info: load achievement reference table success !!
+2022-06-27 17:44:35:379 - info: load character reference table success !!
+2022-06-27 17:44:35:405 - info: load collection reference table success !!
+2022-06-27 17:44:35:415 - info: load daily attendance reference table success !!
+2022-06-27 17:44:35:425 - info: load system shop reference table success !!
+2022-06-27 17:44:35:494 - info: load item reference table success !!
+2022-06-27 17:44:35:502 - info: load open world reference table success !!
+2022-06-27 17:44:35:510 - info: load payment reference table success !!
+2022-06-27 17:44:35:533 - info: load play rank group reference table success !!
+2022-06-27 17:44:35:542 - info: load play world reference table success !!
+2022-06-27 17:44:35:550 - info: load ranking reward reference table success !!
+2022-06-27 17:44:35:576 - info: load reward reference table success !!
+2022-06-27 17:44:35:789 - info: load reward_fishing reference table success !!
+2022-06-27 17:44:35:797 - info: load system shop reference table success !!
+2022-06-27 17:44:36:216 - info: 서버가 시작되었습니다. [port:8080]
+2022-06-27 17:44:36:216 - info: try to start [freemeta game server] : http://127.0.0.1:8080
+2022-06-27 17:44:36:217 - info: packet status : packet status not recorded yet.
+2022-06-27 17:44:35:317 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-06-27 17:44:35:318 - info: connect sub redis : ["server_message"]
+2022-06-27 17:46:18:623 - error: db_query error : {"code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'json_str' at row 1","sqlState":"22001","index":0,"sql":"update dat_collection set json_str = '[1,38,63,107,80,73,29,155,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,64,65,66,67,68,69,70,71,72,74,75,76,77,78,79,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,110]', reward_flg = 0 where aidx = 108 and collection_code = 303001;"}
+2022-06-27 17:55:07:463 - error: error cmd : 709 , err: {"code":"ER_DATA_TOO_LONG","errno":1406,"sqlMessage":"Data too long for column 'json_str' at row 1","sqlState":"22001","index":0,"sql":"update dat_collection set json_str = '[1,38,63,107,80,73,29,155,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30,31,32,33,34,35,36,37,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,64,65,66,67,68,69,70,71,72,74,75,76,77,78,79,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,110]', reward_flg = 0 where aidx = 108 and collection_code = 303001;"}
+2022-06-27 17:55:07:463 - error: {"aidx":108,"session":"14047379","collection_code":303001,"seq":110,"cmd":709,"client_ip":"127.0.0.1"}
+2022-06-27 17:55:07:463 - error: {"data":{},"cmd":710,"status":-103}
+2022-06-27 17:55:07:464 - error: -103
+2022-06-27 17:55:07:465 - info: [game db pool] all : 2, wait : 0, acqu : 0, free : 2
+2022-06-27 17:55:07:465 - info: [log db pool ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-27 17:55:07:465 - info: [msg db pool ] all : 0, wait : 0, acqu : 0, free : 0
+2022-06-27 17:55:07:466 - info: [shard db pool : [1] ] all : 1, wait : 0, acqu : 0, free : 1
+2022-06-27 17:55:07:466 - info: packet status : {"103":{"cmd":103,"key":"login","call":1,"total":0,"max":0,"min":0,"average":0},"707":{"cmd":707,"key":"collection_list","call":1,"total":0,"max":0,"min":0,"average":0},"709":{"cmd":709,"key":"collection_update","call":1,"total":601,"max":601,"min":0,"average":601}}
+2022-06-27 17:55:07:473 - info: msg: redis pong
+2022-06-27 17:55:07:473 - info: sub: redis pong
+2022-06-27 17:55:07:474 - info: main: redis pong

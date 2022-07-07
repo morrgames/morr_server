@@ -1,0 +1,49 @@
+2022-01-14 11:56:13:375 - info: main : redis-connect-database = 0 : 49.50.172.145:6379
+2022-01-14 11:56:13:380 - info: sub : redis-connect-database = 1 : 49.50.172.145:6379
+2022-01-14 11:56:13:381 - info: connect sub redis : ["server_message"]
+2022-01-14 11:56:13:384 - info: msg : redis-connect-database = 2 : 49.50.172.145:6379
+2022-01-14 11:56:13:387 - info: mysql freemeta_com com db init : 49.50.172.145:3306
+2022-01-14 11:56:13:388 - info: mysql freemeta_log log db init : 49.50.172.145:3306
+2022-01-14 11:56:13:388 - info: mysql freemeta_msg msg db init : 49.50.172.145:3306
+2022-01-14 11:56:13:404 - info: mysql freemeta_01 shard db init : 10.36.69.58:3306
+2022-01-14 11:56:13:424 - info: load achievement reference table success !!
+2022-01-14 11:56:13:431 - info: load character reference table success !!
+2022-01-14 11:56:13:458 - info: load collection reference table success !!
+2022-01-14 11:56:13:466 - info: load daily attendance reference table success !!
+2022-01-14 11:56:13:510 - info: load item reference table success !!
+2022-01-14 11:56:13:520 - info: load open world reference table success !!
+2022-01-14 11:56:13:527 - info: load payment reference table success !!
+2022-01-14 11:56:13:534 - info: load play world reference table success !!
+2022-01-14 11:56:13:540 - info: load ranking reward reference table success !!
+2022-01-14 11:56:13:563 - info: load reward reference table success !!
+2022-01-14 11:56:13:569 - info: load reward_fishing reference table success !!
+2022-01-14 11:56:13:576 - info: load system shop reference table success !!
+2022-01-14 11:56:13:975 - info: 서버가 시작되었습니다. [port:30051]
+2022-01-14 11:56:13:976 - info: try to start [freemeta game test mode server] : http://127.0.0.1:30051
+2022-01-14 11:56:13:976 - info: packet status : packet status not recorded yet.
+2022-01-14 11:56:14:015 - error: {"cmd":103,"login_id":"1642128974_0_9816_129749369","uuid":"1642128974_0_9816_129749369","version":"0.16.1","os_type":1,"login_type":1}
+2022-01-14 11:56:14:015 - error: {"data":{"server_info":{"version":"0.16.1","inspect":0,"account":1,"login":1,"notice_page":"","inspect_page":"https://dev.freeblox.net/coupon","help_page":" ","time":1642128974,"timezone_offset":-32400}},"cmd":104,"status":-1023}
+2022-01-14 11:56:14:016 - error: -1023
+2022-01-14 11:56:14:080 - error: null
+2022-01-14 11:56:14:126 - error: null
+2022-01-14 11:56:14:156 - error: null
+2022-01-14 11:56:14:175 - error: null
+2022-01-14 11:56:14:195 - error: null
+2022-01-14 11:56:14:226 - error: null
+2022-01-14 11:56:14:253 - error: null
+2022-01-14 11:56:14:286 - error: null
+2022-01-14 11:56:14:316 - error: null
+2022-01-14 11:56:14:344 - error: null
+2022-01-14 11:56:14:372 - error: {"cmd":317,"aidx":94,"session":"71093391","sell_item_list":[{"code":10101004,"count":1},{"code":11701063,"count":1},{"code":11701063,"count":1},{"code":11701063,"count":1}]}
+2022-01-14 11:56:14:372 - error: {"data":{},"cmd":318,"status":-1061}
+2022-01-14 11:56:14:372 - error: -1061
+2022-01-14 11:56:14:401 - error: {"cmd":319,"aidx":94,"session":"71093391","delete_item_list":[{"code":40901019,"value":10},{"code":100101020,"value":3}]}
+2022-01-14 11:56:14:401 - error: {"data":{},"cmd":320,"status":-1062}
+2022-01-14 11:56:14:401 - error: -1062
+2022-01-14 11:56:14:450 - error: null
+2022-01-14 11:56:14:477 - error: {"cmd":107,"aidx":94,"session":"71093391","avt_idx":26,"equip_list":[{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0},{"eidx":0,"code":0}]}
+2022-01-14 11:56:14:477 - error: {"data":{},"cmd":108,"status":-1035}
+2022-01-14 11:56:14:477 - error: -1035
+2022-01-14 11:56:14:521 - error: null
+2022-01-14 11:56:14:542 - error: null
+2022-01-14 11:56:16:201 - error: {"cmd":311,"aidx":94,"session":"71093391","item_code":49900010,"seq":0}
